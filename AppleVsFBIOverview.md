@@ -116,7 +116,7 @@ If the U.S. government can compel Apple to take advantage of a security vulnerab
 A recent example they cite is where FBI Director James Comey called for encryption backdoors 
 & the Chinese government introduced new counter-terrorism laws a few weeks later.
 
-From Reuters:
+From [*Reuters*](http://www.reuters.com/article/us-usa-obama-china-idUSKBN0LY2H520150302) ("Obama Sharply Criticizes China's Plans for New Technology Rules"):
 
 > “In an interview with Reuters, Obama said he was concerned about Beijing's plans for a far-reaching counterterrorism law 
 > that would require technology firms to hand over encryption keys, the passcodes that help protect data, 
@@ -124,3 +124,9 @@ From Reuters:
 
 
 Sounds oddly familiar, doesn't it?
+
+> To be sure, Western governments, including in the United States and Britain, have for years requested tech firms to disclose encryption methods, with varying degrees of success.
+
+> Officials including FBI director James Comey and National Security Agency (NSA) director Mike Rogers publicly warned Internet companies including Apple and Google late last year against using encryption that law enforcement cannot break.
+
+> Beijing has argued the need to quickly ratchet up its cybersecurity measures in the wake of former NSA contractor Edward Snowden's revelations of sophisticated U.S. spying techniques.
