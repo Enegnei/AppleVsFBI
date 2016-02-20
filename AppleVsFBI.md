@@ -55,7 +55,7 @@ Authentication deals with anything to prove you hold authorization to carry out 
 This is something you know (eg. a password), something you have (eg. a card), or something you are (eg. Biometrics).
 
 Authentication is also an element of cryptography, but distinct from privacy/ confidentiality 
-(see the Purpose section of Gary C. Kessler's An Overview of Cryptography).
+(see the [*Purpose* section of Gary C. Kessler's "*An Overview of Cryptography*"](http://www.garykessler.net/library/crypto.html#purpose)).
 
 The San Bernardino phone is said to be locked with a PIN. 
 PINs, unlike passwords (which are alphanumeric & can be longer), are numeric and usually very short (4-6 numbers). 
@@ -86,8 +86,7 @@ the FBI is demanding that Apple take advantage of a security flaw which already 
 It is now known that Apple has the ability to backdoor their own products & therefore could be compelled to use that backdoor.
 
 Initially some security experts argued that this backdoor wouldn't work on iPhones newer than 5C 
-due to the Secure Enclave firmware, a co-processor of many independently-functioning kernels within the A7 64-bit system chip
-which also uses secure boot to ensure that all software installed on the OS is signed by Apple 
+due to the **Secure Enclave** firmware, [a co-processor of many independently-functioning kernels within the A7 64-bit system chip which also uses secure boot to ensure that all software installed on the OS is signed by Apple](https://web.archive.org/web/20150124040556/http://www.macrumors.com/2014/02/26/touch-id-secure-enclave-document) 
 (remember authentication from earlier). Last night, a “senior Apple executive” told journalists at Motherboard & The Guardian
 that this is not true – the FBiOS would work with any iPhone currently on the market.
 
