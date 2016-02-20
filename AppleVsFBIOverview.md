@@ -2,27 +2,37 @@
 An overview of the important facts in the Apple vs. FBI case, including the main technical &amp; legal concerns
 ***
 ## What important events led to this case?
-1. Farook's employer at the San Bernardino Department of Health provided him with a work phone, an iPhone 5C. 
-Farook's employer still retained official ownership of the phone.
++ Farook's employer, the **San Bernardino County Department of Public Health**, provided him with an iPhone 5C. 
+Farook's employer still retained official ownership of the phone ([see lines 22-24 of pg 6](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)), but for some reason *did not install mobile-device management software which was standard on their government-issued work phones* & would have 
+[enabled the IT department to remotely unlock the device without user assistance](https://web.archive.org/web/20160220095658/http://mobile.reuters.com/article/idUSKCN0VS2QK).
 
-2. The FBI has not said this phone was used to communicate with any other terrorists 
-(Farook is believed to have used another private phone(s) for that, which was destroyed), but rather with his future victims. 
-Communications from October 9th 2015 is the last date available in the iCloud data the FBI
-was able to obtain through Farook's account. Farook likely disabled the iCloud backup feature at this day.
+> "If that particular iPhone was using MobileIron, the county's IT department could unlock it," MobileIron Vice President Ojas Rege told Reuters... If it had been, the high stakes legal battle that has pitted Apple and much of the technology industry against the U.S. government could have been avoided altogether.
 
-3. On December 2nd, 2015, Farook and his wife Malik killed 14 people and injured 22 at the Inland Regional Center 
-during a San Bernardino County Department of Public Health training session/ party. 
-The iPhone now in question (a 5C with iOS9) was found in one of the cars law enforcement searched.
++ The FBI has not said this phone was used to communicate with other terrorists 
+(Farook is believed to have used another private phone for that, which was destroyed), but rather with his *future victims* ([see lines 16-18 of pg 6](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)). The last date the FBI was able to obtain in the iCloud backup data was **October 9th 2015**, through Farook's account ([see top of pg 11 or line 12 of pg 22](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)). Farook had likely disabled the iCloud automatic-backup feature.
 
-4. Within 24 hours of the phone being confiscated, someone reset the passcode on the phone. 
-The FBI's recent motion to compel Apple confirms the passcode was reset while in government custody 
-and blames it on Farook's employer in the San Bernardino Department of Health, 
-but it is possible it was the fault of law enforcement or FBI forensics. 
-It is unknown whether anyone in any of these agencies still knows the passcode. 
+![iCloudbackup](https://pbs.twimg.com/media/CbfRFpiUkAA07La.png)
+
++ On December 2nd, 2015, Farook and his wife Malik killed 14 people and injured 22 at the Inland Regional Center in California 
+during a San Bernardino County Department of Public Health training session/ party. They were pursued by police and died hours later in a shoot-out. The iPhone now in question (a 5C with iOS9) was found by law enforcement in a Black Lexcus IS300.
+
++ [Within 24 hours of the phone being confiscated](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.fflQoRn36), someone reset the passcode on the phone. 
+The FBI's recent motion to compel Apple confirms the passcode was reset *while in government custody* 
+and blames it on Farook's employer in the San Bernardino Department of Health ([see footnotes on pg 18](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)).
+
+![footnote](https://pbs.twimg.com/media/CbmnuFqUsAAGLm2.png)
+
+However [San Bernardino County argues](https://web.archive.org/web/20160220180834/https://twitter.com/countywire/status/700887823482630144) they reset the password at the FBI's request.
+
+> "The County was working cooperatively with the FBI when it reset the iCloud password at the FBI's request."
+
+It is unknown whether anyone still knows the passcode. 
 If that someone had not reset the passcode & (apparently) forgotten it, the FBI would have been able to access the phone, 
-and this case against Apple would not be necessary.
+and *this case against Apple would not be necessary*.
 
-5. Farook's employer (the official owner of the iPhone) has consented to a law enforcement search of the device.
+![Kenn White @kennwhite](https://pbs.twimg.com/media/Cbn5nsNUcAEoKcB.png)
+
++ Farook's employer has consented to a law enforcement search of the device ([see lines 22-24 of pg 6](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)).
 
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
