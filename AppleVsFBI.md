@@ -95,8 +95,9 @@ It is now known that Apple has the ability to backdoor their own products & ther
 
 Initially some security experts argued that this backdoor wouldn't work on iPhones newer than 5C 
 due to the **Secure Enclave** firmware, [a co-processor of many independently-functioning kernels within the A7 64-bit system chip which also uses secure boot to ensure that all software installed on the OS is signed by Apple](https://web.archive.org/web/20150124040556/http://www.macrumors.com/2014/02/26/touch-id-secure-enclave-document) 
-(remember authentication from earlier). Last night, a “senior Apple executive” told journalists at Motherboard & The Guardian
-that this is not true – the FBiOS would work with any iPhone currently on the market.
+(remember authentication from earlier). On February 19th, a “senior Apple executive” told journalists at **Motherboard**, [**The Guardian**](https://twitter.com/dannyyadron/status/700830922585743360) and others that this is not true – the FBiOS "[would be effective on every type of iPhone currently being sold](https://web.archive.org/web/20160221092412/http://motherboard.vice.com/read/apple-the-exploit-the-fbi-is-asking-for-would-work-on-all-iphones)."
+
+![Motherboard, Secure Enclave](https://pbs.twimg.com/media/CbnuF7iVIAE0A76.jpg)
 
 This detail is very important, if true, because many tech journalists (including from Ars Technica) also speculated 
 that FBiOS wouldn't even work on other 5C iPhones because, since the FBI is allowing that the custom software 
