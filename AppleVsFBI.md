@@ -2,8 +2,11 @@
 An overview of the important facts in the Apple vs. FBI case, including the main technical &amp; legal concerns
 ***
 ## What important events led to this case?
-+ Farook's employer, the **San Bernardino County Department of Public Health**, provided him with an iPhone 5C. 
-Farook's employer still retained official ownership of the phone ([see lines 22-24 of pg 6](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)), but for some reason *did not install mobile-device management software which was standard on their government-issued work phones* & would have 
++ On December 2nd, 2015, Farook and his wife Malik killed 14 people and injured 22 at the Inland Regional Center in California 
+during a San Bernardino County Department of Public Health training session/ party. They were pursued by police and died hours later in a shoot-out. The iPhone now in question (a 5C with iOS9) was found by law enforcement in a Black Lexcus IS300.
+
++ The phone was the property of Farook's employer, the **San Bernardino County Department of Public Health**. 
+It had been issued to Farook for work & the County still retained official ownership of the phone at the time of the attack ([see lines 22-24 of pg 6](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)), but for some reason *had neglected to install mobile-device management software which was standard on their government-issued work phones* & would have 
 [enabled the IT department to remotely unlock the device without user assistance](https://web.archive.org/web/20160220095658/http://mobile.reuters.com/article/idUSKCN0VS2QK).
 
 > "If that particular iPhone was using MobileIron, the county's IT department could unlock it," MobileIron Vice President Ojas Rege told Reuters... If it had been, the high stakes legal battle that has pitted Apple and much of the technology industry against the U.S. government could have been avoided altogether.
@@ -15,8 +18,6 @@ Farook's employer still retained official ownership of the phone ([see lines 22-
 
 ![iCloudbackup](https://pbs.twimg.com/media/CbfRFpiUkAA07La.png)
 
-+ On December 2nd, 2015, Farook and his wife Malik killed 14 people and injured 22 at the Inland Regional Center in California 
-during a San Bernardino County Department of Public Health training session/ party. They were pursued by police and died hours later in a shoot-out. The iPhone now in question (a 5C with iOS9) was found by law enforcement in a Black Lexcus IS300.
 
 + [Within 24 hours of the phone being confiscated](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.fflQoRn36), someone reset the passcode on the phone. 
 The FBI's recent motion to compel Apple confirms the passcode was reset *while in government custody* 
@@ -118,7 +119,7 @@ To understand the legal history behind this case in terms of the US government o
 
 
 I'm seeing over and over again the comment that the legal precedent(s) this case could set carries more risk 
-than the technical risk posed by FBiOS. Since I am not a lawyer, I do not known the specific statutes being considered, 
+than the technical risk posed by FBiOS. Since I am not a lawyer, I don't know the specific statutes being considered, 
 but here are some of the main points summarized:
 
 + This court order would force Apple to code a custom iOS 
@@ -152,4 +153,4 @@ Sounds oddly familiar, doesn't it?
 > Beijing has argued the need to quickly ratchet up its cybersecurity measures in the wake of former NSA contractor Edward Snowden's revelations of sophisticated U.S. spying techniques.
 
 ***
-Dontations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB
+`Dontations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
