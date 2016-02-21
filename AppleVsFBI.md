@@ -13,7 +13,7 @@ An overview of the important facts in the Apple vs. FBI case, including the main
 #### C: [What are the technical & legal concerns involved?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#what-are-the-technical--legal-concerns-involved)
 1. [Technical Concerns](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#technical-concerns)
   * [What are the limits to the use of FBiOS?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----what-are-the-limits-to-the-use-of-fbios---)
-  * [Could a secure password protect against FbiOS?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----could-a-secure-password-protect-against-fbios---)
+  * [Could a secure password protect against FBiOS?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----could-a-secure-password-protect-against-fbios---)
 2. [Legal Concerns](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#legal-concerns)
   * [What is the history behind Apple's compliance with law enforcement?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----what-is-the-history-behind-apples-compliance-with-law-enforcement---)
   * [What are important factors in legal precedent(s) for the future?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----what-are-important-factors-in-legal-precedents-for-the-future----)
@@ -207,6 +207,8 @@ Sounds oddly familiar, doesn't it?
 > Officials including FBI director James Comey and National Security Agency (NSA) director Mike Rogers publicly warned Internet companies including Apple and Google late last year against using encryption that law enforcement cannot break.
 
 > Beijing has argued the need to quickly ratchet up its cybersecurity measures in the wake of former NSA contractor Edward Snowden's revelations of sophisticated U.S. spying techniques.
+
++ It is highly unlikely that the FBI does not have alternative means to access the phone or its data in conjunction with the National Security Agency (NSA), as they have a history of mutual cooperation. Since the FBI continues to say that they *cannot* access the phone without Apple's assistance, they may be deliberately hiding this capability so that they have enough leverage to bring about this open fight with Apple. This would be advtangeous for them in promoting the 'national security vs. encryption' false dichotomy so that public pressure will make it easier to compel companies under similar circumstances in the future. [I have not yet addressed these possible alternative methods but will do so soon.]
 
 ***
 ##### Mirror Links:
