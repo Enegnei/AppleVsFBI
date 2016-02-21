@@ -13,7 +13,7 @@ An overview of the important facts in the Apple vs. FBI case, including the main
 
 ## What important events led to this case?
 + On December 2nd, 2015, Farook and his wife Malik killed 14 people and injured 22 at the Inland Regional Center in California 
-during a San Bernardino County Department of Public Health training session/ party. They were pursued by police and died hours later in a shoot-out. The iPhone now in question (a 5C with iOS9) was found by law enforcement in a Black Lexcus IS300.
+during a San Bernardino County Department of Public Health training session/ party. They were pursued by police and died hours later in a shoot-out. The iPhone now in question (a 5C with iOS9) was found by law enforcement in a Black Lexcus IS300 ([see lines 23-4 of pgs 4-5](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)).
 
 + The phone was the property of Farook's employer, the **San Bernardino County Department of Public Health**. 
 It had been issued to Farook for work & the County still retained official ownership of the phone at the time of the attack ([see lines 22-24 of pg 6](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)), but for some reason *had neglected to install mobile-device management software which was standard on their government-issued work phones* & would have 
@@ -27,7 +27,6 @@ It had been issued to Farook for work & the County still retained official owner
 
 ![iCloudbackup](https://pbs.twimg.com/media/CbfRFpiUkAA07La.png)
 
-
 + A "senior Apple executive" (one of many who apparently spoke with journalists on Friday) claimed that the Apple ID password linked to the iPhone was changed [within 24 hours of the phone being confiscated](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.fflQoRn36). 
 The FBI's recent motion to compel Apple confirms the passcode was reset *while in government custody* 
 and blames it on Farook's employer in the San Bernardino Department of Health ([see footnotes on pg 18](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)).
@@ -38,7 +37,7 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 
 > "The County was working cooperatively with the FBI when it reset the iCloud password at the FBI's request."
 
-+ In an [inquiry to FBI CAO David Wert](https://web.archive.org/web/20160221170116/https://www.documentcloud.org/documents/2716811-Statement-from-the-FBI-Feb-20-2016.html), Wert confirms that the County did not "independently conduct analysis" but that "the FBI worked with [them] to reset the *iCloud password* on December 6th," which (as previously stated [in the footnotes on pg 18 here](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)) meant Apple was unable to assist with the auto-backup function on the iPhone. However, unless journalists seriously misquoted the Apple senior executives (who have yet to be personally named), this contradicts their statement that the change was made within 24 hours. This inquiry also shows that the FBI does not know "whether an additional iCloud backup to the phone after that date -- if one had been technically possible -- would have yielded any data." Their reason for pursuing Apple under the All Writs Act order is that they believe there might be "more data [on the iPhone] than an iCloud backup contains," which also contradicts [Apple's assertion that had they not reset the iCloud password/ Apple ID, this case would not be necessary](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6). No information yet on whether anyone in the San Bernardino Health Department or the FBI attempted to reset the iPhone's PIN.
++ In an [inquiry to San Bernardino County CAO David Wert](https://web.archive.org/web/20160221170116/https://www.documentcloud.org/documents/2716811-Statement-from-the-FBI-Feb-20-2016.html), he shares a statement from [Laura Eimiller](linkedin.com/in/laura-eimiller-0595598) (FBI Press & Public Relations at U.S. Department of Justice) which confirms that the County did not "independently conduct analysis" but that "the FBI worked with [them] to reset the *iCloud password* on December 6th," which (as previously stated [in the footnotes on pg 18 here](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)) meant Apple was unable to assist with the auto-backup function on the iPhone. However, unless journalists seriously misquoted the Apple senior executives (who have yet to be personally named), this contradicts their statement that the change was made within 24 hours. This inquiry also shows that the FBI does not know "whether an additional iCloud backup to the phone after that date -- if one had been technically possible -- would have yielded any data." Their reason for pursuing Apple under the All Writs Act order is that they believe there might be "more data [on the iPhone] than an iCloud backup contains," which also contradicts [Apple's assertion that had they not reset the iCloud password/ Apple ID, this case would not be necessary](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6). No information yet on whether anyone in the San Bernardino Health Department or the FBI attempted to reset the iPhone's PIN.
 
 ![Kenn White @kennwhite](https://pbs.twimg.com/media/Cbn5nsNUcAEoKcB.png)
 
@@ -99,15 +98,30 @@ due to the **Secure Enclave** firmware, [a co-processor of many independently-fu
 
 ![Motherboard, Secure Enclave](https://pbs.twimg.com/media/CbnuF7iVIAE0A76.jpg)
 
-This detail is very important, if true, because many tech journalists (including from Ars Technica) also speculated 
-that FBiOS wouldn't even work on other 5C iPhones because, since the FBI is allowing that the custom software 
-be tied specifically to the phone's unique identifier, it should be limited to one device. 
-They did offer that it might be possible to swap identifiers to apply to any phone. 
+This detail is very important, if true, because many tech journalists (including from **Ars Technica**) also speculated 
+that [FBiOS wouldn't even work on other 5C iPhones](https://web.archive.org/web/20160219203100/http://arstechnica.com/apple/2016/02/encryption-isnt-at-stake-the-fbi-knows-apple-already-has-the-desired-key/) because, since the FBI is allowing that the custom software 
+be tied specifically to the phone's unique identifier, it should be limited to this *one* device. 
+
+![FBiOS working on older phones](https://pbs.twimg.com/media/Cbl8EghUkAA5vMr.jpg)
+
+A description of the Unique Identifier (UID) can be found on page 59 of [Apple's iOS Security Whitepaper](https://www.apple.com/business/docs/iOS_Security_Guide.pdf):
+
+> A 256-bit AES key that’s burned into each processor at manufacture. It cannot be read by firmware or software, and is used only by the processor’s hardware AES engine. To obtain the actual key, an attacker would have to mount a highly sophisticated and expensive physical attack against the processor’s silicon. The UID is not related to any other identifier on the device 
+including, but not limited to, the UDID.
+
+Because the UID is "baked into its hardware," **Ars Technica** editor [Peter Bright](https://web.archive.org/web/20160216072035/http://arstechnica.com/author/peter-bright/) says that this request makes the assumption that the UID can be extracted -- which appears to be a difficult process.
+
+Difficulty of extraction aside, he does offer that it *might* be possible to swap identifiers to apply to other 5C phones. 
+
+![FBiOS tied to unique identifier](https://pbs.twimg.com/media/Cbl9ajvUcAAgJPV.jpg)
+
 Therefore, Apple may not only be admitting that Secure Enclave is not secure enough 
 but that it is possible to swap identifiers in this custom OS. This probably has something to do with the fact 
 that Apple can force an update to Secure Enclave without wiping the data.
 
 This means that, if leaked, *FBiOS could be used on any iPhone*.
+
+##### Could a secure password protect against FBiOS?
 
 What has also not yet been confirmed by Apple is whether a strong password (not a PIN) remains a safeguard against this attack. Since it is only a brute-force attack, a long & complex password should work under normal circumstances 
 (taking months to many years to break). [Micah Lee](https://theintercept.com/staff/micah-lee/), a technologist at the **The Intercept**, [says it would](https://theintercept.com/2016/02/18/passcodes-that-can-defeat-fbi-ios-backdoor/):
