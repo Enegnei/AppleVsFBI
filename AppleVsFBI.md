@@ -47,8 +47,11 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
 
-Based on public court orders, the FBI is demanding Apple build a custom mobile iOS (nicknamed “FBiOS”) 
-with two standard passcode security features disabled: the 10-try limit & time delays. 
+Based on [page 2 of the first public court order](https://github.com/Enegnei/AppleVsFBI/blob/master/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf), the FBI is demanding Apple build a custom mobile iOS (which the public has nicknamed “FBiOS”) 
+with two standard passcode security features disabled: the 10-try limit & time delays.
+
+![compliance terms](https://pbs.twimg.com/media/CbYZuw7XEAAaziz.png)
+
 The 10-try limit wipes an iPhone's data after 10 attempts. The time-delays feature will wait 1 minute after four incorrect passcode entries before it accepts another attempt, subsequently increasing to 5 minutes, 15 minutes, and finally 1 hour. Bypassing these features will allow the FBI to perform a brute-force attack, 
 where they can guess the passcode as many times & as fast as the iPhone firmware will allow, without destroying the data.
 
