@@ -11,6 +11,8 @@ An overview of the important facts in the Apple vs. FBI case, including the main
 1. [Technical Concerns](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#technical-concerns)
   * [Could a secure password protect against FbiOS?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----could-a-secure-password-protect-against-fbios---)
 2. [Legal Concerns](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#legal-concerns)
+  * [What is the history behind Apple's compliance with law enforcement?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----what-is-the-history-behind-apples-compliance-with-law-enforcement---)
+  * [What are important factors in legal precedent(s) for the future?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----what-are-important-factors-in-legal-precedents-for-the-future----)
 
 ## What important events led to this case?
 + On December 2nd, 2015, Farook and his wife Malik killed 14 people and injured 22 at the Inland Regional Center in California 
@@ -92,6 +94,8 @@ the FBI is demanding that Apple *take advantage of a sytem security flaw which a
 #### Technical Concerns
 
 It is now known that Apple has the ability to backdoor their own products & therefore could be compelled to use that backdoor.
+
+##### --- What are the limits to the uses of FBiOS? --
 
 Initially some security experts argued that this backdoor wouldn't work on iPhones newer than 5C 
 due to the **Secure Enclave** firmware, [a co-processor of many independently-functioning kernels within the A7 64-bit system chip which also uses secure boot to ensure that all software installed on the OS is signed by Apple](https://web.archive.org/web/20150124040556/http://www.macrumors.com/2014/02/26/touch-id-secure-enclave-document) 
