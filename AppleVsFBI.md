@@ -12,7 +12,7 @@ It had been issued to Farook for work & the County still retained official owner
 > "If that particular iPhone was using MobileIron, the county's IT department could unlock it," MobileIron Vice President Ojas Rege told Reuters... If it had been, the high stakes legal battle that has pitted Apple and much of the technology industry against the U.S. government could have been avoided altogether.
 
 + The FBI has not said this phone was used to communicate with other terrorists 
-(Farook is believed to have used another private phone for that, which was destroyed), but rather with his *future victims* ([see lines 16-18 of pg 6](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)). The last date the FBI was able to obtain in the iCloud backup data was **October 9th 2015**, through Farook's account ([see top of pg 11 or line 12 of pg 22](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)). While the FBI states Farook had probably disabled the iCloud automatic-backup feature, [Jonathan Zdziarski](http://www.zdziarski.com/blog/?page_id=202) (iOS digital forensics expert) [argues it was unlikely to be intentional since the *Find-My-iPhone* feature was still enabled](http://www.zdziarski.com/blog/?p=5655), among other factors. He also points out amateur forensics practice mistakes that must have been made when the phone was confiscated (principle among them: [turning the iPhone off](https://twitter.com/JZdziarski/status/701172487061643265)) and raises the important question of why (or if) the victim's phones weren't searched, since they would have copies of the communications the FBI seeks (his full take on the case [here](http://www.zdziarski.com/blog/?p=5645)).
+(Farook is believed to have used another private phone for that, which was destroyed), but rather with his *future victims* ([see lines 16-18 of pg 6](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)). The last date the FBI was able to obtain in the iCloud backup data was **October 9th 2015**, through Farook's account ([see top of pg 11 or line 12 of pg 22](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)), as iCloud data on Apple's servers is not protected by the user's iPhone passcode. While the FBI states Farook had probably disabled the iCloud automatic-backup feature, [Jonathan Zdziarski](http://www.zdziarski.com/blog/?page_id=202) (iOS digital forensics expert) [argues it was unlikely to be intentional since the *Find-My-iPhone* feature was still enabled](http://www.zdziarski.com/blog/?p=5655), among other factors. He also points out amateur forensics practice mistakes that must have been made when the phone was confiscated (principle among them: [turning the iPhone off](https://twitter.com/JZdziarski/status/701172487061643265)) and raises the important question of why (or if) the victim's phones weren't searched, since they would have copies of the communications the FBI seeks (his full take on the case [here](http://www.zdziarski.com/blog/?p=5645)).
 
 > Find my iPhone is still active on the phone (search by serial number), so why would a terrorist use a phone he knew was tracking him? Obviously he wouldn’t. The Find-my-iPhone feature is on the same settings screen as the iCloud backup feature, so if he had disabled backups, he would have definitely known the phone was being tracked. But the argument that Farook intentionally disabled iCloud backup does not hold water, since he would have turned off Find-my-iPhone as well.
 
@@ -39,39 +39,36 @@ In an [inquiry to FBI CAO David Wert](https://github.com/Enegnei/AppleVsFBI/blob
 #### 1) What 'encryption' are we dealing with here?
 
 Based on public court orders, the FBI is demanding Apple build a custom mobile iOS (nicknamed “FBiOS”) 
-with two standard passcode security features disabled: the 10-try limit & delayed attempts. 
-The 10-try limit wipes an iPhone's data after 10 attempts. This will allow the FBI to perform a brute-force attack, 
-where they can guess the passcode as many times & as fast as a computer will allow, without destroying the data.
+with two standard passcode security features disabled: the 10-try limit & time delays. 
+The 10-try limit wipes an iPhone's data after 10 attempts. The time-delays feature will wait 1 minute after four incorrect passcode entries before it accepts another attempt, subsequently increasing to 5 minutes, 15 minutes, and finally 1 hour. Bypassing these features will allow the FBI to perform a brute-force attack, 
+where they can guess the passcode as many times & as fast as the iPhone firmware will allow, without destroying the data.
 
 However, the FBI could technically build this custom iOS on their own (though it will most likely take more time).
 The one thing they actually need is for Apple to sign FBiOS using their developer software key, 
 because only software signed with this key is able to work in Apple products.
 
-So the 'encryption' we are dealing with here is a matter of authentication.
+So the 'encryption' we are dealing with here is a matter of *authentication*.
 
 #### 2) Why does this distinction matter?
 
-Authentication falls under one of the three principles of cybersecurity (CIA), accessibility. 
-Authentication deals with anything to prove you hold authorization to carry out specific operations. 
-This is something you know (eg. a password), something you have (eg. a card), or something you are (eg. Biometrics).
+**Authentication** falls under one of the [three principles of information security (CIA)](http://resources.infosecinstitute.com/guiding-principles-in-information-security/): accessibility. 
+Authentication deals with how you prove you hold authorization to carry out specific operations, like accessing an account. 
+This is something you know (eg. a password), something you have (eg. a card), or something you are (eg. biometrics).
 
 Authentication is also an element of cryptography, but distinct from privacy/ confidentiality 
-(see the [*Purpose* section of Gary C. Kessler's "*An Overview of Cryptography*"](http://www.garykessler.net/library/crypto.html#purpose)).
+(see the [*Purpose* section of Gary C. Kessler's "**An Overview of Cryptography**"](http://www.garykessler.net/library/crypto.html#purpose)).
 
-The San Bernardino phone is said to be locked with a PIN. 
-PINs, unlike passwords (which are alphanumeric & can be longer), are numeric and usually very short (4-6 numbers). 
-Even if you had a PIN and a password of the same length, it would take you much longer to break the password with brute-force.
+The San Bernardino phone is said to be locked with a [PIN](https://en.wikipedia.org/wiki/Personal_identification_number). PINs, unlike passwords (which can be [alphanumeric](https://en.wikipedia.org/wiki/Alphanumeric) & longer), are numeric and usually very short (4-6 numbers allowed on average). Even if you had a PIN and a password of the same length, it would probably take more time to break the password with brute-force.
 
-Therefore, if the FBI uses this FBiOS, authenticated by Apple's software key, 
-it will be able to run on the phone and will most certainly break the PIN.
+Therefore, if the FBI uses this FBiOS, authenticated by Apple's software key, it will be able to run on Farook's phone and the PIN will be broken within 24 hours.
 
 What should be highlighted here is that Apple claims not to be able to, or at least not want to, access their customer's data. 
-Apple customers have an expectation of confidentiality (the first cybersecurity principle), even from Apple itself. 
+Apple customers have an expectation of **confidentiality** (the first information security principle), even from Apple itself. 
 Apple claims it does not position itself as a party with access to encrypted communications on customer phones. 
 If this is true, why is there a threat to encryption?
 
-If the FBI was compelling someone who was a party or key-holder to encrypted communications, 
-then it would be more accurate to say that they are “breaking encryption” 
+If the FBI was compelling someone who *was* a party or key-holder to encrypted communications, 
+*then* it would be more accurate to say that they are “breaking encryption” 
 by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.
 
 The problem here is that the *encryption is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. Apple is being pursued because contrary to their proud claims of implimenting 'strong encryption,' they retain the ability to backdoor their products, not only through to allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software.
@@ -97,11 +94,22 @@ Therefore, Apple may not only be admitting that Secure Enclave is not secure eno
 but that it is possible to swap identifiers in this custom OS. This probably has something to do with the fact 
 that Apple can force an update to Secure Enclave without wiping the data.
 
-This means that, if leaked, FBiOS could be used on any iPhone.
+This means that, if leaked, *FBiOS could be used on any iPhone*.
 
-What has also not yet been confirmed is whether a strong password (not a PIN) remains a safeguard against this attack. 
-Since it is only a brute-force attack, a long & complex password should work under normal circumstances 
-(taking months to many years to break).
+What has also not yet been confirmed by Apple is whether a strong password (not a PIN) remains a safeguard against this attack. Since it is only a brute-force attack, a long & complex password should work under normal circumstances 
+(taking months to many years to break). [Micah Lee](https://theintercept.com/staff/micah-lee/), a technologist at the **The Intercept**, [says it would](https://theintercept.com/2016/02/18/passcodes-that-can-defeat-fbi-ios-backdoor/):
+
+> It’s true that ordering Apple to develop the backdoor will fundamentally undermine iPhone security, as Cook and other digital security advocates have argued. But it’s possible for individual iPhone users to protect themselves from government snooping by setting strong passcodes on their phones — passcodes the FBI would not be able to unlock even if it gets its iPhone backdoor.
+
+> ...The short version: If you’re worried about governments trying to access your phone, set your iPhone up with a random, 11-digit numeric passcode.
+
+
+Note that he advises even an 11-digit *numeric* (numbers only) passcode would be sufficient, though alphanumeric (numbers, characters, and symbols) is stronger because it increases the amount of possible combinations. With a "truly random" 11-digit passcode, it would take *an average of 127 years* to crack on the iPhone with FBiOS. Drawing from page 12 of [Apple's iOS Security White Paper (iOS 9.0 or later)](https://www.apple.com/business/docs/iOS_Security_Guide.pdf), this is due to limitations on how the brute-force attack can be performed:
+
+> The passcode is entangled with the device’s UID, so brute-force attempts must be performed on the device under attack. A large iteration count is used to make each attempt slower. The iteration count is calibrated so that one attempt takes approximately 80 milliseconds. This means it would take more than 5½ years to try all combinations of a six-character alphanumeric passcode with lowercase letters and numbers.
+
+
+However, these figures only apply if Secure Enclave or another aspect of the iPhone's security architecture isn't also being breached as well, the possibility of which is still up for debate.
 
 #### Legal Concerns
 
@@ -123,8 +131,8 @@ which deliberately takes advantage of security vulnerabilities in their authenti
 If “code is speech” (and there are cases which affirm this), then speech (here in the form of code) can be compelled. 
 It is still an open question of who exactly at Apple can be compelled to do this.
 
-+ If a telecommunications provider can be compelled to take advantage of a security flaw 
-undermining encryption for its customers, then they will be compelled. This will put pressure on other businesses 
++ If a telecommunications provider *can* be compelled to take advantage of a security flaw 
+undermining encryption for its customers, then they *will* be compelled. This will put pressure on other businesses 
 to either comply or build their products so that they are not a centralized authority of proprietary software.
 
 + Other countries pay attention to the US on surveillance policy. Though Apple has not said they hold this fear, 
@@ -135,9 +143,9 @@ A recent example they cite is where FBI Director James Comey called for encrypti
 
 From [*Reuters*](http://www.reuters.com/article/us-usa-obama-china-idUSKBN0LY2H520150302) ("Obama Sharply Criticizes China's Plans for New Technology Rules"):
 
-> “In an interview with Reuters, Obama said he was concerned about Beijing's plans for a far-reaching counterterrorism law 
+> In an interview with Reuters, Obama said he was concerned about Beijing's plans for a far-reaching counterterrorism law 
 > that would require technology firms to hand over encryption keys, the passcodes that help protect data, 
-> and install security 'backdoors' in their systems to give Chinese authorities surveillance access.”
+> and install security 'backdoors' in their systems to give Chinese authorities surveillance access.
 
 
 Sounds oddly familiar, doesn't it?
@@ -149,4 +157,4 @@ Sounds oddly familiar, doesn't it?
 > Beijing has argued the need to quickly ratchet up its cybersecurity measures in the wake of former NSA contractor Edward Snowden's revelations of sophisticated U.S. spying techniques.
 
 ***
-`Dontations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
+`Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
