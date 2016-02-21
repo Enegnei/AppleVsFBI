@@ -9,6 +9,7 @@ An overview of the important facts in the Apple vs. FBI case, including the main
 
 #### C: [What are the technical & legal concerns involved?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#what-are-the-technical--legal-concerns-involved)
 1. [Technical Concerns](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#technical-concerns)
+  * [Could a secure password protect against FbiOS?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----could-a-secure-password-protect-against-fbios---)
 2. [Legal Concerns](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#legal-concerns)
 
 ## What important events led to this case?
@@ -140,6 +141,8 @@ However, these figures only apply if Secure Enclave or another aspect of the iPh
 
 #### Legal Concerns
 
+##### --- What is the history behind Apple's compliance with law enforcement? --
+
 To understand the legal history behind this case in terms of the US government ordering Apple to "unlock" iPhones, I recommend this clarifying article by **TechCrunch**'s [Matthew Panzarino](https://twitter.com/panzer): "[No, Apple Has Not Unlocked 70 iPhones For Law Enforcement](https://web.archive.org/web/20160220161959/http://techcrunch.com/2016/02/18/no-apple-has-not-unlocked-70-iphones-for-law-enforcement/)." The most important lines are about the difference between *decryption* and *extraction*:
 
 > There are two cases involving data requests by the government which are happening at the moment. There is a case in New York [which] ...involves an iPhone running iOS 7. On devices running iOS 7 and previous, Apple actually has the capability to extract data, including (at various stages in its encryption march) contacts, photos, calls and iMessages without unlocking the phones. That last bit is key, because in the previous cases where Apple has complied with legitimate government requests for information, this is the method it has used.
@@ -148,6 +151,8 @@ To understand the legal history behind this case in terms of the US government o
 
 > The California case, in contrast, involves a device running iOS 9. The data that was previously accessible while a phone was locked ceased to be so as of the release of iOS 8, when Apple started securing it with encryption tied to the passcode, rather than the hardware ID of the device... So Apple is unable to extract any data including iMessages from the device because all of that data is encrypted.
 
+
+##### --- What are important factors in legal precedent(s) for the future? ---
 
 I'm seeing over and over again the comment that the legal precedent(s) this case could set carries more risk 
 than the technical risk posed by FBiOS. Since I am not a lawyer, I don't know the specific statutes being considered, 
