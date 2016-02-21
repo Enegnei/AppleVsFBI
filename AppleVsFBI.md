@@ -121,7 +121,7 @@ that Apple can force an update to Secure Enclave without wiping the data.
 
 This means that, if leaked, *FBiOS could be used on any iPhone*.
 
-##### Could a secure password protect against FBiOS?
+##### --- Could a secure password protect against FBiOS? --
 
 What has also not yet been confirmed by Apple is whether a strong password (not a PIN) remains a safeguard against this attack. Since it is only a brute-force attack, a long & complex password should work under normal circumstances 
 (taking months to many years to break). [Micah Lee](https://theintercept.com/staff/micah-lee/), a technologist at the **The Intercept**, [says it would](https://theintercept.com/2016/02/18/passcodes-that-can-defeat-fbi-ios-backdoor/):
