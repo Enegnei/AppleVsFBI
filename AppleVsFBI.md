@@ -1,6 +1,16 @@
 # #AppleVsFBI
 An overview of the important facts in the Apple vs. FBI case, including the main technical &amp; legal concerns
 ***
+#### A: [What important events led to this case?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#what-important-events-led-to-this-case)
+
+#### B: [Is the FBI demanding Apple "break encryption"?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#is-the-fbi-demanding-apple-break-encryption)
+1. [What 'encryption' are we dealing with here?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#1-what-encryption-are-we-dealing-with-here)
+2. [Why does this distinction matter?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#2-why-does-this-distinction-matter)
+
+#### C: [What are the technical & legal concerns involved?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#what-are-the-technical--legal-concerns-involved)
+1. [Technical Concerns](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#technical-concerns)
+2. [Legal Concerns](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#legal-concerns)
+
 ## What important events led to this case?
 + On December 2nd, 2015, Farook and his wife Malik killed 14 people and injured 22 at the Inland Regional Center in California 
 during a San Bernardino County Department of Public Health training session/ party. They were pursued by police and died hours later in a shoot-out. The iPhone now in question (a 5C with iOS9) was found by law enforcement in a Black Lexcus IS300.
