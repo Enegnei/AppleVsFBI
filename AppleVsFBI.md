@@ -150,3 +150,6 @@ Sounds oddly familiar, doesn't it?
 > Officials including FBI director James Comey and National Security Agency (NSA) director Mike Rogers publicly warned Internet companies including Apple and Google late last year against using encryption that law enforcement cannot break.
 
 > Beijing has argued the need to quickly ratchet up its cybersecurity measures in the wake of former NSA contractor Edward Snowden's revelations of sophisticated U.S. spying techniques.
+
+***
+Dontations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB
