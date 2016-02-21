@@ -19,7 +19,7 @@ It had been issued to Farook for work & the County still retained official owner
 ![iCloudbackup](https://pbs.twimg.com/media/CbfRFpiUkAA07La.png)
 
 
-+ [Within 24 hours of the phone being confiscated](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.fflQoRn36), someone reset the passcode on the phone. 
++ A "senior Apple executive" (one of many who apparently spoke with journalists on Friday) claimed that the Apple ID password linked to the iPhone was changed [within 24 hours of the phone being confiscated](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.fflQoRn36). 
 The FBI's recent motion to compel Apple confirms the passcode was reset *while in government custody* 
 and blames it on Farook's employer in the San Bernardino Department of Health ([see footnotes on pg 18](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)).
 
@@ -29,9 +29,7 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 
 > "The County was working cooperatively with the FBI when it reset the iCloud password at the FBI's request."
 
-It is unknown whether anyone still knows the passcode. 
-If that someone had not reset the passcode & (apparently) forgotten it, the FBI would have been able to access the phone, 
-and *this case against Apple would not be necessary*.
+In an [inquiry to FBI CAO David Wert](https://github.com/Enegnei/AppleVsFBI/blob/master/Statement-from-the-FBI-Feb-20-2016.pdf), Wert confirms that the County did not "independently conduct analysis" but that "the FBI worked with [them] to reset the *iCloud password* on December 6th," which (as previously stated [in the footnotes on pg 18 here](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)) meant Apple was unable to assist with the auto-backup function on the iPhone. However, unless journalists seriously misquoted the Apple senior executives (who have yet to be personally named), this contradicts their statement that the change was made within 24 hours. This inquiry also shows that the FBI does not know "whether an additional iCloud backup to the phone after that date -- if one had been technically possible -- would have yielded any data." Their reason for pursuing Apple under the All Writs Act order is that they believe there might be "more data [on the iPhone] than an iCloud backup contains," which also contradicts [Apple's assertion that had they not reset the iCloud password/ Apple ID, this case would not be necessary](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6). No information yet on whether anyone in the San Bernardino Health Department or the FBI attempted to reset the iPhone's PIN.
 
 ![Kenn White @kennwhite](https://pbs.twimg.com/media/Cbn5nsNUcAEoKcB.png)
 
@@ -76,12 +74,10 @@ If the FBI was compelling someone who was a party or key-holder to encrypted com
 then it would be more accurate to say that they are “breaking encryption” 
 by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.
 
-The problem here is that the encryption is already broken. 
-It has been undermined by Apple's deficient security features, not only due to allowing the use of PINs 
-but because they are a centralized point of failure with the ability to backdoor their products.
+The problem here is that the *encryption is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "create a sort of master key" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. Apple is being pursued because contrary to their proud claims of implimenting 'strong encryption,' they retain the ability to backdoor their products, not only through to allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software.
 
 Taking all of this into consideration, it would be rather more accurate to say 
-the FBI is demanding that Apple take advantage of a security flaw which already exists.
+the FBI is demanding that Apple *take advantage of a sytem security flaw which already exists.*
 
 ## What are the technical & legal concerns involved?
 #### Technical Concerns
