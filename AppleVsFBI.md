@@ -43,7 +43,7 @@ It had been issued to Farook for work & the County still retained official owner
 
 #### After the Attack
 
-+ Zdziarski outlines amateur forensics practice mistakes that could were been made when & after the phone was confiscated; principle among them: [turning the iPhone off](https://twitter.com/JZdziarski/status/701172487061643265) if it was still on, which would lock it. He also raises the important question of why (or if) the victim's phones weren't searched, since they would have copies of the communications the FBI seeks ([his full take on the case here](http://www.zdziarski.com/blog/?p=5645)).
++ Zdziarski outlines amateur forensics practice mistakes that were made when, & after, the phone was confiscated; principle among them: [turning the iPhone off](https://twitter.com/JZdziarski/status/701172487061643265) if it was still on, which would lock it. He also raises the important question of why (or if) the victim's phones weren't searched, since they would have copies of the communications the FBI seeks ([his full take on the case here](http://www.zdziarski.com/blog/?p=5645)).
 
 > "Apple engineers saw iCloud backup auth was failing. This tells me FBI seized the phone powered up, and royally blew it turning it off." -*Jonathan Zdziarski* [@JZdziarski](https://twitter.com/JZdziarski/status/701171820884525056)
 
