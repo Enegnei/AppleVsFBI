@@ -198,7 +198,9 @@ but here are some of the main points summarized:
 
 + If a telecommunications provider *can* be compelled to take advantage of a security flaw 
 undermining encryption for its customers, then they *will* be compelled. This will put pressure on other businesses 
-to either comply or build their products so that they are not a centralized authority of proprietary software. Security technologist [Bruce Schneier](https://www.schneier.com/blog/about/) says the precent may motivate the government to [limit what sorts of security features tech companies can offer customers](https://www.washingtonpost.com/posteverything/wp/2016/02/18/why-you-should-side-with-apple-not-the-fbi-in-the-san-bernardino-iphone-case/) in order to maintain the ability to compel them.
+to either comply or build their products so that they are not a centralized authority of proprietary software. Security technologist [Bruce Schneier](https://www.schneier.com/blog/about/) says the precent may motivate the government to [limit what sorts of security features tech companies can offer customers](https://www.washingtonpost.com/posteverything/wp/2016/02/18/why-you-should-side-with-apple-not-the-fbi-in-the-san-bernardino-iphone-case/) in order to maintain the ability to compel them. [Apple is already saying they want to pursue iCloud encryption](https://web.archive.org/web/20160221193833/http://www.nytimes.com/2016/02/22/technology/apple-still-holds-the-keys-to-its-cloud-service-but-reluctantly.html):
+
+![Apple looks at iCloud encryption](https://pbs.twimg.com/media/CbyM7l1WAAAr5bb.png)
 
 + Other countries pay attention to the US on surveillance policy. Though Apple has not said they hold this fear, 
 lawyers and security experts say this presents a threat to foreign customers & tech businesses as well.
