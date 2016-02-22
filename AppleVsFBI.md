@@ -181,7 +181,9 @@ but here are some of the main points summarized:
 + This court order would force Apple to code a custom iOS 
 which deliberately takes advantage of security vulnerabilities in their authentication systems. 
 If “code is speech” (and there are cases which affirm this), then speech (here in the form of code) can be compelled. 
-It is still an open question of who exactly at Apple can be compelled to do this.
+It is still an open question of who exactly at Apple can be compelled to do this. US Congressman Ted Lieu (D-Los Angeles County), one of the Congressmembers who recently put forth [a bill for the ENCRYPT ACT](https://web.archive.org/web/20160222041054/https://lieu.house.gov/media-center/press-releases/congressmembers-lieu-farenthold-delbene-and-bishop-introduce-encrypt-act) ([full text here](https://web.archive.org/web/20160222040842/https://lieu.house.gov/sites/lieu.house.gov/files/documents/LIEU_027_xml%20%28ENCRYPT%20Act%20of%202016%29.pdf)), issued [this statement regarding the Apple court order](https://web.archive.org/web/20160219182200/https://lieu.house.gov/media-center/press-releases/congressman-lieu-statement-apple-court-order) on February 17th:
+
+> "This court order also begs the question: Where does this kind of coercion stop?  Can the government force Facebook to create software that provides analytic data on who is likely to be a criminal?  Can the government force Google to provide the names of all people who searched for the term ISIL?  Can the government force Amazon to write software that identifies who might be suspicious based on the books they ordered?"
 
 + If a telecommunications provider *can* be compelled to take advantage of a security flaw 
 undermining encryption for its customers, then they *will* be compelled. This will put pressure on other businesses 
