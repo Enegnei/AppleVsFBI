@@ -70,11 +70,9 @@ with two standard passcode security features disabled: the 10-try limit & time d
 
 ![compliance terms](https://pbs.twimg.com/media/CbYZuw7XEAAaziz.png)
 
-The 10-try limit wipes an iPhone's data after 10 attempts. The time-delays feature will wait 1 minute after four incorrect passcode entries before it accepts another attempt, subsequently increasing to 5 minutes, 15 minutes, and finally 1 hour. Bypassing these features will allow the FBI to perform a [brute-force attack](https://www.techopedia.com/definition/18091/brute-force-attack), where they can guess the passcode as many times & as fast as the iPhone firmware will allow, without destroying the data.
+The 10-try limit wipes an iPhone's data after 10 attempts. The time-delays feature will wait 1 minute after four incorrect passcode entries before it accepts another attempt, subsequently increasing to 5 minutes, 15 minutes, and finally 1 hour. Bypassing these features will allow the FBI to perform a [brute-force attack](https://www.techopedia.com/definition/18091/brute-force-attack), where they can guess the passcode as many times & as fast as the iPhone firmware will allow, without destroying the data. Along with disabling these security features, the FBI also wants the custom iOS allow them to enter the passcodes electronically instead of by hand (which would be incredibly slow comparatively).
 
-However, the FBI could technically build this custom iOS on their own (though it will most likely take more time).
-The one thing they actually need is for Apple to sign FBiOS using their developer software key, 
-because only software signed with this key is able to work in Apple products.
+However, the FBI could technically build this custom iOS on their own (though it will most likely take more time). The one thing they actually need is for Apple to sign FBiOS using their developer software key, because only software signed with this key is able to work in Apple products.
 
 So the 'encryption' we are dealing with here is a matter of *authentication*.
 
@@ -89,13 +87,19 @@ Authentication is also an element of cryptography, but distinct from privacy/ co
 
 The San Bernardino phone is said to be locked with a [PIN](https://en.wikipedia.org/wiki/Personal_identification_number). PINs, unlike passwords (which can be [alphanumeric](https://en.wikipedia.org/wiki/Alphanumeric) & longer), are numeric and usually very short (4-6 numbers allowed on average). Even if you had a PIN and a password of the same length, it would probably take more time to break the password with brute-force.
 
-Therefore, if the FBI uses this FBiOS, authenticated by Apple's software key, it will be able to run on Farook's phone and the PIN will be broken within 24 hours.
+Therefore, if the FBI uses this FBiOS, authenticated by Apple's software key/ digital signature, it will be able to run on Farook's phone and the PIN will be broken within 24 hours.
 
 The definition of a **backdoor** is *something which bypasses normal authentication*. What should be highlighted here is that Apple claims not to be able to, or at least not want to, access their customer's data. Apple customers have an expectation of **confidentiality** (the first information security principle), even from Apple itself. Apple claims it does not position itself as a party with access to encrypted communications on customer phones. If this is true, why is there a threat to encryption?
 
 If the FBI was compelling someone who *was* a party or key-holder to encrypted communications, *then* it would be more accurate to say that they are “breaking encryption” by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.
 
-The problem here is that the 'encryption' *is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability to backdoor their products, not only through to allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software. 
+The problem here is that the 'encryption' *is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability to backdoor their products, not only through to allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software. The [**Electronic Frontier Foundation**](https://www.eff.org/about) has published a few pieces on this case and offers only passing criticism of Apple on this point, even though they include passages like this:
+
+> **Would it be easy for Apple to sign the requested cracking software?** The answer any trained security engineer will give you is "it shouldn't be."
+
+> ... There are pros and cons to this approach, but Apple considers this signing key among the crown jewels of the entire company. There is no good revocation strategy if this key is leaked, since its corresponding verification key is hard-coded into hundreds of millions of devices around the world.
+
+It shouldn't be easy, but it's still possible. Disabling security features in so many devices also shouldn't be easy, but it's possible and, considering Apple's response, a very real problem.
 
 Taking all of this into consideration:
 + Is Apple being asked to "create" a "backdoor"? Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple could use this capability at any time, regardless of whether it's compelled or not.
@@ -111,7 +115,7 @@ It is now known that Apple has the ability to backdoor their own products & ther
 ##### --- What are the limits to the use of FBiOS? --
 
 Initially some security experts argued that this backdoor wouldn't work on iPhones newer than 5C 
-due to the **Secure Enclave** firmware, [a co-processor of many independently-functioning kernels within the A7 64-bit system chip which also uses secure boot to ensure that all software installed on the OS is signed by Apple](https://web.archive.org/web/20150124040556/http://www.macrumors.com/2014/02/26/touch-id-secure-enclave-document) 
+due to the **Secure Enclave** firmware, [a co-processor of many independently-functioning kernels within the A7 64-bit system chip which stores keys in supposedly tamper-resistant hardware & also uses secure boot to ensure that all software installed on the OS is signed by Apple](https://web.archive.org/web/20150124040556/http://www.macrumors.com/2014/02/26/touch-id-secure-enclave-document) 
 (remember authentication from earlier). On February 19th, a “senior Apple executive” told journalists at **Motherboard**, [**The Guardian**](https://twitter.com/dannyyadron/status/700830922585743360) and others that this is not true – the FBiOS "[would be effective on every type of iPhone currently being sold](https://web.archive.org/web/20160221092412/http://motherboard.vice.com/read/apple-the-exploit-the-fbi-is-asking-for-would-work-on-all-iphones)."
 
 ![Motherboard, Secure Enclave](https://pbs.twimg.com/media/CbnuF7iVIAE0A76.jpg)
@@ -139,7 +143,13 @@ Difficulty of extraction aside, he does offer that it *might* be possible to swa
 
 ![FBiOS tied to unique identifier](https://pbs.twimg.com/media/Cbl9ajvUcAAgJPV.jpg)
 
-Therefore, Apple may not only be admitting that Secure Enclave is not secure enough but that it is possible to swap identifiers in this custom OS. This probably has something to do with the fact that Apple can force an update to Secure Enclave without wiping the data.
+Therefore, Apple may not only be admitting that Secure Enclave is not secure enough but that it is possible to swap identifiers in this custom OS. This probably has something to do with the fact that Apple could force an update to Secure Enclave without wiping the data.
+
+**EFF**'s [Joseph Bonneu](https://www.eff.org/about/staff/joseph-bonneau) says the following in relation to [whether Secure Enclave protects newer phones](https://www.eff.org/deeplinks/2016/02/technical-perspective-apple-iphone-case):
+
+> (Older devices that lack the secure enclave also apply a similar delay, but apparently do so from within the operating system.) It's possible, though not completely clear from Apple's documentation, that a software update would be able to modify this behavior; if not, this would completely prevent Apple from enabling faster passcode guessing on newer devices.
+
+> There has been further speculation that the secure enclave could refuse to accept any software update (even one signed by Apple) unless unlocked by entering the passcode, or alternately, that a software update on a locked phone would erase all of the cryptographic keys, effectively making the phone's storage unreadable. Apple's security documentation makes no such guarantees, though, and there are indications that this isn't the case. So special cracking tools from Apple could potentially still modify the secure enclave's behavior to remove both the 10-guess limit and the delays between guesses.
 
 This means that, if leaked, *FBiOS could be used on any iPhone*.
 
@@ -211,7 +221,7 @@ Sounds oddly familiar, doesn't it?
 
 > Beijing has argued the need to quickly ratchet up its cybersecurity measures in the wake of former NSA contractor Edward Snowden's revelations of sophisticated U.S. spying techniques.
 
-+ It is highly unlikely that the FBI does not have alternative means to access the phone or its data in conjunction with the National Security Agency (NSA), as they have a history of mutual cooperation. Since the FBI continues to say that they *cannot* access the phone without Apple's assistance, they may be deliberately hiding this capability so that they have enough leverage to bring about this open fight with Apple. This would be advtangeous for them in promoting the 'national security vs. encryption' false dichotomy so that public pressure will make it easier to compel companies under similar circumstances in the future. [I have not yet addressed these possible alternative methods but will do so soon.]
++ It is highly unlikely that the FBI does not have alternative means to access the phone or its data in conjunction with the National Security Agency (NSA), as they have a history of mutual cooperation. Legally, alternative means would impact the legitimacy of usin the All Writs Act, as **EFF** explains: "[This point is potentially relevant legally, as cases interpreting the All Writs Act require "*an absence of alternative remedies*." However, we lack firm evidence that the FBI has such a capability. Apple also probably doesn't want to argue that its phone is insecure so the authorities should just break into it some other way](https://www.eff.org/deeplinks/2016/02/technical-perspective-apple-iphone-case)." Since the FBI continues to say that they *cannot* access the phone without Apple's assistance, they may be deliberately hiding this capability so that they have enough leverage to bring about this open fight with Apple. This would be advtangeous for them in promoting the 'national security vs. encryption' false dichotomy so that public pressure will make it easier to compel companies under similar circumstances in the future. [I have not yet addressed these possible alternative methods but will do so soon.]
 
 ***
 ##### Mirror Links:
