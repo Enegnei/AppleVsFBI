@@ -70,8 +70,7 @@ with two standard passcode security features disabled: the 10-try limit & time d
 
 ![compliance terms](https://pbs.twimg.com/media/CbYZuw7XEAAaziz.png)
 
-The 10-try limit wipes an iPhone's data after 10 attempts. The time-delays feature will wait 1 minute after four incorrect passcode entries before it accepts another attempt, subsequently increasing to 5 minutes, 15 minutes, and finally 1 hour. Bypassing these features will allow the FBI to perform a brute-force attack, 
-where they can guess the passcode as many times & as fast as the iPhone firmware will allow, without destroying the data.
+The 10-try limit wipes an iPhone's data after 10 attempts. The time-delays feature will wait 1 minute after four incorrect passcode entries before it accepts another attempt, subsequently increasing to 5 minutes, 15 minutes, and finally 1 hour. Bypassing these features will allow the FBI to perform a [brute-force attack](https://www.techopedia.com/definition/18091/brute-force-attack), where they can guess the passcode as many times & as fast as the iPhone firmware will allow, without destroying the data.
 
 However, the FBI could technically build this custom iOS on their own (though it will most likely take more time).
 The one thing they actually need is for Apple to sign FBiOS using their developer software key, 
@@ -100,7 +99,7 @@ The problem here is that the 'encryption' *is already broken*. Quoting from what
 
 Taking all of this into consideration:
 + Is Apple being asked to "create" a "backdoor"? Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple could use this capability at any time, regardless of whether it's compelled or not.
-+ Is Apple being told to "break encryption"? Again, it depends on how you interpret "breaking." The encryption system of the iOS9 itself is not being broken; security features dealing with how authentication is proven are. Brute-force attacks are a hack of security vulnerabilities, not an encryption backdoor.
++ Is Apple being told to "break encryption"? Again, it depends on how you interpret "breaking." The encryption system of the iOS9 itself is not being broken; security features dealing with how authentication is proven are. [Brute-force attacks](https://www.techopedia.com/definition/18091/brute-force-attack) are a hack of security vulnerabilities, not an encryption backdoor.
 
 Therefore, it would be rather more accurate to say the FBI is demanding that Apple *take advantage of sytem security flaws which already exist.* 
 
@@ -161,7 +160,7 @@ Note that he advises even an 11-digit *numeric* (numbers only) passcode would be
 
 However, these figures only apply if Secure Enclave or another aspect of the iPhone's security architecture isn't also being breached as well, the possibility of which is still up for debate.
 
-With this in mind, a very valuable & proactive thing Apple could do is **recommend that their customers upgrade their passwords.** Until now Apple has given their customers a false sense of security, allowing them to use short passcodes & PINs. The last line of protection should be a strong password, not a security feature which can apparently be disabled.
+With this in mind, a very valuable & proactive thing Apple could do is **recommend that their customers upgrade their passwords.** Until now Apple has given their customers a false sense of security, allowing them to use short passcodes & PINs. The last line of protection should be a strong password, which is under the user's control to change, not a security feature which can apparently be disabled.
 
 #### Legal Concerns
 
