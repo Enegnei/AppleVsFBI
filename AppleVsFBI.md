@@ -227,7 +227,9 @@ Sounds oddly familiar, doesn't it?
 
 ***
 ##### Mirror Links:
++ [Transcript of Argument from another Apple iPhone case in New York (Nov 27th 2015)](https://github.com/Enegnei/AppleVsFBI/blob/master/Transcript.Order-Requiring-Apple-Inc-to-Asisst-in-the.pdf)
 + [iOS Security Whitepaper (Sept 2015)](https://github.com/Enegnei/AppleVsFBI/blob/master/iOS_Security_Guide.pdf)
++ [Bill of ENCRYPT (Ensuring National Constitutional Rights for Your Private Telecommunications) Act (Feb 10th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/LIEU_ENCRYPT.Act.of.2016.pdf)
 + [Order Compelling Apple, Inc. to Assist Agents in Search (Feb 16th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf)
 + [Government's Motion to Compel Apple Inc. to Comply With This Court's Feb 16th Order (Feb 19th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)
 + [FBI Statement to Address Misleading Reports (Feb 20th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Statement-from-the-FBI-Feb-20-2016.pdf)
