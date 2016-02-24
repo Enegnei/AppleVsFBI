@@ -105,6 +105,10 @@ Taking all of this into consideration:
 + Is Apple being asked to "create" a "backdoor"? Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple could use this capability at any time, regardless of whether it's compelled or not.
 + Is Apple being told to "break encryption"? Again, it depends on how you interpret "breaking." The encryption system of the iOS9 itself is not being broken; security features dealing with how authentication is proven are. [Brute-force attacks](https://www.techopedia.com/definition/18091/brute-force-attack) are a hack of security vulnerabilities, not an encryption backdoor.
 
+Ray Dillinger frames the FBI's court order in a rather interesting way: [as a dramatic & unfriendly bug report](https://web.archive.org/web/20160224005522/http://www.metzdowd.com/pipermail/cryptography/2016-February/028269.html).
+
+![FBI court order as a bug report](https://pbs.twimg.com/media/Cb6-D-eXIAAA1MW.png)
+
 Therefore, it would be rather more accurate to say the FBI is demanding that Apple *take advantage of sytem security flaws which already exist.* 
 
 ## What are the technical & legal concerns involved?
