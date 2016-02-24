@@ -101,13 +101,13 @@ The problem here is that the 'encryption' *is already broken*. Quoting from what
 
 It shouldn't be easy, but it's still possible. Disabling security features in so many devices also shouldn't be easy, but it's possible and, considering Apple's response, a very real problem.
 
-Taking all of this into consideration:
-+ Is Apple being asked to "create" a "backdoor"? Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple could use this capability at any time, regardless of whether it's compelled or not.
-+ Is Apple being told to "break encryption"? Again, it depends on how you interpret "breaking." The encryption system of the iOS9 itself is not being broken; security features dealing with how authentication is proven are. [Brute-force attacks](https://www.techopedia.com/definition/18091/brute-force-attack) are a hack of security vulnerabilities, not an encryption backdoor.
-
 Ray Dillinger frames the FBI's court order in a rather interesting way: [as a dramatic & unfriendly bug report](https://web.archive.org/web/20160224005522/http://www.metzdowd.com/pipermail/cryptography/2016-February/028269.html).
 
 ![FBI court order as a bug report](https://pbs.twimg.com/media/Cb6-D-eXIAAA1MW.png)
+
+Taking all of this into consideration:
++ Is Apple being asked to "create" a "backdoor"? Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple could use this capability at any time, regardless of whether it's compelled or not.
++ Is Apple being told to "break encryption"? Again, it depends on how you interpret "breaking." The encryption system of the iOS9 itself is not being broken; security features dealing with how authentication is proven are. [Brute-force attacks](https://www.techopedia.com/definition/18091/brute-force-attack) are a hack of security vulnerabilities, not an encryption backdoor.
 
 Therefore, it would be rather more accurate to say the FBI is demanding that Apple *take advantage of sytem security flaws which already exist.* 
 
@@ -231,8 +231,9 @@ Sounds oddly familiar, doesn't it?
 
 ***
 ##### Mirror Links:
-+ [Transcript of Argument from another Apple iPhone case in New York (Nov 27th 2015)](https://github.com/Enegnei/AppleVsFBI/blob/master/Transcript.Order-Requiring-Apple-Inc-to-Asisst-in-the.pdf)
+
 + [iOS Security Whitepaper (Sept 2015)](https://github.com/Enegnei/AppleVsFBI/blob/master/iOS_Security_Guide.pdf)
++ [Transcript of Argument from another Apple iPhone case in New York (Nov 27th 2015)](https://github.com/Enegnei/AppleVsFBI/blob/master/Transcript.Order-Requiring-Apple-Inc-to-Asisst-in-the.pdf)
 + [Bill of ENCRYPT (Ensuring National Constitutional Rights for Your Private Telecommunications) Act (Feb 10th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/LIEU_ENCRYPT.Act.of.2016.pdf)
 + [Order Compelling Apple, Inc. to Assist Agents in Search (Feb 16th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf)
 + [Government's Motion to Compel Apple Inc. to Comply With This Court's Feb 16th Order (Feb 19th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)
