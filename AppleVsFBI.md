@@ -196,7 +196,7 @@ I'm seeing over and over again the comment that the legal precedent(s) this case
 than the technical risk posed by FBiOS. Since I am not a lawyer, I don't know the specific statutes being considered, 
 but here are some of the main points summarized:
 
-+ This court order would force Apple to code a custom iOS which deliberately takes advantage of security vulnerabilities in their authentication systems. If “code is speech” (and there are cases which affirm this), then speech (here in the form of code) can be compelled. It is still an open question of who exactly at Apple can be compelled to do this & whether prior precedent of "code is speech" applies (read [Park Higgins' EFF piece on "code is speech" related to 3-D printing](https://www.eff.org/deeplinks/2015/12/3-d-printing-case-code-speech-faces-new-challenges)). It appears that at least one of [Apple's objections to the court order will be on First Amendment grounds](https://web.archive.org/web/20160224033346/http://www.latimes.com/local/lanow/la-me-ln-apple-legal-argument-free-speech-20160223-story.html):
++ This court order would force Apple to code a custom iOS which deliberately takes advantage of security vulnerabilities in their authentication systems. If “code is speech” (and there are cases which affirm this), then speech (here in the form of code) can be compelled. It is still an open question of who exactly at Apple can be compelled to do this & whether prior precedent of "code is speech" applies (read [Park Higgins' EFF piece on "code is speech" related to 3-D printing](https://www.eff.org/deeplinks/2015/12/3-d-printing-case-code-speech-faces-new-challenges)). At least one of [Apple's objections to the court order will be on First Amendment grounds](https://web.archive.org/web/20160224033346/http://www.latimes.com/local/lanow/la-me-ln-apple-legal-argument-free-speech-20160223-story.html):
 
 > In Apple's fight to knock down a court order requiring it to help FBI agents unlock a killer’s iPhone, the tech giant plans to argue that the judge in the case has overreached in her use of an obscure law and infringed on the company’s 1st Amendment rights, an Apple attorney said Tuesday.
 
@@ -206,6 +206,9 @@ but here are some of the main points summarized:
 
 > Boutrous said courts have recognized that the writing of computer code is a form of expressive activity -- speech that is protected by the 1st Amendment.
 
+This was confirmed in Apple's first motion against the FBI's court order on February 25th, in addition to objections on Fifth Amendment due process grounds ([see pgs 32 & 34 respectively](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)):
+
+![Apple arguing on First Amendment grounds](https://pbs.twimg.com/media/CcFn9TwXIAQRy11.png:large)
 
 + US Congressman Ted Lieu (D-Los Angeles County), one of the Congressmembers who recently put forth [a bill for the ENCRYPT ACT](https://web.archive.org/web/20160222041054/https://lieu.house.gov/media-center/press-releases/congressmembers-lieu-farenthold-delbene-and-bishop-introduce-encrypt-act) ([full text here](https://web.archive.org/web/20160222040842/https://lieu.house.gov/sites/lieu.house.gov/files/documents/LIEU_027_xml%20%28ENCRYPT%20Act%20of%202016%29.pdf)), issued [this statement regarding the Apple court order](https://web.archive.org/web/20160219182200/https://lieu.house.gov/media-center/press-releases/congressman-lieu-statement-apple-court-order) on February 17th:
 
