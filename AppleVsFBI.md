@@ -33,7 +33,7 @@ It had been issued to Farook for work & the County still retained official owner
 
 > "If that particular iPhone was using MobileIron, the county's IT department could unlock it," MobileIron Vice President Ojas Rege told Reuters... If it had been, the high stakes legal battle that has pitted Apple and much of the technology industry against the U.S. government could have been avoided altogether.
 
-+ The FBI has not said this phone was used to communicate with other terrorists (Farook is believed to have used another private phone for that, which was destroyed), but rather with his *future victims* ([see lines 16-18 of pg 6](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)). 
++ The FBI has not said this phone was used to communicate with other terrorists (Farook is believed to have used another private phone for that, which was destroyed), but rather with his wife and/ or *future victims* ([see lines 16-18 of pg 6](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)). 
 
 ![iCloudbackup](https://pbs.twimg.com/media/CbfRFpiUkAA07La.png)
 
