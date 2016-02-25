@@ -66,7 +66,7 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 #### 1) What 'encryption' are we dealing with here?
 
 Based on [page 2 of the first public court order](https://web.archive.org/web/20160217152549/https://assets.documentcloud.org/documents/2714001/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf), the FBI is demanding Apple build a custom mobile iOS (which the public has nicknamed “FBiOS”) 
-with two standard passcode security features disabled: the 10-try limit & time delays.
+with two standard passcode security features disabled: the 10-try limit & escalating time delays.
 
 ![compliance terms](https://pbs.twimg.com/media/CbYZuw7XEAAaziz.png)
 
@@ -93,7 +93,11 @@ The definition of a **backdoor** is *something which bypasses normal authenticat
 
 If the FBI was compelling someone who *was* a party or key-holder to encrypted communications, *then* it would be more accurate to say that they are “breaking encryption” by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.
 
-The problem here is that the 'encryption' *is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability to backdoor their products, not only through allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software. The [**Electronic Frontier Foundation**](https://www.eff.org/about) has published a few pieces on this case and offers only passing criticism of Apple on this point, even though they include passages like this:
+The problem here is that the 'encryption' *is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability to backdoor their products, not only through allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software. 
+
+> "If Apple gets to call #FBiOS a 'backdoor,' I suggest we refer to 'Apple updates' as 'official backdoor only good guys are allowed to use.'" --*Pwn All The Things* [@pwnallthethings](https://twitter.com/pwnallthethings/status/702974661211119617)
+
+The [**Electronic Frontier Foundation**](https://www.eff.org/about) has published a few pieces on this case and offers only passing criticism of Apple on this point, even though they include passages like this:
 
 > **Would it be easy for Apple to sign the requested cracking software?** The answer any trained security engineer will give you is "it shouldn't be."
 
@@ -190,10 +194,17 @@ To understand the legal history behind this case in terms of the US government o
 
 In short: extraction allows them to access *unencrypted* data on iOS 7 or older; because they have [implimented passcode-based encryption in iPhones running iOS 8 or iOS 9](https://web.archive.org/web/20160222150037/https://www.apple.com/customer-letter/answers/), this data is no longer accessible through extraction. Therefore this request is different compared to Apple's history of compliance, which the court orders have yet to acknowledge.
 
+Regardless of whether this specific piece of custom software will be useable on other devices, Apple claims that they are already getting similar requests to do so now that it has been shown they have the capability. This would put them in a position where they either save FBiOS in the event of future cases, or safely destroy it & then be forced to spend more time/ resources recreating it in the future ([see pg 3](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)).
+
+> The government says:  “Just this once” and “Just this phone.”  But the government knows those statements are not true; indeed the government has filed multiple other applications for similar orders, some of which are pending in other courts. And as news of this Court’s order broke last week, state and local officials publicly declared their intent to use the proposed operating system to open hundreds of other seized devices—in cases having nothing to do with terrorism.
+
+> If this order is permitted to stand, it will only be a matter of days before some other prosecutor, in some other important case, before some other judge, seeks a similar order using this case as precedent.  Once the floodgates open, they cannot be closed, and the device security that Apple has worked so tirelessly to achieve will be unwound without so much as a congressional vote.
+
+
 ##### --- What are important factors in legal precedent(s) for the future? ---
 
 I'm seeing over and over again the comment that the legal precedent(s) this case could set carries more risk 
-than the technical risk posed by FBiOS. Since I am not a lawyer, I don't know the specific statutes being considered, 
+than the technical risk posed by FBiOS. Since I am not a lawyer, I am not familiar with the specific statutes being considered, 
 but here are some of the main points summarized:
 
 + This court order would force Apple to code a custom iOS which deliberately takes advantage of security vulnerabilities in their authentication systems. If “code is speech” (and there are cases which affirm this), then speech (here in the form of code) can be compelled. It is still an open question of who exactly at Apple can be compelled to do this & whether prior precedent of "code is speech" applies (read [Park Higgins' EFF piece on "code is speech" related to 3-D printing](https://www.eff.org/deeplinks/2015/12/3-d-printing-case-code-speech-faces-new-challenges)). At least one of [Apple's objections to the court order will be on First Amendment grounds](https://web.archive.org/web/20160224033346/http://www.latimes.com/local/lanow/la-me-ln-apple-legal-argument-free-speech-20160223-story.html):
