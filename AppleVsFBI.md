@@ -194,14 +194,14 @@ To understand the legal history behind this case in terms of the US government o
 
 In short: extraction allows them to access *unencrypted* data on iOS 7 or older; because they have [implimented passcode-based encryption in iPhones running iOS 8 or iOS 9](https://web.archive.org/web/20160222150037/https://www.apple.com/customer-letter/answers/), this data is no longer accessible through extraction. Therefore this request is different compared to Apple's history of compliance, which the court orders have yet to acknowledge.
 
+
+##### --- What are important factors in legal precedent(s) for the future? ---
+
 Regardless of whether this specific piece of custom software will be useable on other devices, Apple claims that they are already getting similar requests to do so now that it has been shown they have the capability. This would put them in a position where they either save FBiOS in the event of future cases, or safely destroy it & then be forced to spend more time/ resources recreating it in the future ([see pg 3](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)).
 
 > The government says:  “Just this once” and “Just this phone.”  But the government knows those statements are not true; indeed the government has filed multiple other applications for similar orders, some of which are pending in other courts. And as news of this Court’s order broke last week, state and local officials publicly declared their intent to use the proposed operating system to open hundreds of other seized devices—in cases having nothing to do with terrorism.
 
 > If this order is permitted to stand, it will only be a matter of days before some other prosecutor, in some other important case, before some other judge, seeks a similar order using this case as precedent.  Once the floodgates open, they cannot be closed, and the device security that Apple has worked so tirelessly to achieve will be unwound without so much as a congressional vote.
-
-
-##### --- What are important factors in legal precedent(s) for the future? ---
 
 I'm seeing over and over again the comment that the legal precedent(s) this case could set carries more risk 
 than the technical risk posed by FBiOS. Since I am not a lawyer, I am not familiar with the specific statutes being considered, 
