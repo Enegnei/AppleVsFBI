@@ -46,7 +46,7 @@ It had been issued to Farook for work & the County still retained official owner
 
 + Zdziarski outlines amateur forensics practice mistakes that were made when, & after, the phone was confiscated; principle among them: [turning the iPhone off](https://twitter.com/JZdziarski/status/701172487061643265) if it was still on, which would lock it. He also raises the important question of why (or if) the victim's phones weren't searched, since they would have copies of the communications the FBI seeks ([his full take on the case here](http://www.zdziarski.com/blog/?p=5645)).
 
-> "Apple engineers saw iCloud backup auth was failing. This tells me FBI seized the phone powered up, and royally blew it turning it off." -*Jonathan Zdziarski* [@JZdziarski](https://twitter.com/JZdziarski/status/701171820884525056)
+> "Apple engineers saw iCloud backup auth was failing. This tells me FBI seized the phone powered up, and royally blew it turning it off." --*Jonathan Zdziarski* [@JZdziarski](https://twitter.com/JZdziarski/status/701171820884525056)
 
 + A "senior Apple executive" (one of many who apparently spoke with journalists on a Friday call) claimed that the Apple ID password linked to the iPhone was changed [within 24 hours of the phone being confiscated](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.fflQoRn36). This executive has only come forward now, and thus far remained anonymous, because they "[had thought it was under a confidentiality agreement with the government. Apple seems to believe this agreement is now void since the government brought it up in a public court filing](https://web.archive.org/web/20160221094419/http://arstechnica.com/tech-policy/2016/02/apple-we-tried-to-help-fbi-terror-probe-but-someone-changed-icloud-password/)." The FBI's recent motion to compel Apple confirms the passcode was reset *while in government custody* and blames it on Farook's employer in the San Bernardino Department of Health ([see footnotes on pg 18](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)).
 
@@ -89,11 +89,15 @@ The San Bernardino phone is said to be locked with a [PIN](https://en.wikipedia.
 
 Therefore, if the FBI uses this FBiOS, authenticated by Apple's software key/ digital signature, it will be able to run on Farook's phone and the PIN will be broken within 24 hours.
 
-The definition of a **backdoor** is *something which bypasses normal authentication*. What should be highlighted here is that Apple claims not to be able to, or at least not want to, access their customer's data. Apple customers have an expectation of **confidentiality** (the first information security principle), even from Apple itself. Apple claims it does not position itself as a party with access to encrypted communications on customer phones. If this is true, why is there a threat to encryption?
+The definition of a [**backdoor**](http://www.linfo.org/backdoor.html) is *something which bypasses normal authentication*. What should be highlighted here is that Apple claims not to be able to, or at least not want to, access their customer's data. Apple customers have an expectation of **confidentiality** (the first information security principle) even from Apple itself. Apple claims it does not position itself as a party with access to encrypted communications on customer phones. If this is true, why is there a threat to encryption?
 
 If the FBI was compelling someone who *was* a party or key-holder to encrypted communications, *then* it would be more accurate to say that they are “breaking encryption” by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.
 
-The problem here is that the 'encryption' *is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability to backdoor their products, not only through allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software.
+The problem here is that the 'encryption' *is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. 
+
+> [Thus, in the sense that the word is being used in the media, the ‘backdoor’ already exists. The ‘key to all locks’ is Apple’s private signing key](https://medium.com/@liamkirsh/your-iphone-already-has-a-backdoor-33f43cceefdb#.p32cuvp5t). --*Liam Kirsh* [@choicefresh](https://twitter.com/choicefresh)
+
+Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability (under normal circumstances, if the user has a weak enough passcode) to backdoor their products, not only through allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software.
 
 > "If Apple gets to call #FBiOS a 'backdoor,' I suggest we refer to 'Apple updates' as 'official backdoor only good guys are allowed to use.'" --*Pwn All The Things* [@pwnallthethings](https://twitter.com/pwnallthethings/status/702974661211119617)
 
@@ -116,7 +120,7 @@ Ray Dillinger frames the FBI's court order in a rather interesting way: [as a dr
 ![FBI court order as a bug report](https://pbs.twimg.com/media/Cb6-D-eXIAAA1MW.png)
 
 Taking all of this into consideration:
-+ Is Apple being asked to "create" a "backdoor"? Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple could use this capability at any time, regardless of whether it's compelled or not. If you interpret 'normal' authentication to *not* include Apple's abilities and consider that 1) Apple disabling security features in their OS is an out-of-the-ordinary procedure for them & 2) though now weakly grounded, most Apple customers did have an expectation of confidentiality... then it could be argued that this is "creating a backdoor." You can read [another argument on this from the technical perspective by Brandon Edwards](https://medium.com/@drraid/it-s-a-backdoor-100-2460bf7f8010#.l5nwz4405) (note that I have not made my argument depend on it being limited to one device, which this article focuses on & disputes).
++ Is Apple being asked to "create" a "backdoor"? Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple *could use this capability at any time*, regardless of whether it's compelled or not. If you interpret 'normal' authentication to *not* include Apple's abilities and consider that 1) Apple disabling security features in their OS is an out-of-the-ordinary procedure for them & 2) though now weakly grounded, most Apple customers did have an expectation of confidentiality... then it could be argued that this is "creating a backdoor." You can read [another argument on this from the technical perspective by Brandon Edwards](https://medium.com/@drraid/it-s-a-backdoor-100-2460bf7f8010#.l5nwz4405) (note that I have not made my argument depend on it being limited to one device, which this article focuses on & disputes).
 + Is Apple being told to "break encryption"? Again, it depends on your interpretion. The encryption system of the iOS9 itself is not being broken; security features dealing with how authentication is proven are. [Brute-force attacks](https://www.techopedia.com/definition/18091/brute-force-attack) are a hack of security vulnerabilities, not an encryption backdoor.
 
 Therefore, it would be rather more accurate to say the FBI is demanding that Apple *take advantage of system security vulnerabilities which already exist.* 
@@ -124,7 +128,7 @@ Therefore, it would be rather more accurate to say the FBI is demanding that App
 ## What are the technical & legal concerns involved?
 #### Technical Concerns
 
-It is now known that Apple has the ability to backdoor their own products & therefore could be compelled to use that backdoor.
+It is now known that Apple has the ability to backdoor their own products & could be compelled to use that backdoor.
 
 ##### --- What are the limits to the use of FBiOS? --
 
@@ -177,7 +181,13 @@ What has also not yet been confirmed by Apple is whether a strong password (not 
 > ...The short version: If you’re worried about governments trying to access your phone, set your iPhone up with a random, 11-digit numeric passcode.
 
 
-Note that he advises even an 11-digit *numeric* (numbers only) passcode would be sufficient, though alphanumeric (numbers, characters, and symbols) is stronger because it increases the amount of possible combinations. With a "truly random" 11-digit passcode, it would take *an average of 127 years* to crack on the iPhone with FBiOS. Drawing from page 12 of [Apple's iOS Security White Paper (iOS 9.0 or later)](https://www.apple.com/business/docs/iOS_Security_Guide.pdf), this is due to limitations on how the brute-force attack can be performed:
+Note that he advises even an 11-digit *numeric* (numbers only) passcode would be sufficient, though alphanumeric (numbers, characters, and symbols) is stronger because it increases the amount of possible combinations. With a "truly random" 11-digit passcode, it would take *an average of 127 years* to crack on the iPhone with FBiOS (note: the following graphs are *maximum* time estimates, not averages).
+
+![passcode breaking time numeric](https://d262ilb51hltx0.cloudfront.net/max/800/1*QSjgF6fnfID7N-W9Ug4fcg.png)
+
+![passcode breaking time alphanumeric](https://d262ilb51hltx0.cloudfront.net/max/800/1*eENjTSHmHIExFrf9k1E-tw.png)
+
+Drawing from page 12 of [Apple's iOS Security White Paper (iOS 9.0 or later)](https://www.apple.com/business/docs/iOS_Security_Guide.pdf), this is due to limitations on how the brute-force attack can be performed:
 
 > The passcode is entangled with the device’s UID, so brute-force attempts must be performed on the device under attack. A large iteration count is used to make each attempt slower. The iteration count is calibrated so that one attempt takes approximately 80 milliseconds. This means it would take more than 5½ years to try all combinations of a six-character alphanumeric passcode with lowercase letters and numbers.
 
