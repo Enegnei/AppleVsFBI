@@ -97,9 +97,23 @@ The problem here is that the 'encryption' *is already broken*. Quoting from what
 
 > [Thus, in the sense that the word is being used in the media, the ‘backdoor’ already exists. The ‘key to all locks’ is Apple’s private signing key](https://medium.com/@liamkirsh/your-iphone-already-has-a-backdoor-33f43cceefdb#.p32cuvp5t). --*Liam Kirsh* [@choicefresh](https://twitter.com/choicefresh)
 
-Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability (under normal circumstances, if the user has a weak enough passcode) to backdoor their products, not only through allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software.
+[Leif Ryge](https://twitter.com/wiretapped) from **Ars Technica** explains why [being a single point of failure is the bigger issue *industry-wide*](https://web.archive.org/web/20160227165908/http://arstechnica.com/security/2016/02/most-software-already-has-a-golden-key-backdoor-its-called-auto-update/):
+
+> How did we get here? How did so many well-meaning people build so many fragile systems with so many obvious single points of failure?
+
+> I believe it was a combination of naivety and hubris. They probably thought they would be able keep the keys safe against realistic attacks, and they didn't consider the possibility that their governments would actually compel them to use their keys to sign malicious updates.
+
+> Fortunately, there is some good news. The FBI is presently demonstrating that this was never a good assumption, which finally means that the people who have been saying for a long time that we need to remove these single points of failure can't be dismissed as unreasonably paranoid anymore.
+
+> ... So when Apple says the FBI is trying to "force us to build a backdoor into our products," what they are really saying is that the FBI is trying to force them to use a backdoor which already exists in their products. (The fact that the FBI is also asking them to write new software is not as relevant, because they could pay somebody else to do that. The thing that Apple can provide which nobody else can is the signature.)
+
+> Is it reasonable to describe these single points of failure as backdoors? I think many people might argue that industry-standard systems for ensuring software update authenticity do not qualify as backdoors, perhaps because their existence is not secret or hidden in any way. But in the present Apple case where they are themselves using the word "backdoor," abusing their cryptographic single point of failure is precisely what the FBI is demanding.
+
+Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability to backdoor their products, not only through allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software.
 
 > "If Apple gets to call #FBiOS a 'backdoor,' I suggest we refer to 'Apple updates' as 'official backdoor only good guys are allowed to use.'" --*Pwn All The Things* [@pwnallthethings](https://twitter.com/pwnallthethings/status/702974661211119617)
+
+`Note: iPhones can be set to manual (requires user authentication, ie. passcode) or auto-update.`
 
 Consider [this point](https://theintercept.com/2016/02/26/fbi-vs-apple-post-crypto-wars/) made by [Dan Froomkin](https://theintercept.com/staff/dan-froomkin/) & [Jenna McLaughlin](https://theintercept.com/staff/jennamclaughlin/)  of **The Intercept**:
 
