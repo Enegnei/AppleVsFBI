@@ -89,7 +89,11 @@ The San Bernardino phone is said to be locked with a [PIN](https://en.wikipedia.
 
 Therefore, if the FBI uses this FBiOS, authenticated by Apple's software key/ digital signature, it will be able to run on Farook's phone and the PIN will be broken within 24 hours.
 
-The definition of a [**backdoor**](http://www.linfo.org/backdoor.html) is *something which bypasses normal authentication*. What should be highlighted here is that Apple claims not to be able to, or at least not want to, access their customer's data. Apple customers have an expectation of **confidentiality** (the first information security principle) even from Apple itself. Apple claims it does not position itself as a party with access to encrypted communications on customer phones. If this is true, why is there a threat to encryption?
+The definition of a [**backdoor**](http://www.linfo.org/backdoor.html) is *something which bypasses normal authentication*. Or, more (perhaps too) broadly:
+
+> **backdoor:** A design fault, planned or accidental, that allows the apparent strength of the design to be easily avoided by those who know the trick -- *Newton's Telecom Dictionary: 28th Updated & Expanded Edition*
+
+What should be highlighted here is that Apple claims not to be able to, or at least not want to, access their customer's data. Apple customers have an expectation of **confidentiality** (the first information security principle) even from Apple itself. Apple claims it does not position itself as a party with access to encrypted communications on customer phones. If this is true, why is there a threat to encryption?
 
 If the FBI was compelling someone who *was* a party or key-holder to encrypted communications, *then* it would be more accurate to say that they are “breaking encryption” by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.
 
