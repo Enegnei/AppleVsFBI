@@ -60,7 +60,11 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 
 ![Kenn White @kennwhite](https://pbs.twimg.com/media/Cbn5nsNUcAEoKcB.png)
 
-+ Farook's employer has consented to a law enforcement search of the device ([see lines 22-24 of pg 6](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)).
++ Farook's employer consented to a law enforcement search of the device ([see lines 22-24 of pg 6](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)).
+
++ The government filed their [*ex parte*](http://legal-dictionary.thefreedictionary.com/ex+parte) application & released [their first Order to assist](https://web.archive.org/web/20160217152549/https://assets.documentcloud.org/documents/2714001/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf) on February 16th; Apple says they were not contacted about it directly beforehand but were instead given notice through the press in conjunction with the public ([see footnotes on pg 11](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)).
+
+![Apples says government didn't give "chance to be heard](https://prod01-cdn07.cdn.firstlook.org/wp-uploads/sites/1/2016/02/5.png)
 
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
