@@ -291,6 +291,14 @@ Sounds oddly familiar, doesn't it?
 
 > Beijing has argued the need to quickly ratchet up its cybersecurity measures in the wake of former NSA contractor Edward Snowden's revelations of sophisticated U.S. spying techniques.
 
++ The use of the **All Writs Act** is not uncommon in surveillance cases -- listen to Jonathan Mayer's "[*Assistance for Current Surveillance: The All Writs Act*"](https://youtu.be/PoNJvmB16bQ); however its legitimacy in retrospective surveillance has been challenged by Judge James Orenstein in another Apple iPhone-unlocking case from the Eastern District of New York, including disputing that Apple could be considered 'close' to the crime ([see pgs 1, 29 & 31-32 respectively](https://web.archive.org/web/20160229224454/https://epic.org/amicus/crypto/apple/Orenstein-Order-Apple-iPhone-02292016.pdf)):
+
+> "For the reasons set forth below, I conclude thatunder the circumstances of this case,the government has failed to establish either that the AWApermits the relief it seeks or that, even if such an order is authorized, the discretionary factors I must consider weigh in favor ofgranting the motion."
+
+![All Writs Act constitutionality](https://pbs.twimg.com/media/CcausxZVAAIwS60.jpg)
+
+![All Writs Act closeness to crime factor](https://pbs.twimg.com/media/CcawNGxUYAA-Ift.jpg)
+
 + It is highly unlikely that the FBI does not have alternative means to access the phone or its data in conjunction with the National Security Agency (NSA), as they have a history of mutual cooperation. Legally, alternative means would impact the legitimacy of usin the All Writs Act, as **EFF** explains: "[This point is potentially relevant legally, as cases interpreting the All Writs Act require '*an absence of alternative remedies*.' However, we lack firm evidence that the FBI has such a capability. Apple also probably doesn't want to argue that its phone is insecure so the authorities should just break into it some other way](https://www.eff.org/deeplinks/2016/02/technical-perspective-apple-iphone-case)." Since the FBI continues to say that they *cannot* access the phone without Apple's assistance, they may be deliberately hiding this capability so that they have enough leverage to bring about this open fight with Apple. This would be advtangeous for them in promoting the 'national security vs. encryption' false dichotomy so that public pressure will make it easier to compel companies under similar circumstances in the future. [I have not yet addressed these possible alternative methods but will do so soon.]
 
 ***
