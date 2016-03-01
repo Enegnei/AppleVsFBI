@@ -316,6 +316,7 @@ Sounds oddly familiar, doesn't it?
 + [Judge Orenstein: In Re Order Requiring Apple, Inc. To Assist In The Execution Of A Search Warrant (Feb 29th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Orenstein-Order-Apple-iPhone-02292016.pdf)
 + [Statement by Apple Lawyer Bruce Sewell: US House of Representatives Committee on the Judiciary (Mar 1st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Testimony-of-Bruce-Sewell-March-1-2016.pdf)
 + [Statement by Professor Susan Landau: US House of Representatives Committee on the Judiciary (Mar 1st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/landau-written-testimony.pdf)
++ [Statement by NY Dist Att C.R. Vance, Jr.: US House of Representatives Committee on the Judiciary (Mar 1st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/vance-written-testimony.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 `Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
