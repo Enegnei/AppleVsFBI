@@ -66,6 +66,8 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 
 ![Apples says government didn't give "chance to be heard](https://prod01-cdn07.cdn.firstlook.org/wp-uploads/sites/1/2016/02/5.png)
 
++ The [US House of Representatives Committee on the Judiciary](http://judiciary.house.gov/index.cfm/hearings?ID=89431275-E911-4D5C-BD70-BFE3EF91AD86) held a session to discuss this court case on March 1st, with FBI Director James Comey, Apple Senior Vice President Bruce Sewell, Professor Susan Landau, & New York County District Attorney Cyrus R. Vance Jr. as witnesses. "[The Encryption Tightrope: Balancing Americans' Security & Privacy](https://youtu.be/g1GgnbN9oNw)" is available on YouTube (I also have a local .mp4 copy in case it is taken down).
+
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
 
