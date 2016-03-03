@@ -319,6 +319,7 @@ Sounds oddly familiar, doesn't it?
 + [Statement by Apple Lawyer Bruce Sewell: US House of Representatives Committee on the Judiciary (Mar 1st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Testimony-of-Bruce-Sewell-March-1-2016.pdf)
 + [Statement by Professor Susan Landau: US House of Representatives Committee on the Judiciary (Mar 1st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/landau-written-testimony.pdf)
 + [Statement by NY Dist Att C.R. Vance, Jr.: US House of Representatives Committee on the Judiciary (Mar 1st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/vance-written-testimony.pdf)
++ [*Amici Curiae* Brief in Apple Case on Behalf of iPhone Security Experts and Applied Cryptographers (Mar 2nd 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/CIS.Technologists.Apple.Brief.Final.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 `Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
