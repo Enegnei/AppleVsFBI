@@ -71,8 +71,11 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 
 + On March 3rd, San Bernardino County District Attorney [Michael Ramos](http://www.sbcountyda.org/AboutDARamos/AboutDistrictAttorneyMichaelRamos.aspx) filed an *amicus curiae* brief in support of the FBI, which is being mocked for speculating about a "lying-dormant cyber pathogen endangering San Bernardino County's infrastructure" on the iPhone ([see pg 3 or *6/40*](https://web.archive.org/web/20160305131629/https://assets.documentcloud.org/documents/2748053/Gov-Uscourts-Cacd-640468-79-0.pdf)). [Jeremiah Grossman](https://twitter.com/jeremiahg), founder of [White Hat Security](https://www.whitehatsec.com/), has created the webpage [www.cyberpathogen.com](http://www.cyberpathogen.com/) displaying the quote & linking to [Zdziarski's artcle on the document](http://www.zdziarski.com/blog/?p=5849).
 
-
 ![SB DA brief statement](https://pbs.twimg.com/media/CcrIGwVW4AAipPA.jpg)
+
++ On March 4th, **UN High Commissioner for Human Rights** [Zeid Ra’ad Al Hussein](http://www.ohchr.org/EN/AboutUs/Pages/HighCommissioner.aspx) [released a statement on the case leaning in Apple's favor](https://web.archive.org/web/20160306001954/http://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=17138&LangID=E), expressing concern for the safety of citizens as well as "human rights defenders, civil society, journalists, whistle-blowers and political dissidents" in authoritarian countries who would likely demand more access upon seeing the FBI successfully compel Apple.
+
+![UN statement](https://pbs.twimg.com/media/CcsdTM3W0AAkKvr.jpg)
 
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
