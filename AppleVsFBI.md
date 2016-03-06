@@ -116,6 +116,10 @@ The problem here is that the 'encryption' *is already broken*. Quoting from what
 
 > [Thus, in the sense that the word is being used in the media, the ‘backdoor’ already exists. The ‘key to all locks’ is Apple’s private signing key](https://medium.com/@liamkirsh/your-iphone-already-has-a-backdoor-33f43cceefdb#.p32cuvp5t). --*Liam Kirsh* [@choicefresh](https://twitter.com/choicefresh)
 
+**Firefox** founder [Blake Ross](https://twitter.com/blakeross) offered a very well-written & humorous take on [how security holes fail us, in both our digital & non-digital lives](https://medium.com/@blakeross/mr-fart-s-favorite-colors-3177a406c775#.wg0g6fcpu), and says this debate is about whether "a private company [should] be allowed to sell unbreakable security."
+
+> To be clear: Contrary to a lot of shoddy reporting, and some rather “generous” language from Apple, this is not the world we’re living in yet. The fact that Apple can break into your phone demonstrates that we’re still firmly in “Coke recipe” territory.
+
 [Leif Ryge](https://twitter.com/wiretapped) from **Ars Technica** explains why [being a single point of failure is the bigger issue *industry-wide*](https://web.archive.org/web/20160227165908/http://arstechnica.com/security/2016/02/most-software-already-has-a-golden-key-backdoor-its-called-auto-update/):
 
 > How did we get here? How did so many well-meaning people build so many fragile systems with so many obvious single points of failure?
