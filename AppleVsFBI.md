@@ -235,7 +235,7 @@ Drawing from page 12 of [Apple's iOS Security White Paper (iOS 9.0 or later)](ht
 > The passcode is entangled with the device’s UID, so brute-force attempts must be performed on the device under attack. A large iteration count is used to make each attempt slower. The iteration count is calibrated so that one attempt takes approximately 80 milliseconds. This means it would take more than 5½ years to try all combinations of a six-character alphanumeric passcode with lowercase letters and numbers.
 
 
-However, these figures only apply if Secure Enclave or another aspect of the iPhone's security architecture isn't also being breached as well, such as the "Effaceable Storage" processor (contains the CPU, BootROM, RAM, crypto engines, Apple's public signing key, and the UID key). [Daniel Kahn Gillmor](https://www.aclu.org/bio/daniel-kahn-gillmor), technologist for the ACLU, [explains how you could bypass the auto-erase security feature on an iPhone 5C](https://web.archive.org/web/20160311005401/https://www.aclu.org/blog/free-future/one-fbis-major-claims-iphone-case-fraudulent), without destroying the data, by copying the flash memory of the file system key stored in this processor:
+However, these figures only apply if Secure Enclave or another aspect of the iPhone's security architecture isn't also being breached as well, such as the "Effaceable Storage" processor (contains the CPU, BootROM, RAM, crypto engines, Apple's public signing key, and the UID key). [Daniel Kahn Gillmor](https://www.aclu.org/bio/daniel-kahn-gillmor), technologist for the ACLU, [explains how you could bypass the auto-erase security feature on an iPhone 5C](https://web.archive.org/web/20160311005401/https://www.aclu.org/blog/free-future/one-fbis-major-claims-iphone-case-fraudulent), without destroying the data, by copying the flash memory of the file system key stored in this processor (note - still gathering more information on whether this method is viable):
 
 > The FBI can simply remove this chip from the circuit board (“desolder” it), connect it to a device capable of reading and writing NAND flash, and copy all of its data. It can then replace the chip, and start testing passcodes. If it turns out that the auto-erase feature is on, and the Effaceable Storage gets erased, they can remove the chip, copy the original information back in, and replace it. If they plan to do this many times, they can attach a “test socket” to the circuit board that makes it easy and fast to do this kind of chip swapping.
 
@@ -362,3 +362,5 @@ Sounds oddly familiar, doesn't it?
 
 by: **@J9Roem**, keybase.io/j9roem --
 `Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
+
+**To-do note: Examine "There Is No Due Process Right Not to Develop Source Code" section & gather more information on Effaceable Storage vulnerability**
