@@ -242,6 +242,8 @@ However, these figures only apply if Secure Enclave or another aspect of the iPh
 
 > NAND flash storage is an extremely common component. It's found in USB thumb drives, mobile phones, portable music players, low-end laptops—pretty much every portable device. Desoldering a chip from the circuitboard is straightforward enough that there are many clips on YouTube showing the practice, and reading and writing a bare NAND chip requires a minor investment in hardware and training that the FBI has probably already made.
 
+Zdziarski also says that "[with the info that experts have come forward with, I am reasonably confident FBI themselves, with current talent, could get into this phone](https://web.archive.org/web/20160311015818/https://twitter.com/JZdziarski/status/708100880353071105)."
+
 With this in mind, a very valuable & proactive thing Apple could do is **recommend that their customers upgrade their passwords.** Until now Apple has given their customers a false sense of security, allowing them to use short passcodes & PINs. The last line of protection should be a strong password, which is under the user's control to change, not a security feature which can apparently be disabled.
 
 #### Legal Concerns
