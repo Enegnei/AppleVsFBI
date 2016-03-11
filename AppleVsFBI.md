@@ -139,7 +139,7 @@ Apple is being pursued because contrary to their commendable implimentation of '
 
 > "If Apple gets to call #FBiOS a 'backdoor,' I suggest we refer to 'Apple updates' as 'official backdoor only good guys are allowed to use.'" --*Pwn All The Things* [@pwnallthethings](https://twitter.com/pwnallthethings/status/702974661211119617)
 
-`Note: iPhones can be set to manual (requires user authentication, ie. passcode) or auto-update.`
+`Note: iPhones can be set to manual (requires user authentication, ie. passcode) or auto-update. During the update process, iPhone updates are individually signed per-device on Apple's servers, which would prevent an attacker from downgrading to an insecure version.`
 
 Consider [this point](https://theintercept.com/2016/02/26/fbi-vs-apple-post-crypto-wars/) made by [Dan Froomkin](https://theintercept.com/staff/dan-froomkin/) & [Jenna McLaughlin](https://theintercept.com/staff/jennamclaughlin/)  of **The Intercept**:
 
