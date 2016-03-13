@@ -103,7 +103,7 @@ This is something you know (eg. a password), something you have (eg. a card), or
 Authentication is also an element of cryptography, but distinct from privacy/ confidentiality 
 (see the [*Purpose* section of Gary C. Kessler's "**An Overview of Cryptography**"](http://www.garykessler.net/library/crypto.html#purpose)).
 
-The San Bernardino phone is said to be locked with a [PIN](https://en.wikipedia.org/wiki/Personal_identification_number). PINs, unlike passwords (which can be [alphanumeric](https://en.wikipedia.org/wiki/Alphanumeric) & longer), are numeric and usually very short (4-6 numbers allowed on average). Even if you had a PIN and a password of the same length, it would probably take more time to break the password with brute-force.
+The San Bernardino phone is said to be locked with a 4-digit [PIN](https://en.wikipedia.org/wiki/Personal_identification_number). PINs, unlike passwords (which can be [alphanumeric](https://en.wikipedia.org/wiki/Alphanumeric) & longer), are numeric and usually very short (4-6 numbers allowed on average). Even if you had a PIN and a password of the same length, it would probably take more time to break the password with brute-force.
 
 Therefore, if the FBI uses this FBiOS, authenticated by Apple's software key/ digital signature, it will be able to run on Farook's phone and the PIN will be broken within 24 hours.
 
