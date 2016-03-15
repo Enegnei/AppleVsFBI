@@ -376,5 +376,3 @@ Sounds oddly familiar, doesn't it?
 
 by: **@J9Roem**, keybase.io/j9roem --
 `Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
-
-**To-do note: Examine "There Is No Due Process Right Not to Develop Source Code" section & gather more information on Effaceable Storage vulnerability**
