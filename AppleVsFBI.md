@@ -372,6 +372,8 @@ Sounds oddly familiar, doesn't it?
 + [Declaration of Stacey Perino In Support of Government's Reply: Exhibits 17-30 (Mar 10th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/031123088016.pdf)
 + [Supplemental Declaration of Christopher Pluhar In Support of Government's Reply (Mar 10th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/031123088015.pdf)
 + [Apple Inc.'s Reply To Government's Opposition To Apple Inc.'s Motion (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Reply-Brief-in-Support-of-Apple-s-Motion-to-Vacate.pdf)
++ [Declaration of Robert Ferrini In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Ferrini-Declaration-Executed.pdf)
++ [Supplemental Declaration of Nicola T. Hanna In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Supp-Hanna-Decl-Executed.pdf)
 + [Supplemental Declaration of Erik Neuenschwander In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Supp-Neuenschwander-Decl-Executed.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
