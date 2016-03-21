@@ -80,7 +80,7 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 
 ![UN statement](https://pbs.twimg.com/media/CcsdTM3W0AAkKvr.jpg)
 
-+ On March 21st, one day before the scheduled hearing, the Department of Justice announced in a filing that it wanted to postpone until sometime after April 5th or possibly cancel the hearing, claiming that "an outside party demonstrated to the FBI a possible method for unlocking Farook's iPhone" ([see pg 3](https://web.archive.org/web/20160321231145/https://assets.documentcloud.org/documents/2773489/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)). Emily Chang, host of Bloomberg West, soon [claimed that the request was accepted by the judge](https://web.archive.org/web/20160321235306/https://twitter.com/emilychangtv/status/712060838539108352).
++ On March 21st, one day before the scheduled hearing, the Department of Justice announced in a filing that it wanted to postpone until sometime after April 5th or possibly cancel the hearing, claiming that "an outside party demonstrated to the FBI a possible method for unlocking Farook's iPhone" ([see pg 3](https://web.archive.org/web/20160321231145/https://assets.documentcloud.org/documents/2773489/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)). Emily Chang, host of [**Bloomberg West**](https://en.wikipedia.org/wiki/Bloomberg_West), soon [claimed that the request was accepted by the judge](https://web.archive.org/web/20160321235306/https://twitter.com/emilychangtv/status/712060838539108352).
 
 ![postpone hearing](https://pbs.twimg.com/media/CeG3bAWUUAAAOe_.jpg:large)
 
