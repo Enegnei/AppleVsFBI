@@ -80,6 +80,10 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 
 ![UN statement](https://pbs.twimg.com/media/CcsdTM3W0AAkKvr.jpg)
 
++ On March 21st, one day before the scheduled hearing, the Department of Justice announced in a filing that it wanted to postpone until sometime after April 5th or possibly cancel the hearing, claiming that "an outside party demonstrated to the FBI a possible method for unlocking Farook's iPhone" ([see pg 3](https://web.archive.org/web/20160321231145/https://assets.documentcloud.org/documents/2773489/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)). It is yet to be confirmed whether this request has been approved.
+
+![postpone hearing](https://pbs.twimg.com/media/CeG3bAWUUAAAOe_.jpg:large)
+
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
 
@@ -392,6 +396,7 @@ Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern D
 + [Declaration of Robert Ferrini In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Ferrini-Declaration-Executed.pdf)
 + [Supplemental Declaration of Nicola T. Hanna In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Supp-Hanna-Decl-Executed.pdf)
 + [Supplemental Declaration of Erik Neuenschwander In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Supp-Neuenschwander-Decl-Executed.pdf)
++ [Government's *Ex Parte* Application For A Continuance (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 `Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
