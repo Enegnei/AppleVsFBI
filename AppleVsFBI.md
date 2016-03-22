@@ -80,7 +80,7 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 
 ![UN statement](https://pbs.twimg.com/media/CcsdTM3W0AAkKvr.jpg)
 
-+ On March 21st, one day before the scheduled hearing, the Department of Justice announced in a filing that it wanted to postpone until sometime after April 5th or possibly cancel the hearing, claiming that "an outside party demonstrated to the FBI a possible method for unlocking Farook's iPhone" ([see pg 3](https://web.archive.org/web/20160321231145/https://assets.documentcloud.org/documents/2773489/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)). Emily Chang, host of [**Bloomberg West**](https://en.wikipedia.org/wiki/Bloomberg_West), soon [claimed that the request was accepted by the judge](https://web.archive.org/web/20160321235306/https://twitter.com/emilychangtv/status/712060838539108352).
++ On March 21st, one day before the scheduled hearing, the Department of Justice announced in a filing that it wanted to postpone or possibly cancel the hearing, claiming that "an outside party demonstrated to the FBI a possible method for unlocking Farook's iPhone" ([see pg 3](https://web.archive.org/web/20160321231145/https://assets.documentcloud.org/documents/2773489/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)). Emily Chang, host of [**Bloomberg West**](https://en.wikipedia.org/wiki/Bloomberg_West), soon [claimed that the request was accepted by the judge](https://web.archive.org/web/20160321235306/https://twitter.com/emilychangtv/status/712060838539108352), which was confirmed by [a record of a telephonic conference](https://cryptome.org/2016/03/usg-apple-199.pdf) & subsequent filing in reply ([see the last page](https://cryptome.org/2016/03/usg-apple-191.pdf)). The government is now required to file a status report on April 5th 2016, at which time either a new date will be set or the trial will be cancelled altogether.
 
 ![postpone hearing](https://pbs.twimg.com/media/CeG3bAWUUAAAOe_.jpg:large)
 
@@ -397,6 +397,8 @@ Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern D
 + [Supplemental Declaration of Nicola T. Hanna In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Supp-Hanna-Decl-Executed.pdf)
 + [Supplemental Declaration of Erik Neuenschwander In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Supp-Neuenschwander-Decl-Executed.pdf)
 + [Government's *Ex Parte* Application For A Continuance (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)
++ [Conference: Order Granting Government’s *Ex Parte* Application to Vacate Hearing (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-199.pdf)
++ [Order Granting Government’s *Ex Parte* Application to Vacate Hearing (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-191.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 `Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
