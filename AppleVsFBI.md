@@ -5,6 +5,7 @@ An overview of the important facts in the Apple vs. FBI case, including the main
 #### A: [What important events led to this case?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#what-important-events-led-to-this-case)
 1. [Before the Attack](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#before-the-attack)
 2. [After the Attack](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#after-the-attack)
+3. [The Trial](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#the-trial)
 
 #### B: [Is the FBI demanding Apple "break encryption"?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#is-the-fbi-demanding-apple-break-encryption)
 1. [What 'encryption' are we dealing with here?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#1-what-encryption-are-we-dealing-with-here)
@@ -90,8 +91,9 @@ However [San Bernardino County argues](https://web.archive.org/web/2016022018083
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
 
-Based on [page 2 of the first public court order](https://web.archive.org/web/20160217152549/https://assets.documentcloud.org/documents/2714001/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf), the FBI is demanding Apple build a custom mobile iOS (which the public has nicknamed “FBiOS”) 
-with two standard passcode security features disabled: the 10-try limit & escalating time delays.
+The FBI is demanding Apple build a custom mobile iOS with two standard passcode security features disabled: the 10-try limit & escalating time delays ([see pg 2](https://web.archive.org/web/20160217152549/https://assets.documentcloud.org/documents/2714001/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf)).
+
+> *Note: Court filings & articles refer to the custom mobile iOS by different names, most commonly 'GovtOS' & 'FBiOS'. For the purposes of consistency to avoid confusion, this overview will use 'FBiOS.'*
 
 ![compliance terms](https://pbs.twimg.com/media/CbYZuw7XEAAaziz.png)
 
