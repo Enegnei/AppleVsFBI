@@ -211,7 +211,7 @@ Because the UID is "baked into its hardware," **Ars Technica** editor [Peter Bri
 
 Difficulty of extraction aside, he does offer that it *might* be possible to swap identifiers to apply to other 5C phones. 
 
-![FBiOS tied to unique identifier](https://pbs.twimg.com/media/Cbl9ajvUcAAgJPV.jpg)
+![FBiOS tied to unique identifier](https://pbs.twimg.com/media/Cbl9ajvUcAAgJPV.jpg:large)
 
 Therefore, Apple may not only be admitting that Secure Enclave is not secure enough but that it is possible to swap identifiers in this custom OS. This probably has something to do with the fact that Apple could force an update to Secure Enclave without wiping the data.
 
@@ -368,11 +368,11 @@ Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern D
 
 > "For the reasons set forth below, I conclude thatunder the circumstances of this case,the government has failed to establish either that the AWApermits the relief it seeks or that, even if such an order is authorized, the discretionary factors I must consider weigh in favor ofgranting the motion."
 
-![All Writs Act constitutionality](https://pbs.twimg.com/media/CcausxZVAAIwS60.jpg)
+![All Writs Act constitutionality](https://pbs.twimg.com/media/CcausxZVAAIwS60.jpg:large)
 
-![All Writs Act closeness to crime factor](https://pbs.twimg.com/media/CcawNGxUYAA-Ift.jpg)
+![All Writs Act closeness to crime factor](https://pbs.twimg.com/media/CcawNGxUYAA-Ift.jpg:large)
 
-![All Writs Act Apple public relations](https://pbs.twimg.com/media/Cca0YfiUkAA85oD.jpg)
+![All Writs Act Apple public relations](https://pbs.twimg.com/media/Cca0YfiUkAA85oD.jpg:large)
 
 + It is highly unlikely that the FBI does not have alternative means to access the phone or its data in conjunction with the National Security Agency (NSA), as they have a history of mutual cooperation. Legally, alternative means would impact the legitimacy of using the All Writs Act, as **EFF** explains: "[This point is potentially relevant legally, as cases interpreting the All Writs Act require '*an absence of alternative remedies*.' However, we lack firm evidence that the FBI has such a capability. Apple also probably doesn't want to argue that its phone is insecure so the authorities should just break into it some other way](https://www.eff.org/deeplinks/2016/02/technical-perspective-apple-iphone-case)." Now that they have requested to [postpone the trial](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#the-trial) despite their prior repeated assertions that unlocking the iPhone was only possible with Apple's assistance, many are wondering whether the FBI had prior knowledge of this capability and may only change course for strategic legal reasons, such as promoting the 'national security vs. encryption' false dichotomy so that public pressure will make it easier to compel companies under similar circumstances in the future. 
 
