@@ -252,6 +252,14 @@ However, these figures only apply if Secure Enclave or another aspect of the iPh
 
 > NAND flash storage is an extremely common component. It's found in USB thumb drives, mobile phones, portable music players, low-end laptops—pretty much every portable device. Desoldering a chip from the circuitboard is straightforward enough that there are many clips on YouTube showing the practice, and reading and writing a bare NAND chip requires a minor investment in hardware and training that the FBI has probably already made.
 
+**The Washington Post** is claiming an [unnamed] FBI official told them that "[the bureau was aware of this method early on and concluded that it wouldn’t work, for technical reasons](https://www.washingtonpost.com/world/national-security/the-fbi-is-testing-a-code-based-way-to-get-into-the-san-bernardino-iphone/2016/03/24/bc79cd14-f1dc-11e5-a61f-e9c95c06edca_story.html)." However, as [the government has classified both the third-party and the "new method" they brought forth](https://web.archive.org/web/20160326033741/http://www.theguardian.com/technology/2016/mar/22/apple-fbi-san-bernardino-iphone-method-for-cracking), this comment may have been made just to deflect attention. 
+
+> If the government decides to regularly use its password-bypassing technique in criminal trials, it risks making the method public every time defense attorneys and courts ask questions about how it is accessing information on a locked device. 
+
+> The law does allow the government to present sensitive sources and methods under seal – out of the view of the public and, more importantly, Apple. But that protection isn’t a guarantee. And like any secret, the more people know, the less likely it is to stay secret.
+
+> Apple attorneys said on Monday they would push the government to reveal the nature of their tactic if it is used at trial, though it is unclear what legal mechanism they would have to do so.
+
 Zdziarski, after consulting with other tech experts, believes [the FBI is most likely using this method](http://www.zdziarski.com/blog/?p=5966).
 
 > Using a NAND copying / mirroring technique, this barrier could be overcome in iOS 9, allowing the device to write and verify the attempt, but have that change later blown away by restoring an original copy of the chip. They wouldn’t have to copy the whole NAND in this case. If they can isolate the part of the chip that is written to (even though it’s encrypted), they can just keep writing over that portion of the chip. If the methods from iOS 8 were borrowed for this, then it could be partially automated by entering the pin through the USB, as well as using a light sensor to determine which pin successfully unlocked the device
