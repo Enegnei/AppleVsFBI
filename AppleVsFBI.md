@@ -416,6 +416,7 @@ Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern D
 + [Conference: Order Granting Government’s *Ex Parte* Application to Vacate Hearing (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-199.pdf)
 + [Order Granting Government’s *Ex Parte* Application to Vacate Hearing (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-191.pdf)
 + [The DOJ & FBI Contract Phone Data Extraction & Analysis Company Cellebrite (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/SearchResults.pdf)
++ [Government's Status Report: Vacate Order Compelling Apple Inc. to Assist (March 28th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/FBI_apple_20160328.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 `Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
