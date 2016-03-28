@@ -270,7 +270,11 @@ However, these figures only apply if Secure Enclave or another aspect of the iPh
 
 He also says that "[with the info that experts have come forward with, I am reasonably confident FBI themselves, with current talent, could get into this phone](https://web.archive.org/web/20160311015818/https://twitter.com/JZdziarski/status/708100880353071105)."
 
-With this in mind, a very valuable & proactive thing Apple could do is **recommend that their customers upgrade their passwords**, especially by moving away from numeric PINs to alphanumeric passwords (as the level of protection provided by each is different). Until now Apple has given their customers a false sense of security, allowing them to use short passcodes & PINs. The last line of protection should be a strong password, which is under the user's control to change, not a security feature which can apparently be disabled.
+With this in mind, a very valuable & proactive thing Apple could do is **recommend that their customers upgrade their passwords**, especially by moving away from numeric PINs to alphanumeric passwords (as the level of protection provided by each is different). iPhone device passwords on iOS9 can be changed through the following steps:
+
+> Find the `Settings` icon. Scroll to the red `Touch ID & Passcode` option. You will be prompted to enter your current passcode. Once you have done so, scroll down to `Change Passcode` (under `Turn Passcode Off`). You will be prompted to enter a new passcode. Before entering anything, select `Passcode Options` and choose `Custom Alphanumeric Code`.
+
+Until now Apple has given their customers a false sense of security, allowing them to use short passcodes & PINs. The last line of protection should be a strong password, which is under the user's control to change, not a security feature which can apparently be disabled.
 
 #### Legal Concerns
 
