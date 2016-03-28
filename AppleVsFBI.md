@@ -260,7 +260,7 @@ However, these figures only apply if Secure Enclave or another aspect of the iPh
 
 > Apple attorneys said on Monday they would push the government to reveal the nature of their tactic if it is used at trial, though it is unclear what legal mechanism they would have to do so.
 
-Zdziarski, after consulting with other tech experts, believes [the FBI is most likely using this method](http://www.zdziarski.com/blog/?p=5966).
+Zdziarski, after consulting with other tech experts, believes [the FBI is most likely using this method](http://www.zdziarski.com/blog/?p=5966), a portion of which [he demonstrated himself](https://web.archive.org/web/20160328002531/https://twitter.com/JZdziarski/status/713877288060891136) [using a jailbreak](https://youtu.be/3xHm5lktvog).
 
 > Using a NAND copying / mirroring technique, this barrier could be overcome in iOS 9, allowing the device to write and verify the attempt, but have that change later blown away by restoring an original copy of the chip. They wouldn’t have to copy the whole NAND in this case. If they can isolate the part of the chip that is written to (even though it’s encrypted), they can just keep writing over that portion of the chip. If the methods from iOS 8 were borrowed for this, then it could be partially automated by entering the pin through the USB, as well as using a light sensor to determine which pin successfully unlocked the device
 
