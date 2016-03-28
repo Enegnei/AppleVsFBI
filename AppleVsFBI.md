@@ -88,6 +88,10 @@ However [San Bernardino County argued](https://web.archive.org/web/2016022018083
 ![contracting Cellebrite](https://pbs.twimg.com/media/CePaYXPVIAECN9N.jpg:large)
 ![postpone hearing](https://pbs.twimg.com/media/CeG3bAWUUAAAOe_.jpg:large)
 
++ On March 28th, the government filed a status report requesting that the order compelling Apple to assist the FBI be vacated because they had "now successfully accessed the data stored on Farook’s iPhone and therefore no longer require[d] the assistance from Apple" ([see here](https://web.archive.org/web/20160328220521/http://pdfserver.amlaw.com/nlj/FBI_apple_20160328.pdf)). If the request is accepted, this effectively ends the #AppleVsFBI case in San Bernardino; however several other cases are still ongoing. The method used, and the identity of the "outside party," have still not been made public.
+
+![government request to vacate](https://pbs.twimg.com/media/Ceqpn_-WwAAW5cT.jpg:large)
+
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
 
