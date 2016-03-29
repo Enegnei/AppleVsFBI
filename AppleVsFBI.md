@@ -88,7 +88,7 @@ However [San Bernardino County argued](https://web.archive.org/web/2016022018083
 ![contracting Cellebrite](https://pbs.twimg.com/media/CePaYXPVIAECN9N.jpg:large)
 ![postpone hearing](https://pbs.twimg.com/media/CeG3bAWUUAAAOe_.jpg:large)
 
-+ On March 28th, the government filed a status report requesting that the order compelling Apple to assist the FBI be vacated because they had "now successfully accessed the data stored on Farook’s iPhone and therefore no longer require[d] the assistance from Apple" ([see here](https://web.archive.org/web/20160328220521/http://pdfserver.amlaw.com/nlj/FBI_apple_20160328.pdf)). If the request is accepted, this effectively ends the #AppleVsFBI case in San Bernardino; however several other cases are still ongoing. The method used, and the identity of the "outside party," have still not been made public.
++ On March 28th, the government filed a status report requesting that the order compelling Apple to assist the FBI be vacated because they had "now successfully accessed the data stored on Farook’s iPhone and therefore no longer require[d] the assistance from Apple" ([see here](https://web.archive.org/web/20160328220521/http://pdfserver.amlaw.com/nlj/FBI_apple_20160328.pdf)). If the request is accepted, this effectively ends the #AppleVsFBI case in San Bernardino; however several other cases are still ongoing. The method used, and the identity of the "outside party," have still not been made public. The **Electronic Frontier Foundation** has [challenged the government]() on its [policy for hiding vs. publicly disclosing security vulnerabilities in information technologies](https://web.archive.org/web/20160122155451/https://www.eff.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.eff.org%2Ffiles%2F2016%2F01%2F18%2F37-3_vep_2016.pdf), so they may be required to disclose the method in the near future.
 
 ![government request to vacate](https://pbs.twimg.com/media/CeqpZnRWsAE4GRK.jpg:large)
 
@@ -400,6 +400,7 @@ Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern D
 
 + [iOS Security Whitepaper (Sept 2015)](https://github.com/Enegnei/AppleVsFBI/blob/master/iOS_Security_Guide.pdf)
 + [Transcript of Argument from another Apple iPhone case in New York (Nov 27th 2015)](https://github.com/Enegnei/AppleVsFBI/blob/master/Transcript.Order-Requiring-Apple-Inc-to-Asisst-in-the.pdf)
++ [US Government Vulnerabilities Equities Policy & Process (Jan 14th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/37-3_vep_2016.pdf)
 + [Bill of ENCRYPT (Ensuring National Constitutional Rights for Your Private Telecommunications) Act (Feb 10th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/LIEU_ENCRYPT.Act.of.2016.pdf)
 + [Order Compelling Apple, Inc. to Assist Agents in Search (Feb 16th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf)
 + [Government's Motion to Compel Apple Inc. to Comply With This Court's Feb 16th Order (Feb 19th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)
