@@ -89,9 +89,10 @@ However [San Bernardino County argued](https://web.archive.org/web/2016022018083
 ![Cellebrite website](https://pbs.twimg.com/media/CeuLrC3WwAAtiBO.jpg:large)
 ![postpone hearing](https://pbs.twimg.com/media/CeG3bAWUUAAAOe_.jpg:large)
 
-+ On March 28th, the government filed a status report requesting that the order compelling Apple to assist the FBI be vacated because they had "now successfully accessed the data stored on Farook’s iPhone and therefore no longer require[d] the assistance from Apple" ([see here](https://web.archive.org/web/20160328220521/http://pdfserver.amlaw.com/nlj/FBI_apple_20160328.pdf)). If the request is accepted, this effectively ends the #AppleVsFBI case in San Bernardino; however several other cases are still ongoing. The method used, and the identity of the "outside party," have still not been made public. The **Electronic Frontier Foundation** has [challenged the government]() on its [policy for hiding vs. publicly disclosing security vulnerabilities in information technologies](https://web.archive.org/web/20160122155451/https://www.eff.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.eff.org%2Ffiles%2F2016%2F01%2F18%2F37-3_vep_2016.pdf) ('*Vulnerabilities Equities Process*' or VEP), so they may be required to disclose the method in the near future.
++ On March 28th, the government filed a status report requesting that the order compelling Apple to assist the FBI be vacated because they had "now successfully accessed the data stored on Farook’s iPhone and therefore no longer require[d] the assistance from Apple" ([see here](https://web.archive.org/web/20160328220521/http://pdfserver.amlaw.com/nlj/FBI_apple_20160328.pdf)). [The request was accepted](https://cryptome.org/2016/03/usg-apple-210.pdf) the following day, effectively ending the #AppleVsFBI case in San Bernardino; however several other cases are still ongoing. The method used, and the identity of the "outside party," have still not been made public. The **Electronic Frontier Foundation** has [challenged the government]() on its [policy for hiding vs. publicly disclosing security vulnerabilities in information technologies](https://web.archive.org/web/20160122155451/https://www.eff.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.eff.org%2Ffiles%2F2016%2F01%2F18%2F37-3_vep_2016.pdf) ('*Vulnerabilities Equities Process*' or VEP), so they may be required to disclose the method in the near future.
 
 ![government request to vacate](https://pbs.twimg.com/media/CeqpZnRWsAE4GRK.jpg:large)
+![government request to vacate accepted](https://pbs.twimg.com/media/CewQbuXWwAAE1We.jpg:large)
 
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
@@ -422,11 +423,12 @@ Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern D
 + [Declaration of Robert Ferrini In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Ferrini-Declaration-Executed.pdf)
 + [Supplemental Declaration of Nicola T. Hanna In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Supp-Hanna-Decl-Executed.pdf)
 + [Supplemental Declaration of Erik Neuenschwander In Support of Apple Inc.'s Reply (Mar 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Supp-Neuenschwander-Decl-Executed.pdf)
-+ [Government's *Ex Parte* Application For A Continuance (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)
-+ [Conference: Order Granting Government’s *Ex Parte* Application to Vacate Hearing (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-199.pdf)
-+ [Order Granting Government’s *Ex Parte* Application to Vacate Hearing (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-191.pdf)
-+ [The DOJ & FBI Contract Phone Data Extraction & Analysis Company Cellebrite (March 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/SearchResults.pdf)
-+ [Government's Status Report: Vacate Order Compelling Apple Inc. to Assist (March 28th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/FBI_apple_20160328.pdf)
++ [Government's *Ex Parte* Application For A Continuance (Mar 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/2016-03-21-Ex-Parte-Application-Dckt-191-0.pdf)
++ [Conference: Order Granting Government’s *Ex Parte* Application to Vacate Hearing (Mar 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-199.pdf)
++ [Order Granting Government’s *Ex Parte* Application to Vacate Hearing (Mar 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-191.pdf)
++ [The DOJ & FBI Contract Phone Data Extraction & Analysis Company Cellebrite (Mar 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/SearchResults.pdf)
++ [Government's Status Report: Vacate Order Compelling Apple Inc. to Assist (Mar 28th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/FBI_apple_20160328.pdf)
++ [Government's Status Report: Order Vacating February 16 2016 Order (Mar 29th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-210.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 `Donations appreciated: 1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
