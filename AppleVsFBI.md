@@ -94,6 +94,8 @@ However [San Bernardino County argued](https://web.archive.org/web/2016022018083
 ![government request to vacate](https://pbs.twimg.com/media/CeqpZnRWsAE4GRK.jpg:large)
 ![government request to vacate accepted](https://pbs.twimg.com/media/CewQbuXWwAAE1We.jpg:large)
 ![contracting with Cellebrite 2](https://pbs.twimg.com/media/CeufMi1XEAAfC4F.jpg:large)
+![contracting Black Bag Tech](https://pbs.twimg.com/media/Ce5IUWuXEAAm-98.jpg:large)
+![contracting Magnet Forensics](https://pbs.twimg.com/media/Ce5MbsgXEAQIO3J.jpg:large)
 
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
