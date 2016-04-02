@@ -365,7 +365,7 @@ to either comply or build their products so that they are not a centralized auth
 
 + Other countries pay attention to the US on surveillance policy. Though Apple has not said they hold this fear, lawyers and security experts say this would create a threat to foreign customers & tech businesses as well. If the U.S. government can compel Apple to take advantage of a security vulnerability, why can't others? A recent example they cite is where FBI Director James Comey called for encryption backdoors & the Chinese government introduced new counter-terrorism laws a few weeks later.
 
-From [**Reuters**](http://www.reuters.com/article/us-usa-obama-china-idUSKBN0LY2H520150302) ("Obama Sharply Criticizes China's Plans for New Technology Rules"):
+From **Reuters**, "[Obama Sharply Criticizes China's Plans for New Technology Rules](https://web.archive.org/web/20160220205359/http://www.reuters.com/article/us-usa-obama-china-idUSKBN0LY2H520150302)":
 
 > In an interview with Reuters, Obama said he was concerned about Beijing's plans for a far-reaching counterterrorism law 
 > that would require technology firms to hand over encryption keys, the passcodes that help protect data, 
