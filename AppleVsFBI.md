@@ -39,7 +39,7 @@ It had been issued to Farook for work & the County still retained official owner
 
 ![two iPhones destroyed](https://pbs.twimg.com/media/Cbc0dtxXIAAIG8J.jpg)
 
-+ The last date the FBI was able to obtain in the iCloud backup data was **October 19th 2015**, through Farook's account ([see top of pg 11 or line 12 of pg 22](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)), as iCloud data on Apple's servers is *not* protected by the user's iPhone passcode. The FBI stated that Farook [changed his iCloud password & disabled the iCloud automatic-backup feature on **October 22nd**](https://camo.githubusercontent.com/f2fab381d1018fa00730b1e960a6140ac74228a0/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f43644f5463515456414141615043502e6a7067); [Jonathan Ździarski](http://www.zdziarski.com/blog/?page_id=202) (iOS digital forensics expert) [argued it was unlikely to be intentional since the *Find-My-iPhone* feature was still enabled](http://www.zdziarski.com/blog/?p=5655), among other factors. 
++ Through accessing Farook's account, the last date the FBI had been able to obtain in the iCloud backup data was **October 19th 2015** ([see top of pg 11 or line 12 of pg 22](https://web.archive.org/web/20160220002724/http://www.politico.com/f/?id=00000152-fae6-d7cd-af53-fafe53bb0002)), as iCloud data on Apple's servers is *not* protected by the user's iPhone passcode. The FBI stated that Farook [changed his iCloud password & disabled the iCloud automatic-backup feature on **October 22nd**](https://camo.githubusercontent.com/f2fab381d1018fa00730b1e960a6140ac74228a0/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f43644f5463515456414141615043502e6a7067); [Jonathan Ździarski](http://www.zdziarski.com/blog/?page_id=202) (iOS digital forensics expert) [argued it was unlikely to be intentional since the *Find-My-iPhone* feature was still enabled](http://www.zdziarski.com/blog/?p=5655), among other factors. 
 
 ![iCloudbackup](https://pbs.twimg.com/media/CbfRFpiUkAA07La.png)
 
@@ -106,20 +106,21 @@ However [San Bernardino County argued](https://web.archive.org/web/2016022018083
 ![contracting Magnet Forensics](https://pbs.twimg.com/media/Ce5MbsgXEAQIO3J.jpg:large)
 ![contracting Novetta Inc.](https://pbs.twimg.com/media/Ce5Li04WsAAN2mJ.jpg:large)
 
+***
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
 
-The FBI is demanding Apple build a custom mobile iOS with two standard passcode security features disabled: the 10-try limit & escalating time delays ([see pg 2](https://web.archive.org/web/20160217152549/https://assets.documentcloud.org/documents/2714001/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf)).
+The FBI was demanding Apple build a custom mobile iOS with two standard passcode security features disabled: the 10-try limit & escalating time delays ([see pg 2](https://web.archive.org/web/20160217152549/https://assets.documentcloud.org/documents/2714001/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf)).
 
 > *Note: Court filings & articles refer to the custom mobile iOS by different names, most commonly 'GovtOS' & 'FBiOS'. For the purposes of consistency to avoid confusion, this overview will use 'FBiOS.'*
 
 ![compliance terms](https://pbs.twimg.com/media/CbYZuw7XEAAaziz.png)
 
-The 10-try limit wipes an iPhone's data after 10 attempts. The time-delays feature will wait 1 minute after four incorrect passcode entries before it accepts another attempt, subsequently increasing to 5 minutes, 15 minutes, and finally 1 hour. Bypassing these features will allow the FBI to perform a [brute-force attack](https://www.techopedia.com/definition/18091/brute-force-attack), where they can guess the passcode as many times & as fast as the iPhone firmware will allow, without destroying the data. Along with disabling these security features, the FBI also wants the custom iOS allow them to enter the 10,000 possible passcode combinations electronically instead of by hand (which would be incredibly slow comparatively). This would likely be done through [Device Firmware Upgrade (DFU) mode](https://web.archive.org/web/20160312000032/http://arstechnica.com/apple/2016/03/there-are-ways-the-fbi-can-crack-the-iphone-pin-without-apple-doing-it-for-them/), normally used for [restoration by installing a fresh iOS version when an iPhone fails to boot](https://www.theiphonewiki.com/wiki/DFU_Mode).
+The 10-try limit wipes an iPhone's data after 10 attempts. The time-delays feature will wait 1 minute after four incorrect passcode entries before it accepts another attempt, subsequently increasing to 5 minutes, 15 minutes, and finally 1 hour. Bypassing these features would have allowed the FBI to perform a [brute-force attack](https://www.techopedia.com/definition/18091/brute-force-attack), where they could guess the passcode as many times & as fast as the iPhone firmware will allow, without destroying the data. Along with disabling these security features, the FBI also wanted the custom iOS to allow them to enter the 10,000 possible passcode combinations electronically instead of by hand (which would have been incredibly slow comparatively). This would have likely been done through [Device Firmware Upgrade (DFU) mode](https://web.archive.org/web/20160312000032/http://arstechnica.com/apple/2016/03/there-are-ways-the-fbi-can-crack-the-iphone-pin-without-apple-doing-it-for-them/), normally used for [restoration by installing a fresh iOS version when an iPhone fails to boot](https://www.theiphonewiki.com/wiki/DFU_Mode).
 
-However, the FBI could technically build this custom iOS on their own (though it will take more time). The one thing they actually need is for Apple to sign FBiOS using their developer software key, because only software signed with this key will be accepted by SecureRom's signature checker (though jailbreakers have found bugs in the past which let them bypass this).
+However, the FBI could have technically built this custom iOS on their own (though it would take more time). The one thing they actually needed was for Apple to sign FBiOS using their developer software key, because only software signed with this key will be accepted by SecureRom's signature checker (though jailbreakers have found bugs in the past which let them bypass this).
 
-So the 'encryption' we are dealing with here is a matter of *authentication*.
+So the 'encryption' we were dealing with was a matter of *authentication*.
 
 #### 2) Why does this distinction matter?
 
@@ -130,27 +131,27 @@ This is something you know (eg. a password), something you have (eg. a card), or
 Authentication is also an element of cryptography, but distinct from privacy/ confidentiality 
 (see the [*Purpose* section of Gary C. Kessler's "**An Overview of Cryptography**"](http://www.garykessler.net/library/crypto.html#purpose)).
 
-The San Bernardino phone is said to be locked with a 4-digit [PIN](https://en.wikipedia.org/wiki/Personal_identification_number). PINs, unlike passwords (which can be [alphanumeric](https://en.wikipedia.org/wiki/Alphanumeric) & longer), are numeric and usually very short (4-6 numbers allowed on average). Even if you had a PIN and a password of the same length, it would probably take more time to break the password with brute-force.
+The San Bernardino phone was locked with a 4-digit [PIN](https://en.wikipedia.org/wiki/Personal_identification_number). PINs, unlike passwords (which can be [alphanumeric](https://en.wikipedia.org/wiki/Alphanumeric) & longer), are numeric and usually very short (4-6 numbers allowed on average). Even if you had a PIN and a password of the same length, it would probably take more time to break the password with brute-force.
 
-Therefore, if the FBI uses this FBiOS, authenticated by Apple's software key/ digital signature, it will be able to run on Farook's phone and the PIN will be broken within 24 hours.
+Therefore, if the FBI used FBiOS, authenticated by Apple's software key/ digital signature, it would have been able to run on Farook's phone and broken the PIN within 24 hours.
 
 The definition of a [**backdoor**](http://www.linfo.org/backdoor.html) is *something which bypasses normal authentication*. Or, more (perhaps too) broadly:
 
 > **backdoor:** A design fault, planned or accidental, that allows the apparent strength of the design to be easily avoided by those who know the trick -- *Newton's Telecom Dictionary: 28th Updated & Expanded Edition*
 
-What should be highlighted here is that Apple claims not to be able to, or at least not want to, access their customer's data. Apple customers have an expectation of **confidentiality** (the first information security principle) even from Apple itself. Apple claims it does not position itself as a party with access to encrypted communications on customer phones. If this is true, why is there a threat to encryption?
+What should be highlighted here is that Apple claimed not to be able to, or at least not want to, access their customer's data. Apple customers have an expectation of **confidentiality** (the first information security principle) even from Apple itself. Apple does not position itself as a party with access to encrypted communications on customer phones. If this is true, why is there a threat to encryption?
 
-If the FBI was compelling someone who *was* a party or key-holder to encrypted communications, *then* it would be more accurate to say that they are “breaking encryption” by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.
+If the FBI was compelling someone who *was* a party or key-holder to encrypted communications, *then* it would be more accurate to say that they were “breaking encryption” by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.
 
-The problem here is that the 'encryption' *is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they are being asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple is not being asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacks two security features. 
+The problem was that the 'encryption' *is already broken*. Quoting from what a "senior Apple executive" said to **Buzzfeed**, Apple's fear that they have been asked to "[create a sort of master key](https://web.archive.org/web/20160220223312/http://www.buzzfeed.com/johnpaczkowski/apple-terrorists-appleid-passcode-changed-in-government-cust?utm_term=.nvweoJwEO#.igPwBeOq6)" is misleading at best, because Apple was not asked to *create* a key but rather *use the master key they already possess* in conjunction with a custom iOS that lacked two security features. 
 
 > [Thus, in the sense that the word is being used in the media, the ‘backdoor’ already exists. The ‘key to all locks’ is Apple’s private signing key](https://medium.com/@liamkirsh/your-iphone-already-has-a-backdoor-33f43cceefdb#.p32cuvp5t). --*Liam Kirsh* [@choicefresh](https://twitter.com/choicefresh)
 
-**Firefox** founder [Blake Ross](https://twitter.com/blakeross) offered a very well-written & humorous take on [how security holes fail us, in both our digital & non-digital lives](https://medium.com/@blakeross/mr-fart-s-favorite-colors-3177a406c775#.wg0g6fcpu), and says this debate is about whether "a private company [should] be allowed to sell unbreakable security."
+**Firefox** founder [Blake Ross](https://twitter.com/blakeross) offered a very well-written & humorous take on [how security holes fail us, in both our digital & non-digital lives](https://medium.com/@blakeross/mr-fart-s-favorite-colors-3177a406c775#.wg0g6fcpu), and says this debate was about whether "a private company [should] be allowed to sell unbreakable security."
 
 > To be clear: Contrary to a lot of shoddy reporting, and some rather “generous” language from Apple, this is not the world we’re living in yet. The fact that Apple can break into your phone demonstrates that we’re still firmly in “Coke recipe” territory.
 
-[Leif Ryge](https://twitter.com/wiretapped) from **Ars Technica** explains why [being a single point of failure is the bigger issue *industry-wide*](https://web.archive.org/web/20160227165908/http://arstechnica.com/security/2016/02/most-software-already-has-a-golden-key-backdoor-its-called-auto-update/):
+[Leif Ryge](https://twitter.com/wiretapped) from **Ars Technica** explained why [being a single point of failure is the bigger issue *industry-wide*](https://web.archive.org/web/20160227165908/http://arstechnica.com/security/2016/02/most-software-already-has-a-golden-key-backdoor-its-called-auto-update/):
 
 > How did we get here? How did so many well-meaning people build so many fragile systems with so many obvious single points of failure?
 
@@ -174,7 +175,7 @@ Consider [this point](https://theintercept.com/2016/02/26/fbi-vs-apple-post-cryp
 
 > Think about it: The more we learn about the FBI’s demand that Apple help it hack into a password-protected iPhone, the more it looks like part of a concerted, long-term effort by the government to find new ways *around* unbreakable encryption — rather than try to break it. [*emphasis added*]
 
-The [**Electronic Frontier Foundation**](https://www.eff.org/about) has published a few pieces on this case and offers only passing criticism of Apple on this point, even though they include passages like this:
+The [**Electronic Frontier Foundation**](https://www.eff.org/about) published a few pieces on this case and offered only passing criticism of Apple on this point, even though they included passages like this:
 
 > **Would it be easy for Apple to sign the requested cracking software?** The answer any trained security engineer will give you is "it shouldn't be."
 
@@ -182,18 +183,18 @@ The [**Electronic Frontier Foundation**](https://www.eff.org/about) has publishe
 
 It shouldn't be easy, but it's still possible. Disabling security features in so many devices also shouldn't be easy, but it's possible and, considering Apple's response, a very real problem.
 
-Ray Dillinger frames the FBI's court order in a rather interesting way: [as a dramatic & unfriendly bug report](https://web.archive.org/web/20160224005522/http://www.metzdowd.com/pipermail/cryptography/2016-February/028269.html).
+Ray Dillinger framed the FBI's court order in a rather interesting way: [as a dramatic & unfriendly bug report](https://web.archive.org/web/20160224005522/http://www.metzdowd.com/pipermail/cryptography/2016-February/028269.html).
 
 ![FBI court order as a bug report](https://pbs.twimg.com/media/Cb6-D-eXIAAA1MW.png)
 
 Taking all of this into consideration:
-+ **Is Apple being asked to "create" a "backdoor"?** Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple *could use this capability at any time*, regardless of whether it's compelled or not. If you interpret 'normal' authentication to *not* include Apple's abilities and consider that 1) Apple disabling security features in their OS is an out-of-the-ordinary procedure for them & 2) though now weakly grounded, most Apple customers did have an expectation of confidentiality... then it could be argued that this is "creating a backdoor"; yes, I think that *whether or not this is a backdoor, a further distinction should be made on whether they are merely 'using' one or 'creating' one -- as such a fact is very important to Apple feeling enough pressure to increase iPhone security*. You can read Jonathan Ździarski's "[*Three-Prong Backdoor Test*](http://www.zdziarski.com/blog/?p=5785)" (see definition below), [EFF's thought-piece on the historical definition of backdoors](https://www.eff.org/deeplinks/2016/03/thinking-about-term-backdoor) or [another argument on this from the technical perspective by Brandon Edwards](https://medium.com/@drraid/it-s-a-backdoor-100-2460bf7f8010#.l5nwz4405) (note that I have not made my argument depend on it being limited to one device, which this article focuses on & disputes).
++ **Was Apple being asked to "create" a "backdoor"?** Unless you consider Apple creating a custom iOS, signed with their special software key, to be outside the bounds of 'normal' in terms of software authentication powers they *already* possessed, the answer is no. Remember that Apple *could use this capability at any time*, regardless of whether it's compelled or not. If you interpret 'normal' authentication to *not* include Apple's abilities and consider that 1) Apple disabling security features in their OS is an out-of-the-ordinary procedure for them & 2) though now weakly grounded, most Apple customers did have an expectation of confidentiality... then it could be argued that this was "creating a backdoor." I think that, *whether or not this was a backdoor, a further distinction should be made on whether they were going to be 'using' one or 'creating' one -- as such a fact is very important to Apple feeling enough pressure to increase iPhone security*. You can read Jonathan Ździarski's "[*Three-Prong Backdoor Test*](http://www.zdziarski.com/blog/?p=5785)" (see definition below), [EFF's thought-piece on the historical definition of backdoors](https://www.eff.org/deeplinks/2016/03/thinking-about-term-backdoor) or [another argument on this from the technical perspective by Brandon Edwards](https://medium.com/@drraid/it-s-a-backdoor-100-2460bf7f8010#.l5nwz4405) (note that I did not make my argument depend on it being limited to one device, which this article focused on & disputed).
 
 > A **backdoor** is a component of a security mechanism, in which the component is active on a computer system without consent of the computer’s owner, performs functions that subvert purposes disclosed to the computer’s owner, and is under the control of an undisclosed actor.
 
-+ **Is Apple being told to "break encryption"?** Again, this still depends on your interpretation of the previous question. The encryption system of the iOS 9 itself is not being broken; security features dealing with how authentication is proven are. [Brute-force attacks](https://www.techopedia.com/definition/18091/brute-force-attack) are a hack of security vulnerabilities, not an encryption backdoor.
++ **Was Apple being ordered to "break encryption"?** Again, this still depends on your interpretation of the previous question. The encryption system of the iOS 9 itself was not being broken; security features dealing with how authentication is proven were. [Brute-force attacks](https://www.techopedia.com/definition/18091/brute-force-attack) are a hack of security vulnerabilities, not an encryption backdoor.
 
-Therefore, it would be rather more accurate to say the FBI is demanding that Apple *take advantage of system security vulnerabilities which already exist.* 
+Therefore, it would be rather more accurate to say the FBI was demanding that Apple *take advantage of system security vulnerabilities which already existed.* 
 
 ## What are the technical & legal concerns involved?
 #### Technical Concerns
@@ -204,19 +205,17 @@ It is now known that Apple has the ability to backdoor their own products & coul
 
 Initially some security experts argued that this backdoor wouldn't work on iPhones newer than 5C 
 due to the **Secure Enclave** firmware, [a co-processor of many independently-functioning kernels within the A7 64-bit system chip which stores keys in supposedly tamper-resistant hardware & also uses secure boot to ensure that all software installed on the OS is signed by Apple](https://web.archive.org/web/20150124040556/http://www.macrumors.com/2014/02/26/touch-id-secure-enclave-document) 
-(remember authentication from earlier). On February 19th, a “senior Apple executive” told journalists at **Motherboard**, [**The Guardian**](https://twitter.com/dannyyadron/status/700830922585743360) and others that this is not true – the FBiOS "[would be effective on every type of iPhone currently being sold](https://web.archive.org/web/20160221092412/http://motherboard.vice.com/read/apple-the-exploit-the-fbi-is-asking-for-would-work-on-all-iphones)."
+(remember authentication from earlier). On February 19th, a “senior Apple executive” told journalists at **Motherboard**, [**The Guardian**](https://twitter.com/dannyyadron/status/700830922585743360) and others that this was not true – the FBiOS "[would be effective on every type of iPhone currently being sold](https://web.archive.org/web/20160221092412/http://motherboard.vice.com/read/apple-the-exploit-the-fbi-is-asking-for-would-work-on-all-iphones)."
 
 ![Motherboard, Secure Enclave](https://pbs.twimg.com/media/CbnuF7iVIAE0A76.jpg)
 
-Apple has now included this warning in an [FAQ for customers](https://web.archive.org/web/20160222150037/https://www.apple.com/customer-letter/answers/):
+Apple included this warning in an [FAQ for customers](https://web.archive.org/web/20160222150037/https://www.apple.com/customer-letter/answers/):
 
 > Law enforcement agents around the country have already said they have hundreds of iPhones they want Apple to unlock if the FBI wins this case. In the physical world, it would be the equivalent of a master key, capable of opening hundreds of millions of locks. Of course, Apple would do our best to protect that key, but in a world where all of our data is under constant threat, it would be relentlessly attacked by hackers and cybercriminals. As recent attacks on the IRS systems and countless other data breaches have shown, no one is immune to cyberattacks.
 
-"Hundreds of millions of locks." This would apply to most, if not all of their customer base.
+"Hundreds of millions of locks." This would have applied to most, if not all, of their customer base.
 
-This detail is very important, if true, because many tech journalists (including from **Ars Technica**) also speculated 
-that [FBiOS wouldn't even work on other 5C iPhones](https://web.archive.org/web/20160219203100/http://arstechnica.com/apple/2016/02/encryption-isnt-at-stake-the-fbi-knows-apple-already-has-the-desired-key/) because, since the FBI is allowing that the custom software 
-be tied specifically to the phone's unique identifier, it should be limited to this *one* device. 
+This detail is very important, if true, because many tech journalists (including from **Ars Technica**) also speculated that [FBiOS wouldn't even work on other 5C iPhones](https://web.archive.org/web/20160219203100/http://arstechnica.com/apple/2016/02/encryption-isnt-at-stake-the-fbi-knows-apple-already-has-the-desired-key/) because, since the FBI allowed that the custom software could have been tied specifically to the phone's unique identifier, it should be limited to this *one* device. 
 
 ![FBiOS working on older phones](https://pbs.twimg.com/media/Cbl8EghUkAA5vMr.jpg)
 
@@ -225,33 +224,33 @@ A description of the Unique Identifier (UID) can be found on page 59 of [Apple's
 > A 256-bit AES key that’s burned into each processor at manufacture. It cannot be read by firmware or software, and is used only by the processor’s hardware AES engine. To obtain the actual key, an attacker would have to mount a highly sophisticated and expensive physical attack against the processor’s silicon. The UID is not related to any other identifier on the device 
 including, but not limited to, the UDID.
 
-Because the UID is "baked into its hardware," **Ars Technica** editor [Peter Bright](https://web.archive.org/web/20160216072035/http://arstechnica.com/author/peter-bright/) says that this request makes the assumption that the UID can be extracted -- which appears to be a difficult process.
+Because the UID is "baked into its hardware," **Ars Technica** editor [Peter Bright](https://web.archive.org/web/20160216072035/http://arstechnica.com/author/peter-bright/) said that this request made the assumption that the UID could be extracted, which appears to be a difficult process.
 
-Difficulty of extraction aside, he does offer that it *might* be possible to swap identifiers to apply to other 5C phones. 
+Difficulty of extraction aside, he did offer that it *might* be possible to swap identifiers to apply to other 5C phones. 
 
 ![FBiOS tied to unique identifier](https://pbs.twimg.com/media/Cbl9ajvUcAAgJPV.jpg:large)
 
-Therefore, Apple may not only be admitting that Secure Enclave is not secure enough but that it is possible to swap identifiers in this custom OS. This probably has something to do with the fact that Apple could force an update to Secure Enclave without wiping the data.
+Therefore, Apple may not only have admitted that Secure Enclave is not secure enough but that it would be possible to swap identifiers in this custom OS. This probably had something to do with the fact that Apple could force an update to Secure Enclave without wiping the data.
 
-**EFF**'s [Joseph Bonneu](https://www.eff.org/about/staff/joseph-bonneau) says the following in relation to [whether Secure Enclave protects newer phones](https://www.eff.org/deeplinks/2016/02/technical-perspective-apple-iphone-case):
+**EFF**'s [Joseph Bonneu](https://www.eff.org/about/staff/joseph-bonneau) said the following in relation to [whether Secure Enclave protects newer phones](https://www.eff.org/deeplinks/2016/02/technical-perspective-apple-iphone-case):
 
 > (Older devices that lack the secure enclave also apply a similar delay, but apparently do so from within the operating system.) It's possible, though not completely clear from Apple's documentation, that a software update would be able to modify this behavior; if not, this would completely prevent Apple from enabling faster passcode guessing on newer devices.
 
 > There has been further speculation that the secure enclave could refuse to accept any software update (even one signed by Apple) unless unlocked by entering the passcode, or alternately, that a software update on a locked phone would erase all of the cryptographic keys, effectively making the phone's storage unreadable. Apple's security documentation makes no such guarantees, though, and there are indications that this isn't the case. So special cracking tools from Apple could potentially still modify the secure enclave's behavior to remove both the 10-guess limit and the delays between guesses.
 
-This means that, if leaked, *FBiOS could be used on any iPhone*.
+This means that, if leaked, *FBiOS could have been used on any iPhone*.
 
 ##### --- Could a secure password protect against FBiOS? --
 
-What has also not yet been confirmed by Apple is whether a strong password (not a PIN) remains a safeguard against this attack. Since it is only a brute-force attack, a long & complex password should work under normal circumstances 
-(taking months to many years to break). [Micah Lee](https://theintercept.com/staff/micah-lee/), a technologist at the **The Intercept**, [says it would](https://theintercept.com/2016/02/18/passcodes-that-can-defeat-fbi-ios-backdoor/):
+What was also not confirmed by Apple was whether a strong password (not a PIN) remains a safeguard against this attack. Against a brute-force attack, a long & complex password should work under normal circumstances 
+(taking months to many years to break). [Micah Lee](https://theintercept.com/staff/micah-lee/), a technologist at the **The Intercept**, [said it would](https://theintercept.com/2016/02/18/passcodes-that-can-defeat-fbi-ios-backdoor/):
 
 > It’s true that ordering Apple to develop the backdoor will fundamentally undermine iPhone security, as Cook and other digital security advocates have argued. But it’s possible for individual iPhone users to protect themselves from government snooping by setting strong passcodes on their phones — passcodes the FBI would not be able to unlock even if it gets its iPhone backdoor.
 
 > ...The short version: If you’re worried about governments trying to access your phone, set your iPhone up with a random, 11-digit numeric passcode.
 
 
-Note that he advises even an 11-digit *numeric* (numbers only) passcode would be sufficient, though alphanumeric (numbers, characters, and symbols) is stronger because it increases the amount of possible combinations. With a "truly random" 11-digit passcode, it would take *an average of 127 years* to crack on the iPhone with FBiOS (note: the following graphs are *maximum* time estimates, not averages).
+Note that he advises even an 11-digit *numeric* (numbers only) passcode would be sufficient, though alphanumeric (numbers, characters, and symbols) is stronger because it increases the amount of possible combinations. With a "truly random" 11-digit passcode, it would have taken *an average of 127 years* to crack even with FBiOS (note: the following graphs are *maximum* time estimates, not averages).
 
 ![passcode breaking time numeric](https://d262ilb51hltx0.cloudfront.net/max/800/1*QSjgF6fnfID7N-W9Ug4fcg.png)
 
@@ -262,7 +261,7 @@ Drawing from [page 12 of Apple's iOS Security White Paper (iOS 9.0 or later)](ht
 > The passcode is entangled with the device’s UID, so brute-force attempts must be performed on the device under attack. A large iteration count is used to make each attempt slower. The iteration count is calibrated so that one attempt takes approximately 80 milliseconds. This means it would take more than 5½ years to try all combinations of a six-character alphanumeric passcode with lowercase letters and numbers.
 
 
-However, these figures only apply if Secure Enclave or another aspect of the iPhone's security architecture isn't also being breached as well, such as the "Effaceable Storage" processor (contains the CPU, BootROM, RAM, crypto engines, Apple's public signing key, and the UID key). [Daniel Kahn Gillmor](https://www.aclu.org/bio/daniel-kahn-gillmor), technologist for the ACLU, [explains how you could bypass the auto-erase security feature on an iPhone 5C](https://web.archive.org/web/20160311005401/https://www.aclu.org/blog/free-future/one-fbis-major-claims-iphone-case-fraudulent), without destroying the data, by copying the flash memory of the file system key stored in this processor:
+However, these figures only apply if Secure Enclave or another aspect of the iPhone's security architecture wasn't also being breached as well, such as the "Effaceable Storage" processor (contains the CPU, BootROM, RAM, crypto engines, Apple's public signing key, and the UID key). [Daniel Kahn Gillmor](https://www.aclu.org/bio/daniel-kahn-gillmor), technologist for the ACLU, wrote a piece on [how you could bypass the auto-erase security feature on an iPhone 5C](https://web.archive.org/web/20160311005401/https://www.aclu.org/blog/free-future/one-fbis-major-claims-iphone-case-fraudulent), without destroying the data, by copying the flash memory of the file system key stored in this processor:
 
 > The FBI can simply remove this chip from the circuit board (“desolder” it), connect it to a device capable of reading and writing NAND flash, and copy all of its data. It can then replace the chip, and start testing passcodes. If it turns out that the auto-erase feature is on, and the Effaceable Storage gets erased, they can remove the chip, copy the original information back in, and replace it. If they plan to do this many times, they can attach a “test socket” to the circuit board that makes it easy and fast to do this kind of chip swapping.
 
@@ -270,7 +269,7 @@ However, these figures only apply if Secure Enclave or another aspect of the iPh
 
 > NAND flash storage is an extremely common component. It's found in USB thumb drives, mobile phones, portable music players, low-end laptops—pretty much every portable device. Desoldering a chip from the circuitboard is straightforward enough that there are many clips on YouTube showing the practice, and reading and writing a bare NAND chip requires a minor investment in hardware and training that the FBI has probably already made.
 
-**The Washington Post** is claiming an [unnamed] FBI official told them that "[the bureau was aware of this method early on and concluded that it wouldn’t work, for technical reasons](https://www.washingtonpost.com/world/national-security/the-fbi-is-testing-a-code-based-way-to-get-into-the-san-bernardino-iphone/2016/03/24/bc79cd14-f1dc-11e5-a61f-e9c95c06edca_story.html)." However, as [the government has classified both the third-party and the "new method" they brought forth](https://web.archive.org/web/20160326033741/http://www.theguardian.com/technology/2016/mar/22/apple-fbi-san-bernardino-iphone-method-for-cracking), this comment may have been made just to deflect attention. 
+**The Washington Post** claimed an anonymous FBI official told them that "[the bureau was aware of this method early on and concluded that it wouldn’t work, for technical reasons](https://www.washingtonpost.com/world/national-security/the-fbi-is-testing-a-code-based-way-to-get-into-the-san-bernardino-iphone/2016/03/24/bc79cd14-f1dc-11e5-a61f-e9c95c06edca_story.html)." However, as [the government has classified both the third-party and the "new method" they brought forth](https://web.archive.org/web/20160326033741/http://www.theguardian.com/technology/2016/mar/22/apple-fbi-san-bernardino-iphone-method-for-cracking), this comment may have been made just to deflect attention. 
 
 > If the government decides to regularly use its password-bypassing technique in criminal trials, it risks making the method public every time defense attorneys and courts ask questions about how it is accessing information on a locked device. 
 
@@ -302,21 +301,21 @@ To understand the legal history behind this case in terms of the US government o
 
 > The California case, in contrast, involves a device running iOS 9. The data that was previously accessible while a phone was locked ceased to be so as of the release of iOS 8, when Apple started securing it with encryption tied to the passcode, rather than the hardware ID of the device... So Apple is unable to extract any data including iMessages from the device because all of that data is encrypted.
 
-In short: extraction allows them to access *unencrypted* data on iOS 7 or older; because they have [implimented passcode-based encryption in iPhones running iOS 8 or iOS 9](https://web.archive.org/web/20160222150037/https://www.apple.com/customer-letter/answers/), this data is no longer accessible through extraction. Therefore this request is different compared to Apple's history of compliance, which the court orders have yet to acknowledge.
+In short: extraction allows them to access *unencrypted* data on iOS 7 or older; because they have [implimented passcode-based encryption in iPhones running iOS 8 or iOS 9](https://web.archive.org/web/20160222150037/https://www.apple.com/customer-letter/answers/), this data is no longer accessible through extraction. Therefore this request was different compared to Apple's history of compliance, which the government's arguments never acknowledged (in fact, they argued the opposite). [*Find citation for this claim*]
 
 
 ##### --- What are important factors in legal precedent(s) for the future? ---
 
-Regardless of whether this specific piece of custom software will be useable on other devices, Apple claims that they are already getting similar requests to do so now that it has been shown they have the capability. This would put them in a position where they either save FBiOS in the event of future cases, or safely destroy it & then be forced to spend more time/ resources recreating it in the future ([see pg 3](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)).
+Regardless of whether this specific piece of custom software would have been useable on other devices, Apple says that they were already getting similar requests to do so now that it has been shown they have the capability. This puts them in a position where they would either save FBiOS in the event of future cases, or safely destroy it & then be forced to spend more time/ resources recreating it in the future ([see pg 3](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)).
 
 > The government says:  “Just this once” and “Just this phone.”  But the government knows those statements are not true; indeed the government has filed multiple other applications for similar orders, some of which are pending in other courts. And as news of this Court’s order broke last week, state and local officials publicly declared their intent to use the proposed operating system to open hundreds of other seized devices—in cases having nothing to do with terrorism.
 
 > If this order is permitted to stand, it will only be a matter of days before some other prosecutor, in some other important case, before some other judge, seeks a similar order using this case as precedent.  Once the floodgates open, they cannot be closed, and the device security that Apple has worked so tirelessly to achieve will be unwound without so much as a congressional vote.
 
 
-I'm seeing over and over again the comment that the legal precedent(s) this case could set carries more risk than the technical risk posed by FBiOS. FBI Director James Comey has already [admitted that legal prescedent will be established with this case](http://www.c-span.org/video/?c4586153/comey-admits-iphone-backdoor-legal-precedent) and therefore it should not be cast aside as hypothetical hysteria. Since I am not a lawyer, I am not familiar with the specific statutes being considered,but here are some of the main points summarized:
+I saw over and over again the comment that the legal precedent(s) this case could have set carries more risk than the technical risk posed by FBiOS. FBI Director James Comey already [admitted that legal prescedent would be established with this case](http://www.c-span.org/video/?c4586153/comey-admits-iphone-backdoor-legal-precedent), as happens with all cases; therefore it should not have been cast aside as hypothetical hysteria. Since I am not a lawyer, I am not familiar with the specific statutes that were being considered, but here are some of the main points summarized:
 
-+ This court order would force Apple to code a custom iOS which deliberately takes advantage of security vulnerabilities in their authentication systems. If “code is speech," then speech (here in the form of code) can be compelled. While this would be a different form of compelled speech, [compelled speech is not at all new](http://itlaw.wikia.com/wiki/Compelled_speech). It is still an open question of who exactly at Apple can be compelled to do this, and [whether anyone will comply at all](https://web.archive.org/web/20160318151138/http://www.nytimes.com/2016/03/18/technology/apple-encryption-engineers-if-ordered-to-unlock-iphone-might-resist.html)...
++ This court order would have forced Apple to code a custom iOS which deliberately took advantage of security vulnerabilities in their authentication systems. If “code is speech," then speech (here in the form of code) can be compelled. While this was a different form of compelled speech, [compelled speech is not at all new](http://itlaw.wikia.com/wiki/Compelled_speech). It is still an open question of who exactly at Apple could have been compelled to do this, [whether anyone would have complied at all](https://web.archive.org/web/20160318151138/http://www.nytimes.com/2016/03/18/technology/apple-encryption-engineers-if-ordered-to-unlock-iphone-might-resist.html)...
 
 > Apple employees are already discussing what they will do if ordered to help law enforcement authorities. Some say they may balk at the work, while others may even quit their high-paying jobs rather than undermine the security of the software they have already created, according to more than a half-dozen current and former Apple employees. Among those interviewed were Apple engineers who are involved in the development of mobile products and security, as well as former security engineers and executives.
 
@@ -324,7 +323,7 @@ I'm seeing over and over again the comment that the legal precedent(s) this case
 
 > Apple said in court filings last month that it would take from six to 10 engineers up to a month to meet the government’s demands. However, because Apple is so compartmentalized, the challenge of building what the company described as “GovtOS” would be substantially complicated if key employees refused to do the work.
 
-...and whether prior precedent of "code is speech" applies, since the case of [*Bernstein vs. US Department of Justice*](https://www.eff.org/cases/bernstein-v-us-dept-justice) was about the *publication* of code (read [Park Higgins' EFF piece on "code is speech" related to 3-D printing](https://www.eff.org/deeplinks/2015/12/3-d-printing-case-code-speech-faces-new-challenges)). Before Apple had put forth a reply outlining how their defense would argue, at least one of [Apple's objections to the court order was projected to be on First Amendment grounds](https://web.archive.org/web/20160224033346/http://www.latimes.com/local/lanow/la-me-ln-apple-legal-argument-free-speech-20160223-story.html):
+...and whether prior precedent of "code is speech" applied, since the case of [*Bernstein vs. US Department of Justice*](https://www.eff.org/cases/bernstein-v-us-dept-justice) was about the *publication* of code (read [Park Higgins' EFF piece on "code is speech" related to 3-D printing](https://www.eff.org/deeplinks/2015/12/3-d-printing-case-code-speech-faces-new-challenges)). Before Apple had put forth a reply outlining how their defense would argue, at least one of [Apple's objections to the court order was projected to be on First Amendment grounds](https://web.archive.org/web/20160224033346/http://www.latimes.com/local/lanow/la-me-ln-apple-legal-argument-free-speech-20160223-story.html):
 
 > In Apple's fight to knock down a court order requiring it to help FBI agents unlock a killer’s iPhone, the tech giant plans to argue that the judge in the case has overreached in her use of an obscure law and infringed on the company’s 1st Amendment rights, an Apple attorney said Tuesday.
 
@@ -334,17 +333,17 @@ I'm seeing over and over again the comment that the legal precedent(s) this case
 
 > Boutrous said courts have recognized that the writing of computer code is a form of expressive activity -- speech that is protected by the 1st Amendment.
 
-This was confirmed in Apple's first motion against the FBI's court order on February 25th, in addition to objections on Fifth Amendment due process grounds ([see pgs 32 & 34 respectively](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)):
+This was confirmed in Apple's first motion against the FBI's court order on February 25th, in addition to objections on Fifth Amendment due-process grounds ([see pgs 32 & 34 respectively](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)):
 
 ![Apple arguing on First Amendment grounds](https://pbs.twimg.com/media/CcFn9TwXIAQRy11.png:large)
 
-However, Neil Richards, one of the law professors supporting Apple, says [furthering the precedent of "code is speech" may carry unwanted consequences](https://www.technologyreview.com/s/600916/apples-code-speech-mistake/):
+However, Neil Richards, one of the law professors supporting Apple, said [furthering the precedent of "code is speech" may carry unwanted consequences](https://www.technologyreview.com/s/600916/apples-code-speech-mistake/):
 
 > Where does this leave us, then, when we’re considering the regulation of code by the government? The right question to ask is whether the government’s regulation of a particular kind of code (just like regulations of spending, or speaking, or writing) threatens the values of free expression. Some regulations of code will undoubtedly implicate the First Amendment. Regulations of the expressive outputs of code, like the content of websites or video games, have already been recognized by the Supreme Court as justifying full First Amendment treatment. It’s also important to recognize that as we do more and more things with code, there will be more ways that the government can threaten dissent, art, self-government, and the pursuit of knowledge.
 
 > But on the other hand, and critically, there are many things that humans will do with code that will have nothing to do with the First Amendment (e.g., launching denial of service attacks and writing computer viruses). Code = Speech is a fallacy because it would needlessly treat writing the code for a malicious virus as equivalent to writing an editorial in the New York Times. Similarly, if companies use algorithms to discriminate on the basis of race or sex, wrapping those algorithms with the same constitutional protection we give to political novels would needlessly complicate civil rights law in the digital age.
 
-The Department of Justice has objected to Apple's First Amendment argument for the following reasons ([see pgs 32-34](https://web.archive.org/web/20160310233407/https://assets.documentcloud.org/documents/2755202/DOJ-Apple-20160310.pdf)):
+The Department of Justice objected to Apple's First Amendment argument for the following reasons ([see pgs 32-34](https://web.archive.org/web/20160310233407/https://assets.documentcloud.org/documents/2755202/DOJ-Apple-20160310.pdf)):
 
 > "...it does not involve a person being compelled to speak publicly, but a for-profit corporation being asked to modify commercial software that will be seen only by Apple." [pg 32 lines 13-15]
 
@@ -356,25 +355,21 @@ The Department of Justice has objected to Apple's First Amendment argument for t
 
 > "Apple will respond that if it modifies Farook’s iPhone to allow the government access to the phone, it “could be viewed as sending the message that [it] see[s] nothing wrong with [such access], when [it] do[es]... It is extremely unlikely that anyone could understand Apple to be expressing a message of hostility to 'data security and the privacy of citizens'..." [pg 34 lines 1-11]
  
-Addressing the argument that Apple's "speech" would not be protected due to lack of audience, Apple argues that the presence of an audience has never been a requirement for protected speech ([see footnotes on pg 23](https://web.archive.org/web/20160315222842/https://assets.documentcloud.org/documents/2762120/Reply-Brief-in-Support-of-Apple-s-Motion-to-Vacate.pdf)):
+Addressing the argument that Apple's "speech" would not be protected due to lack of audience, Apple argued that the presence of an audience has never been a requirement for protected speech ([see footnotes on pg 23](https://web.archive.org/web/20160315222842/https://assets.documentcloud.org/documents/2762120/Reply-Brief-in-Support-of-Apple-s-Motion-to-Vacate.pdf)):
 
 ![audience not necessary](https://pbs.twimg.com/media/CdoliafXEAAswZO.jpg:large)
 
-+ US Congressman Ted Lieu (D-Los Angeles County), one of the Congressmembers who recently put forth [a bill for the ENCRYPT ACT](https://web.archive.org/web/20160222041054/https://lieu.house.gov/media-center/press-releases/congressmembers-lieu-farenthold-delbene-and-bishop-introduce-encrypt-act) ([full text here](https://web.archive.org/web/20160222040842/https://lieu.house.gov/sites/lieu.house.gov/files/documents/LIEU_027_xml%20%28ENCRYPT%20Act%20of%202016%29.pdf)), issued [this statement regarding the Apple court order](https://web.archive.org/web/20160219182200/https://lieu.house.gov/media-center/press-releases/congressman-lieu-statement-apple-court-order) on February 17th:
++ US Congressman Ted Lieu (D-Los Angeles County), one of the Congressmembers who put forth [a bill for the ENCRYPT ACT](https://web.archive.org/web/20160222041054/https://lieu.house.gov/media-center/press-releases/congressmembers-lieu-farenthold-delbene-and-bishop-introduce-encrypt-act) ([full text here](https://web.archive.org/web/20160222040842/https://lieu.house.gov/sites/lieu.house.gov/files/documents/LIEU_027_xml%20%28ENCRYPT%20Act%20of%202016%29.pdf)), issued [this statement regarding the Apple court order](https://web.archive.org/web/20160219182200/https://lieu.house.gov/media-center/press-releases/congressman-lieu-statement-apple-court-order) on February 17th:
 
 > "This court order also begs the question: Where does this kind of coercion stop?  Can the government force Facebook to create software that provides analytic data on who is likely to be a criminal?  Can the government force Google to provide the names of all people who searched for the term ISIL?  Can the government force Amazon to write software that identifies who might be suspicious based on the books they ordered?"
 
 + If a telecommunications provider *can* be compelled to take advantage of a security flaw 
 undermining encryption for its customers, then they *will* be compelled. This will put pressure on other businesses 
-to either comply or build their products so that they are not a centralized authority of proprietary software. Security technologist [Bruce Schneier](https://www.schneier.com/blog/about/) says the precent may motivate the government to [limit what sorts of security features tech companies can offer customers](https://www.washingtonpost.com/posteverything/wp/2016/02/18/why-you-should-side-with-apple-not-the-fbi-in-the-san-bernardino-iphone-case/) in order to maintain the ability to compel them. Though Apple has not released public plans to do so, [the "senior executives" have indicated they want to increase encryption implimentation in their products](https://web.archive.org/web/20160221193833/http://www.nytimes.com/2016/02/22/technology/apple-still-holds-the-keys-to-its-cloud-service-but-reluctantly.html):
+to either comply or build their products so that they are not a centralized authority of proprietary software. Security technologist [Bruce Schneier](https://www.schneier.com/blog/about/) warned the precedent may motivate the government to [limit what sorts of security features tech companies can offer customers](https://www.washingtonpost.com/posteverything/wp/2016/02/18/why-you-should-side-with-apple-not-the-fbi-in-the-san-bernardino-iphone-case/) in order to maintain the ability to compel them. Though Apple has not released public plans to do so, [the "senior executives" have indicated they want to increase encryption implimentation in their products](https://web.archive.org/web/20160221193833/http://www.nytimes.com/2016/02/22/technology/apple-still-holds-the-keys-to-its-cloud-service-but-reluctantly.html):
 
 ![Apple might pursue iCloud encryption](https://pbs.twimg.com/media/CbyM7l1WAAAr5bb.png)
 
-+ Other countries pay attention to the US on surveillance policy. Though Apple has not said they hold this fear, 
-lawyers and security experts say this presents a threat to foreign customers & tech businesses as well.
-If the U.S. government can compel Apple to take advantage of a security vulnerability, why not others?
-A recent example they cite is where FBI Director James Comey called for encryption backdoors 
-& the Chinese government introduced new counter-terrorism laws a few weeks later.
++ Other countries pay attention to the US on surveillance policy. Though Apple has not said they hold this fear, lawyers and security experts say this would create a threat to foreign customers & tech businesses as well. If the U.S. government can compel Apple to take advantage of a security vulnerability, why can't others? A recent example they cite is where FBI Director James Comey called for encryption backdoors & the Chinese government introduced new counter-terrorism laws a few weeks later.
 
 From [*Reuters*](http://www.reuters.com/article/us-usa-obama-china-idUSKBN0LY2H520150302) ("Obama Sharply Criticizes China's Plans for New Technology Rules"):
 
@@ -393,11 +388,11 @@ Sounds oddly familiar, doesn't it?
 
 + The use of the **All Writs Act** is not uncommon in surveillance cases -- in fact, the ACLU [mapped 63 different cases of law enforcement using it to compel tech companies into helping them access customer data](https://web.archive.org/web/20160331173820/https://www.aclu.org/blog/speak-freely/map-shows-how-apple-fbi-fight-was-about-much-more-one-phone). Jonathan Mayer's "[*Assistance for Current Surveillance: The All Writs Act*"](https://youtu.be/PoNJvmB16bQ) explains the legality of its use. However its legitimacy in retrospective surveillance is being challenged. In response to President Obama's request for "moderation" in this debate, [Susan Crawford](https://twitter.com/scrawford), professor of law & public policy, explains how [**CALEA** (Communications Assistance for Law Enforcement Act)](https://t.co/j5bKCtuxhZ) will [limit the FBI's legitimacy in compelling Apple](https://backchannel.com/the-law-is-clear-the-fbi-cannot-make-apple-rewrite-its-os-9ae60c3bbc7b#.4g9f1z23l):
 
-> The problem for the president is that when it comes to the specific battle going on right now between Apple and the FBI, the law is clear: twenty years ago, Congress passed a statute, the Communications Assistance for Law Enforcement Act (CALEA) that does not allow the government to tell manufacturers how to design or configure a phone or software used by that phone — including security software used by that phone.
+> The problem for the president is that when it comes to the specific battle going on right now between Apple and the FBI, the law is clear: twenty years ago, Congress passed a statute, the Communications Assistance for Law Enforcement Act (CALEA) that does not allow the government to tell manufacturers how to design or configure a phone or software used by that phone — including security software used by that phone.
 
 > CALEA was the subject of intense negotiation — a deal, in other words. The government won an extensive, specific list of wiretapping assistance requirements in connection with digital communications. But in exchange, in Section 1002 of that act, the Feds gave up authority to “require any specific design of equipment, facilities, services, features or system configurations” from any phone manufacturer. The government can’t require companies that build phones to come to it for clearance in advance of launching a new device. Nor can the authorities ask a manufacturer to design something new — like a back door — once that device is out.
 
-Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern District of New York, also disputed the use of AWA as to whether Apple could be considered 'close' to the crime ([see pgs 1, 29 31-32, & 40 respectively](https://web.archive.org/web/20160229224454/https://epic.org/amicus/crypto/apple/Orenstein-Order-Apple-iPhone-02292016.pdf)):
+Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern District of New York, also disputed the use of AWA in regards to whether Apple could be considered 'close' to the crime ([see pgs 1, 29 31-32, & 40 respectively](https://web.archive.org/web/20160229224454/https://epic.org/amicus/crypto/apple/Orenstein-Order-Apple-iPhone-02292016.pdf)):
 
 > "For the reasons set forth below, I conclude thatunder the circumstances of this case,the government has failed to establish either that the AWApermits the relief it seeks or that, even if such an order is authorized, the discretionary factors I must consider weigh in favor ofgranting the motion."
 
@@ -407,7 +402,7 @@ Judge James Orenstein, in another Apple iPhone-unlocking case from the Eastern D
 
 ![All Writs Act Apple public relations](https://pbs.twimg.com/media/Cca0YfiUkAA85oD.jpg:large)
 
-+ It is highly unlikely that the FBI does not have alternative means to access the phone or its data in conjunction with the National Security Agency (NSA), as they have a history of mutual cooperation. Legally, alternative means would impact the legitimacy of using the All Writs Act, as **EFF** explains: "[This point is potentially relevant legally, as cases interpreting the All Writs Act require '*an absence of alternative remedies*.' However, we lack firm evidence that the FBI has such a capability. Apple also probably doesn't want to argue that its phone is insecure so the authorities should just break into it some other way](https://www.eff.org/deeplinks/2016/02/technical-perspective-apple-iphone-case)." Now that they have requested to [postpone the trial](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#the-trial) despite their prior repeated assertions that unlocking the iPhone was only possible with Apple's assistance, many are wondering whether the FBI had prior knowledge of this capability and may only be changing course for strategic legal reasons, such as promoting the 'national security vs. encryption' false dichotomy so that public pressure will make it easier to compel companies under similar circumstances in the future. 
++ It was highly unlikely that the FBI did not have alternative means to access the phone or its data in conjunction with the National Security Agency (NSA) or private data forensics companies, as they have a history of mutual cooperation. Legally, alternative means would have impacted the legitimacy of using the All Writs Act, as **EFF** explained: "[This point is potentially relevant legally, as cases interpreting the All Writs Act require '*an absence of alternative remedies*.' However, we lack firm evidence that the FBI has such a capability. Apple also probably doesn't want to argue that its phone is insecure so the authorities should just break into it some other way](https://www.eff.org/deeplinks/2016/02/technical-perspective-apple-iphone-case)." Now that they have cancelled the trial, despite their prior repeated assertions that unlocking the iPhone was only possible with Apple's assistance, many are wondering whether the FBI had prior knowledge of this capability and/or only changed course for strategic reasons, such as realizing their arguments were weak. This case was valuable in promoting the 'national security vs. encryption' false dichotomy so that public pressure may make it easier to compel companies under similar circumstances in the future. 
 
 ***
 ##### Mirror Links:
