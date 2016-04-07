@@ -430,7 +430,7 @@ From [**C|Net**](https://web.archive.org/web/20160407033429/http://www.cnet.com/
 
 > The **National Journal** said both Feinstein and Burr believe Apple shouldn't be given information on how the FBI broke into the phone, which is an obvious stance given the bill they're planning to introduce as soon as this week. 
 
-Feinstein, during a **Face The Nation** broadcast following the 2015 Brussels terror attack, called encryption "[the Achilles' heel in the internet](https://web.archive.org/web/20151126142114/http://www.cbsnews.com/news/face-the-nation-transcripts-november-22-feinstein-mccaul-mcgurk-paul/)." From [**Softpedia**](https://web.archive.org/web/20160407230025/http://news.softpedia.com/news/fbi-discloses-method-to-hack-iphones-to-us-senators-502676.shtml):
+Feinstein, among a chorus of many politicians, called encryption "[the Achilles' heel in the internet](https://web.archive.org/web/20151126142114/http://www.cbsnews.com/news/face-the-nation-transcripts-november-22-feinstein-mccaul-mcgurk-paul/)" during a **Face The Nation** broadcast following the 2015 Brussels terror attack -- despite no evidence to suggest encryption played any role in the operation. From [**Softpedia**](https://web.archive.org/web/20160407230025/http://news.softpedia.com/news/fbi-discloses-method-to-hack-iphones-to-us-senators-502676.shtml):
 
 > In case you’re wondering how come Feinstein is getting access to such information, she is the vice chairman of the Senate Select Committee on Intelligence and one of the senators who backed regulations that would force phone manufacturers to install backdoors for government access on devices sold in the United States.
 
