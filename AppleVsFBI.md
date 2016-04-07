@@ -426,13 +426,19 @@ The **Electronic Frontier Foundation** has [challenged the government]() on its 
 
 > According to [a new report in **National Journal**](https://www.nationaljournal.com/s/622104), the FBI has already briefed [Senator Diane Feinstein (D-CA)](https://web.archive.org/web/20160324090115/http://www.feinstein.senate.gov/public/index.cfm/biography) on the methods used to break into the iPhone at the center of Apple's recent legal fight. [Senator Richard Burr (R-NC)](https://web.archive.org/web/20160328020654/http://www.burr.senate.gov/about/biography) is also scheduled to be briefed on the topic in the days to come. Feinstein and Burr are both working on a new bill to limit the use of encryption in consumer technology, expected to be made public in the weeks to come.
 
-From [**Softpedia**](https://web.archive.org/web/20160407230025/http://news.softpedia.com/news/fbi-discloses-method-to-hack-iphones-to-us-senators-502676.shtml):
+From [**C|Net**](https://web.archive.org/web/20160407033429/http://www.cnet.com/news/fbi-spills-iphone-hacking-secret-to-senators/):
+
+> The **National Journal** said both Feinstein and Burr believe Apple shouldn't be given information on how the FBI broke into the phone, which is an obvious stance given the bill they're planning to introduce as soon as this week. 
+
+Feinstein, during a **Face The Nation** broadcast following the 2015 Brussels terror attack, called encryption "[the Achilles' heel in the internet](https://web.archive.org/web/20151126142114/http://www.cbsnews.com/news/face-the-nation-transcripts-november-22-feinstein-mccaul-mcgurk-paul/)." From [**Softpedia**](https://web.archive.org/web/20160407230025/http://news.softpedia.com/news/fbi-discloses-method-to-hack-iphones-to-us-senators-502676.shtml):
 
 > In case you’re wondering how come Feinstein is getting access to such information, she is the vice chairman of the Senate Select Committee on Intelligence and one of the senators who backed regulations that would force phone manufacturers to install backdoors for government access on devices sold in the United States.
 
 > In addition to Feinstein, Senator Richard Burr also got access to similar information. He’s also one of the backers of pro-backdoor bills and together with Feinstein, took FBI’s side in the case against Apple, emphasizing that the agency shouldn’t tell Cupertino how it unlocked the San Bernardino iPhone.
 
-> “I don't be­lieve the gov­ern­ment has any ob­lig­a­tion to Apple. No com­pany or individual is above the law, and I'm dismayed that any­one would refuse to help the government in a ma­jor terrorism investigation,” Feinstein was quoted as saying.
+> “I don't believe the government has any obligation to Apple. No company or individual is above the law, and I'm dismayed that anyone would refuse to help the government in a major terrorism investigation,” Feinstein was quoted as saying.
+
+> ... Apple hasn’t yet issued a response to news that US senators are being briefed about FBI’s hack, but an official statement is expected to be offered by a company executive sometimes soon.
 
 `I can't access National Journal content as a non-subscriber. Here are screenshots from those who could.`
 
