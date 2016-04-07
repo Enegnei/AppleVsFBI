@@ -426,7 +426,7 @@ The **Electronic Frontier Foundation** has [challenged the government]() on its 
 
 > According to [a new report in **National Journal**](https://www.nationaljournal.com/s/622104), the FBI has already briefed [Senator Diane Feinstein (D-CA)](https://web.archive.org/web/20160324090115/http://www.feinstein.senate.gov/public/index.cfm/biography) on the methods used to break into the iPhone at the center of Apple's recent legal fight. [Senator Richard Burr (R-NC)](https://web.archive.org/web/20160328020654/http://www.burr.senate.gov/about/biography) is also scheduled to be briefed on the topic in the days to come. Feinstein and Burr are both working on a new bill to limit the use of encryption in consumer technology, expected to be made public in the weeks to come.
 
-`I can't access Jational Journal content as a non-subscriber. Here are screenshots from those who could.`
+`I can't access National Journal content as a non-subscriber. Here are screenshots from those who could.`
 
 ![FBI informs Congres 1](https://pbs.twimg.com/media/CfZKZRtWQAEgdj_.jpg)
 ![FBI informs Congress 2](https://pbs.twimg.com/media/CfYk1SvWQAIUJ7B.jpg)
