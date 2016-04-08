@@ -442,6 +442,8 @@ From [**Softpedia**](https://web.archive.org/web/20160407230025/http://news.soft
 
 > ... Apple hasn’t yet issued a response to news that US senators are being briefed about FBI’s hack, but an official statement is expected to be offered by a company executive sometimes soon.
 
+[Matt Blaze](https://archive.is/MKpjs), computer scientist director for [The Distributed Systems Laboratory](https://web.archive.org/web/20160114041419/http://www.cis.upenn.edu/~dsl/) at the University of Pennsylvania (featured in [John Oliver's **Last Week Tonight** episode](https://youtu.be/zsjZ2r9Ygzw?t=12m7s) on the #AppleVsFBI case), and [Matthew Green](https://archive.is/IGtBd), cryptographer and professor at [Johns Hopkins University](https://web.archive.org/web/20160310071440/http://spar.isi.jhu.edu/~mgreen/), have both come out strongly against the bill along with a majority of security experts.
+
 `I can't access National Journal content as a non-subscriber. Here are screenshots from those who could.`
 
 ![FBI informs Congres 1](https://pbs.twimg.com/media/CfZKZRtWQAEgdj_.jpg)
