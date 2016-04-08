@@ -12,6 +12,8 @@ An overview of the important facts in the Apple vs. FBI case, including the main
 
 *This is an experiment in open-source, decentralized citizen journalism using [Git software](https://git-scm.com/), archive databases aka "wayback machines" ([the Internet Archive](https://archive.org/about/), [Archive.is](https://archive.is/)) & [the InterPlanetary File System (IPFS)](https://github.com/ipfs/ipfs). All information is pulled from, and compared against, multiple sources. Information which is unsourced should not be taken as fact but as conjecture or opinion from the writer(s), though evidence to support it may be found later & will be included as soon as possible. Please notify the writer(s) if you notice inaccuracies. Statements from government officials or corporate executives in particular should always be evaluated critically, with the consideration that they are parties in a legal case which carries serious implications not only to themselves but to the public who (for the most part) is the intended audience, whether as citizen subjects or as customers.*
 
+**Update:** I have not yet published a working IPFS hash for this story, though [one was briefly available before as part of a test](https://youtu.be/T5RxVko1LDk). The issue of needing to frequently update the overview will be much less of a hassle once I've figured out [IPNS](http://blog.neocities.org/its-time-for-the-permanent-web.html).
+
 *I welcome & encourage you to contribute to this project by pull-requesting, copying, or forking this repository* [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 `If you would like to become a contributor to this repository, please contact`: [@J9Roem](https://keybase.io/j9roem).
