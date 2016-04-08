@@ -422,6 +422,18 @@ Other companies contracted during the pre-trial period for similar products and 
 ![contracting Magnet Forensics](https://pbs.twimg.com/media/Ce5MbsgXEAQIO3J.jpg:large)
 ![contracting Novetta Inc.](https://pbs.twimg.com/media/Ce5Li04WsAAN2mJ.jpg:large)
 
+Besides the NAND mirroring technique, another method possibily being used by the FBI is the "IP Box" tool, which "[latches onto a susceptible iPhone's power circuitry and enters PINs over USB](https://web.archive.org/web/20160408201333/http://appleinsider.com/articles/16/04/08/apple-says-it-wont-sue-fbi-to-find-out-how-san-bernardino-iphone-5c-was-hacked)."
+
+> The so-called "IP Box" tested by security consultancy MDSec works by entering a PIN over USB, then immediately cutting power to the iOS device before the attempt is recorded. This has the effect of eliminating the 10-try limit, at the expense of significant time lost to iOS device reboots.
+
+> MDSec places the time per attempt at nearly 40 seconds. While this long interval may seem likely to discourage brute force attempts in all but a few scenarios, research suggests that more than 25 percent of the population use one of 20 similar PINs, potentially cutting the mean time to crack a PIN down to minutes.
+
+> Additionally, such tools are readily available over the internet, with some models costing as little as $175.
+
+> As the firm notes, this appears to be an automated method to exploit a flaw described last November in CVE-2014-4451. Apple patched that bug in iOS 8.1.1, but older iOS versions remain vulnerable.
+
+So unless the FBI's third-party helper found a new vulnerability in the software, this device wouldn't work on the San Bernardino iPhone.
+
 The **Electronic Frontier Foundation** has [challenged the government]() on its [policy for hiding vs. publicly disclosing security vulnerabilities in information technologies](https://web.archive.org/web/20160122155451/https://www.eff.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.eff.org%2Ffiles%2F2016%2F01%2F18%2F37-3_vep_2016.pdf) ('*Vulnerabilities Equities Process*' or VEP), so they may be required to disclose the method in the near future. The FBI has started to [inform members of Congress about the method used](https://web.archive.org/web/20160407041534/http://www.theverge.com/2016/4/6/11380204/fbi-iphone-attack-san-bernardino-secret), beginning with [Diane Feinstein](https://archive.is/RhFH8) & [Richard Burr](https://archive.is/VcEj6):
 
 > According to [a new report in **National Journal**](https://www.nationaljournal.com/s/622104), the FBI has already briefed [Senator Diane Feinstein (D-CA)](https://web.archive.org/web/20160324090115/http://www.feinstein.senate.gov/public/index.cfm/biography) on the methods used to break into the iPhone at the center of Apple's recent legal fight. [Senator Richard Burr (R-NC)](https://web.archive.org/web/20160328020654/http://www.burr.senate.gov/about/biography) is also scheduled to be briefed on the topic in the days to come. Feinstein and Burr are both working on a new bill to limit the use of encryption in consumer technology, expected to be made public in the weeks to come.
