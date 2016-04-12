@@ -476,6 +476,10 @@ The majority of security experts have already come out against the bill. [Matt B
 
 > A White House spokesman declined to comment on the pending legislation, but referred to White House press secretary Josh Earnest's statements on encryption legislation. Last month Earnest said the administration is "skeptical" of lawmakers' ability to resolve the encryption debate given their difficulty in tackling "simple things."
 
+On the morning of April 13th, the senators are holding a staff briefing on "[barriers to law enforcement’s ability to lawfully access the electronic evidence they need to identify suspects, solve crimes, exonerate the innocent and protect communities from further crime.](https://web.archive.org/web/20160412103920/https://www.techdirt.com/articles/20160411/13460534154/burr-feinstein-plan-one-sided-briefing-law-enforcement-to-bitch-about-going-dark.shtml)" The goal is most likely to gain support for their bill, and it was immediately noticed that not one person on the panel list is referred to as a technologist.
+
+![panel list for briefing](https://pbs.twimg.com/media/CfyhC4LXIAQzMNH.jpg)
+
 `I can't access National Journal content as a non-subscriber. Here are screenshots from those who could.`
 
 ![FBI informs Congres 1](https://pbs.twimg.com/media/CfZKZRtWQAEgdj_.jpg)
