@@ -1,5 +1,5 @@
 # #AppleVsFBI
-An overview of the important facts in the Apple vs. FBI case, including the main technical &amp; legal concerns
+An overview of the important facts in the Apple vs. FBI case, including post-case technical &amp; legal concerns
 
 ***
 #### A: [What important events led to this case?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#what-important-events-led-to-this-case)
