@@ -450,6 +450,10 @@ Feinstein, among a chorus of many politicians, called encryption "[the Achilles'
 
 ![Senator Wyden responds to bill](https://pbs.twimg.com/media/CfifeBAWwAAq1Ho.jpg)
 
+Senator Wyden has already [announced](https://archive.is/5Z85x) his intention to [oppose the bill](https://web.archive.org/web/20160414203444/https://twitter.com/RonWyden/status/720343774099017728) in committee and filibuster it on the Senate floor if necessary.
+
+![Senator Wyden responds to bill 2](https://pbs.twimg.com/media/Cf8sycmVIAEtRh_.png:large)
+
 Interestingly, the term "backdoor" is not used even once in the document, even though that is exactly what would need to be implemented while at the same time trying to maintain any semblance of cybersecurity. The extent of those backdoors is potentially broad, to even [involve deleted or destroyed data](https://archive.is/PSJTo).
 
 ![Bill would affect deleted data & shredders](https://pbs.twimg.com/media/CfiGJFlUIAEtysk.jpg)
