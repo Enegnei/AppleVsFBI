@@ -450,7 +450,7 @@ Feinstein, among a chorus of many politicians, called encryption "[the Achilles'
 
 ![Senator Wyden responds to bill](https://pbs.twimg.com/media/CfifeBAWwAAq1Ho.jpg)
 
-Senator Wyden [announced](https://archive.is/5Z85x) his intention to [oppose the bill](https://web.archive.org/web/20160414203444/https://twitter.com/RonWyden/status/720343774099017728) in committee and filibuster it on the Senate floor if necessary.
+[Senator](https://archive.is/jefG6) [Wyden](https://archive.is/2QoAm) [announced](https://archive.is/5Z85x) his intention to [oppose the bill](https://web.archive.org/web/20160414203444/https://twitter.com/RonWyden/status/720343774099017728) in committee and filibuster it on the Senate floor if necessary.
 
 ![Senator Wyden responds to bill 2](https://pbs.twimg.com/media/Cf8sycmVIAEtRh_.png:large)
 
