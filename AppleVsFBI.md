@@ -422,6 +422,8 @@ Two anonymous law enforcement officials, "speaking on condition of anonymity, [t
 
 > ["The people we bought this from, I know a fair amount about them, and I have a high degree of confidence that they are very good at protecting it, and their motivations align with ours," he said.](https://web.archive.org/web/20160414214213/http://www.wdsu.com/money/fbi-director-we-bought-a-tool-to-hack-terrorists-iphone/38907756)
 
+It would also bring up the question of why the "one-time fee" contract with the independent professional hacker was not made public through the [**Federal Procurement Data System** (FPDS)](https://www.fpds.gov/fpdsng_cms/index.php/en/) like the others.
+
 Other companies contracted during the pre-trial period for similar products and services include [**Black Bag Technologies**](https://archive.is/2LaUX) ([purchase orders](https://web.archive.org/web/20160401170105/https://www.fpds.gov/ezsearch/fpdsportal?s=FPDSNG.COM&indexName=awardfull&templateName=PDF&q=Black+Bag+Technologies+CONTRACTING_AGENCY_NAME%3A%22FEDERAL+BUREAU+OF+INVESTIGATION%22+2016&renderer=jsp&length=4) [from 2016](https://web.archive.org/web/20160401164038/https://www.fpds.gov/ezsearch/fpdsportal?indexName=awardfull&templateName=1.4.4&s=FPDSNG.COM&q=Black+Bag+Technologies+CONTRACTING_AGENCY_NAME%3A%22FEDERAL+BUREAU+OF+INVESTIGATION%22+2016&x=0&y=0)), [**Magnet Forensics**](https://web.archive.org/web/20160322112023/https://www.magnetforensics.com/mobile-forensics/) ([purchase orders](https://web.archive.org/web/20160401170343/https://www.fpds.gov/ezsearch/fpdsportal?s=FPDSNG.COM&indexName=awardfull&templateName=PDF&q=Magnet+Forensics+CONTRACTING_AGENCY_NAME%3A%22FEDERAL+BUREAU+OF+INVESTIGATION%22+2016+&renderer=jsp&length=4) [from 2016](https://web.archive.org/web/20160401163950/https://www.fpds.gov/ezsearch/fpdsportal?indexName=awardfull&templateName=1.4.4&s=FPDSNG.COM&q=Magnet+Forensics+CONTRACTING_AGENCY_NAME%3A%22FEDERAL+BUREAU+OF+INVESTIGATION%22+2016+&x=0&y=0)) and technical support from [**Novetta**](https://archive.is/JeDGq) ([purchase orders](https://web.archive.org/web/20160401175152/https://www.fpds.gov/ezsearch/fpdsportal?s=FPDSNG.COM&indexName=awardfull&templateName=PDF&q=Novetta+CONTRACTING_AGENCY_NAME%3A%22FEDERAL+BUREAU+OF+INVESTIGATION%22+2016+&renderer=jsp&length=4) [from 2016](https://web.archive.org/web/20160401175050/https://www.fpds.gov/ezsearch/fpdsportal?indexName=awardfull&templateName=1.4.4&s=FPDSNG.COM&q=Novetta+CONTRACTING_AGENCY_NAME%3A%22FEDERAL+BUREAU+OF+INVESTIGATION%22+2016+&x=13&y=10)).
 
 ![contracting Black Bag Tech](https://pbs.twimg.com/media/Ce5IUWuXEAAm-98.jpg:large)
@@ -440,21 +442,20 @@ Besides the NAND mirroring technique, another method possibily being used by the
 
 So unless the FBI's third-party helper found a new vulnerability in the software, this device wouldn't work on the San Bernardino iPhone.
 
-The **Electronic Frontier Foundation** has [challenged the government]() on its [policy for hiding vs. publicly disclosing security vulnerabilities in information technologies](https://web.archive.org/web/20160122155451/https://www.eff.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.eff.org%2Ffiles%2F2016%2F01%2F18%2F37-3_vep_2016.pdf) ('*Vulnerabilities Equities Process*' or VEP), so they may be required to disclose the method in the near future. The FBI has started to [inform members of Congress about the method used](https://web.archive.org/web/20160407041534/http://www.theverge.com/2016/4/6/11380204/fbi-iphone-attack-san-bernardino-secret), beginning with [Dianne Feinstein](https://archive.is/RhFH8) & [Richard Burr](https://archive.is/VcEj6):
+The **Electronic Frontier Foundation** has [challenged the government](https://web.archive.org/web/20160329003018/https://www.eff.org/deeplinks/2016/03/fbi-breaks-iphone-and-we-have-some-questions) on its [policy for hiding vs. publicly disclosing security vulnerabilities in information technologies](https://web.archive.org/web/20160122155451/https://www.eff.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.eff.org%2Ffiles%2F2016%2F01%2F18%2F37-3_vep_2016.pdf) ('*Vulnerabilities Equities Process*' or VEP), so they may be required to disclose the method in the near future. The FBI has started to [inform members of Congress about the method used](https://web.archive.org/web/20160407041534/http://www.theverge.com/2016/4/6/11380204/fbi-iphone-attack-san-bernardino-secret), beginning with [Dianne Feinstein](https://archive.is/RhFH8) & [Richard Burr](https://archive.is/VcEj6):
 
 > According to [a new report in **National Journal**](https://www.nationaljournal.com/s/622104), the FBI has already briefed [Senator Dianne Feinstein (D-CA)](https://web.archive.org/web/20160324090115/http://www.feinstein.senate.gov/public/index.cfm/biography) on the methods used to break into the iPhone at the center of Apple's recent legal fight. [Senator Richard Burr (R-NC)](https://web.archive.org/web/20160328020654/http://www.burr.senate.gov/about/biography) is also scheduled to be briefed on the topic in the days to come. Feinstein and Burr are both working on a new bill to limit the use of encryption in consumer technology, expected to be made public in the weeks to come.
+
+`I can't access National Journal content as a non-subscriber. Here are screenshots from those who could.`
+
+![FBI informs Congres 1](https://pbs.twimg.com/media/CfZKZRtWQAEgdj_.jpg)
+![FBI informs Congress 2](https://pbs.twimg.com/media/CfYk1SvWQAIUJ7B.jpg)
 
 From [**C|Net**](https://web.archive.org/web/20160407033429/http://www.cnet.com/news/fbi-spills-iphone-hacking-secret-to-senators/):
 
 > The **National Journal** said both Feinstein and Burr believe Apple shouldn't be given information on how the FBI broke into the phone, which is an obvious stance given the bill they're planning to introduce as soon as this week. 
 
-Feinstein, among a chorus of many politicians, called encryption "[the Achilles' heel in the internet](https://web.archive.org/web/20151126142114/http://www.cbsnews.com/news/face-the-nation-transcripts-november-22-feinstein-mccaul-mcgurk-paul/)" during a **Face The Nation** broadcast following the 2015 Brussels terror attack -- despite no evidence to suggest encryption played any role in the operation. ("...[Encryption is arguably closer to Achilles' shield than his heel](https://web.archive.org/web/20160407081821/http://www.cnet.com/news/trump-not-the-first-politician-to-say-dumb-things-about-the-net/)"). Both Feinstein and Burr are drafting a bill, allegedly titled the "[**Compliance with Court Orders Act of 2016**](https://www.scribd.com/doc/307378123/Burr-Encryption-Bill-Discussion-Draft)" in a leaked draft, which would require all companies to be able to give the government any communications data in an unencrypted format, effectively banning them from offering any encryption software to users for which that service does not possess a decryption key, particularly end-to-end. **The Intercept** says the senators "[told reporters they were still working on the draft and couldn’t comment on the language of an unfinished version](https://archive.is/fyT9e)," not confirming but increasing the likelihood that it's an authentic draft.
-
-![Senator Wyden responds to bill](https://pbs.twimg.com/media/CfifeBAWwAAq1Ho.jpg)
-
-[Senator](https://archive.is/jefG6) [Wyden](https://archive.is/2QoAm) [announced](https://archive.is/5Z85x) his intention to [oppose the bill](https://web.archive.org/web/20160414203444/https://twitter.com/RonWyden/status/720343774099017728) in committee and filibuster it on the Senate floor if necessary.
-
-![Senator Wyden responds to bill 2](https://pbs.twimg.com/media/Cf8sycmVIAEtRh_.png:large)
+Feinstein, among a chorus of many politicians, called encryption "[the Achilles' heel in the internet](https://web.archive.org/web/20151126142114/http://www.cbsnews.com/news/face-the-nation-transcripts-november-22-feinstein-mccaul-mcgurk-paul/)" during a **Face The Nation** broadcast following the 2015 Brussels terror attack -- despite no evidence to suggest encryption played any role in the operation. ("...[Encryption is arguably closer to Achilles' shield than his heel](https://web.archive.org/web/20160407081821/http://www.cnet.com/news/trump-not-the-first-politician-to-say-dumb-things-about-the-net/)"). Through a staff leak it was revealed that both Feinstein and Burr are drafting a bill, titled the "[**Compliance with Court Orders Act of 2016**](https://www.scribd.com/doc/307378123/Burr-Encryption-Bill-Discussion-Draft)," which would require all companies to be able to give the government any communications data in an unencrypted format, effectively banning them from offering any encryption software to users for which that service does not possess a decryption key, particularly end-to-end. **The Intercept** says the senators "[told reporters they were still working on the draft and couldn’t comment on the language of an unfinished version](https://archive.is/fyT9e)." The draft was [officially released](https://web.archive.org/web/20160414221657/https://www.burr.senate.gov/imo/media/doc/BAG16460.pdf) on [April 13th](https://web.archive.org/web/20160414222731/https://www.burr.senate.gov/press/releases/intelligence-committee-leaders-release-discussion-draft-of-encryption-legislation-) and indirectly confirms that the leaked draft from April 7th was authentic.
 
 Interestingly, the term "backdoor" is not used even once in the document, even though that is exactly what would need to be implemented while at the same time trying to maintain any semblance of cybersecurity. The extent of those backdoors is potentially broad, to even [involve deleted or destroyed data](https://archive.is/PSJTo).
 
@@ -486,14 +487,14 @@ The majority of security experts have already come out against the bill. [Matt B
 
 > A White House spokesman declined to comment on the pending legislation, but referred to White House press secretary Josh Earnest's statements on encryption legislation. Last month Earnest said the administration is "skeptical" of lawmakers' ability to resolve the encryption debate given their difficulty in tackling "simple things."
 
-On the morning of April 13th, the senators are holding a staff briefing on "[barriers to law enforcement’s ability to lawfully access the electronic evidence they need to identify suspects, solve crimes, exonerate the innocent and protect communities from further crime.](https://web.archive.org/web/20160412103920/https://www.techdirt.com/articles/20160411/13460534154/burr-feinstein-plan-one-sided-briefing-law-enforcement-to-bitch-about-going-dark.shtml)" The goal is most likely to gain support for their bill, and it was immediately noticed that not one person on the panel list is referred to as a technologist.
+[Senator](https://archive.is/jefG6) [Wyden](https://archive.is/2QoAm) [announced](https://archive.is/5Z85x) his intention to [oppose the bill](https://web.archive.org/web/20160414203444/https://twitter.com/RonWyden/status/720343774099017728) in committee and filibuster it on the Senate floor if necessary.
+
+![Senator Wyden responds to bill](https://pbs.twimg.com/media/CfifeBAWwAAq1Ho.jpg)
+![Senator Wyden responds to bill 2](https://pbs.twimg.com/media/Cf8sycmVIAEtRh_.png:large)
+
+On the morning of April 13th, the senators held a staff briefing on "[barriers to law enforcement’s ability to lawfully access the electronic evidence they need to identify suspects, solve crimes, exonerate the innocent and protect communities from further crime.](https://web.archive.org/web/20160412103920/https://www.techdirt.com/articles/20160411/13460534154/burr-feinstein-plan-one-sided-briefing-law-enforcement-to-bitch-about-going-dark.shtml)" It was immediately noticed that not one person on the panel list is referred to as a technologist. The goal was most likely to gather support for their bill, and since it was officially released on that day, it seems the response from those present at the briefing was positive.
 
 ![panel list for briefing](https://pbs.twimg.com/media/CfyhC4LXIAQzMNH.jpg)
-
-`I can't access National Journal content as a non-subscriber. Here are screenshots from those who could.`
-
-![FBI informs Congres 1](https://pbs.twimg.com/media/CfZKZRtWQAEgdj_.jpg)
-![FBI informs Congress 2](https://pbs.twimg.com/media/CfYk1SvWQAIUJ7B.jpg)
 
 ***
 ##### Mirror Links:
@@ -528,7 +529,8 @@ On the morning of April 13th, the senators are holding a staff briefing on "[bar
 + [The DOJ & FBI Contract Phone Data Extraction & Analysis Company Cellebrite (Mar 21st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/SearchResults.pdf)
 + [Government's Status Report: Vacate Order Compelling Apple Inc. to Assist (Mar 28th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/FBI_apple_20160328.pdf)
 + [Government's Status Report: Order Vacating February 16 2016 Order (Mar 29th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/usg-apple-210.pdf)
-+ [Burr-Feinstein Encryption Bill Discussion Draft: "Compliance with Court Orders Act of 2016" (Apr 7th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Burr-Feinstein-Encryption-Bill-Discussion-Draft-The-Hill.pdf)
++ [LEAKED - Burr-Feinstein Encryption Bill Discussion Draft: "Compliance with Court Orders Act of 2016" (Apr 7th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Burr-Feinstein-Encryption-Bill-Discussion-Draft-The-Hill.pdf)
++ [Burr-Feinstein Encryption Bill Discussion Draft: "Compliance with Court Orders Act of 2016" (April 13th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/BAG16460.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 Donations appreciated: `1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
