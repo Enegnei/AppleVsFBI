@@ -496,6 +496,8 @@ On the morning of April 13th, the senators held a staff briefing on "[barriers t
 
 ![panel list for briefing](https://pbs.twimg.com/media/CfyhC4LXIAQzMNH.jpg)
 
+The panel will be more varied in a [hearing](https://web.archive.org/web/20160415010122/https://energycommerce.house.gov/news-center/press-releases/witnesses-announced-energy-and-commerce-encryption-hearing) scheduled for Tuesday, April 19th, titled "Deciphering the Debate Over Encryption: Industry and Law Enforcement Perspectives." The [witness list](https://web.archive.org/web/20160415010922/https://energycommerce.house.gov/hearings-and-votes/hearings/deciphering-debate-over-encryption-industry-and-law-enforcement) includes security experts such as [Matt Blaze](https://github.com/Enegnei/AppleVsFBI/commit/90bbb11756f40fcd03accad481ea2d26c75b157f) and Apple's Senior Vice President [Bruce Sewell](https://github.com/Enegnei/AppleVsFBI/commit/37b17e115aa1fbb55aed1b042ffb35589f662e3e).
+
 ***
 ##### Mirror Links:
 
