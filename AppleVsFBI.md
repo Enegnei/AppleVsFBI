@@ -163,6 +163,14 @@ Apple is being pursued because contrary to their commendable implimentation of '
 
 `Note: iPhones can be set to manual (requires user authentication, ie. passcode) or auto-update. During the update process, iPhone updates are individually signed per-device on Apple's servers, which would prevent an attacker from downgrading to an insecure version.`
 
+However, there can also be security benefits from Apple's proprietary approach -- assuming that Apple remains trustworthy. **Mashable**'s Senior Tech Correspondent [Christina Warren](https://web.archive.org/web/20160417010513/http://mashable.com/people/christina/) wrote a detailed article [outlining iPhone security and encryption features](https://web.archive.org/web/20160417002919/http://mashable.com/2016/04/16/apple-security-explained/?utm_cid=hp-hh-pri#ad9rY8H4qgqE).
+
+> And it's here where Apple has an inarguable advantage, especially when compared to other phone makers and operating system makers.
+
+> Apple controls the whole stack, including updates, which means that it can push out updates and bug fixes very quickly.
+
+> This is not how the rest of the mobile industry works. Consider the situation with Stagefright, an Android vulnerability disclosed last year. Even though Google was very quick to patch the exploit, it took considerable time for those updates to get down the chain to non-Nexus devices. Millions of devices will never get an update against that vulnerability.
+
 Consider [this point](https://theintercept.com/2016/02/26/fbi-vs-apple-post-crypto-wars/) made by [Dan Froomkin](https://theintercept.com/staff/dan-froomkin/) & [Jenna McLaughlin](https://theintercept.com/staff/jennamclaughlin/)  of **The Intercept**:
 
 > You might say we’re entering the Post-Crypto phase of the Crypto Wars.
