@@ -163,7 +163,7 @@ Apple is being pursued because contrary to their commendable implimentation of '
 
 `Note: iPhones can be set to manual (requires user authentication, ie. passcode) or auto-update. During the update process, iPhone updates are individually signed per-device on Apple's servers, which would prevent an attacker from downgrading to an insecure version.`
 
-However, there can also be security benefits from Apple's proprietary approach -- assuming that Apple remains trustworthy. **Mashable**'s Senior Tech Correspondent [Christina Warren](https://web.archive.org/web/20160417010513/http://mashable.com/people/christina/) wrote a detailed article [outlining iPhone security and encryption features](https://web.archive.org/web/20160417002919/http://mashable.com/2016/04/16/apple-security-explained/?utm_cid=hp-hh-pri#ad9rY8H4qgqE).
+However, there can also be security *benefits* from Apple's proprietary approach -- assuming that Apple remains trustworthy. **Mashable**'s Senior Tech Correspondent [Christina Warren](https://web.archive.org/web/20160417010513/http://mashable.com/people/christina/) wrote a detailed article [outlining iPhone security and encryption features](https://web.archive.org/web/20160417002919/http://mashable.com/2016/04/16/apple-security-explained/?utm_cid=hp-hh-pri#ad9rY8H4qgqE).
 
 > And it's here where Apple has an inarguable advantage, especially when compared to other phone makers and operating system makers.
 
