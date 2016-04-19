@@ -435,7 +435,9 @@ After [more than two weeks of analyzing the iPhone's contents](https://archive.i
 
 > It was stressed that the FBI continues to analyze the information on the cellphone seized in the investigation, senior investigative producer [Pat Milton](https://archive.is/bkYwx) reports.
 
-On April 19th, the FBI finally said that they had found nothing of importance on the iPhone: [no evidence of the use of encrypted communications, no evidence of contact with another plotter or anyone associated with ISIS, and even no evidence of contact with friends or family](https://web.archive.org/web/20160419225549/http://edition.cnn.com/2016/04/19/politics/san-bernadino-iphone-data/index.html). **CNN** oddly treated this news as an important revelation of *new* data, even though it is a *lack* of data and apparently only comprised an 18-minute time period which was missing from the iCloud data they had already accessed.
+![FBI finds nothing on iPhone](https://pbs.twimg.com/media/CgbyxWoXEAASldt.jpg)
+
+On April 19th, the FBI finally said that they had found nothing of importance on the iPhone: [no evidence of the use of encrypted communications, no evidence of contact with another plotter or anyone associated with ISIS, and even no evidence of contact with friends or family](https://web.archive.org/web/20160419225549/http://edition.cnn.com/2016/04/19/politics/san-bernadino-iphone-data/index.html). **CNN**, [**Daily Mail**](https://web.archive.org/web/20160419232545/http://www.dailymail.co.uk/news/article-3548419/FBI-says-haul-data-San-Bernardino-iPhone-helped-answer-key-remaining-questions-terrorist-couple.html), and **Associated Press** oddly treated this news as an important revelation of *new* data, even though it is a *lack* of data and apparently only comprised an 18-minute time period which was missing from the iCloud data they had already accessed.
 
 > Hacking the San Bernardino terrorist's iPhone has produced data the FBI didn't have before and has helped the investigators answer some remaining questions in the ongoing probe, U.S. law enforcement officials say.
 
