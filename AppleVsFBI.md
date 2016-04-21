@@ -560,6 +560,7 @@ The panel was more varied in a [hearing](https://web.archive.org/web/20160415010
 + [Government's *Ex Parte* Application For Order Compelling Apple Inc. To Assist (Feb 16th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/iphone-fbi-decrypt.pdf)
 + [Government's Motion to Compel Apple Inc. to Comply With This Court's Feb 16th Order (Feb 19th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Government-Motion-To-Compel-Apple-To-Comply.pdf)
 + [FBI Statement to Address Misleading Reports (Feb 20th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Statement-from-the-FBI-Feb-20-2016.pdf)
++ [Pew Survey: More Support for Justice Department Than for Apple in Dispute Over Unlocking iPhone (Feb 22nd 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/2-22-2016-iPhone-release.pdf)
 + [Apple's Motion to Vacate Order Compelling Apple Inc. to Assist Agents in Search (Feb 25th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)
 + [Judge Orenstein: In Re Order Requiring Apple, Inc. To Assist In The Execution Of A Search Warrant (Feb 29th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Orenstein-Order-Apple-iPhone-02292016.pdf)
 + [Statement by Apple Lawyer Bruce Sewell: US House of Representatives Committee on the Judiciary (Mar 1st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Testimony-of-Bruce-Sewell-March-1-2016.pdf)
