@@ -529,6 +529,8 @@ According to **The Register**, security technologist [Bruce Schneier](https://we
 
 > He pointed out that it isn't just cryptographic code that would be affected by this poorly written legislation. Schneier, like pretty much everyone, uses lossy compression algorithms to reduce the size of images for sending via email but – as it won't work in reverse and add back the data removed – this code could be banned by the law, too. Files that can't be decrypted on demand to their original state, and files that can't be decompressed back to their exact originals, all look the same to this draft law.
 
+[Julian Sanchez](https://web.archive.org/web/20160402050218/http://www.juliansanchez.com/about/), a policy analyst and technology journalist for the **Cato Institute**, provided a lengthy explanation of basic browser operations that would be outlawed and require change by this bill, [notably session key generation for HTTPS connections](https://archive.is/ZuhYX#selection-5883.0-5883.1037).
+
 The Obama Administration has [declined to publicly support or oppose the bill](https://web.archive.org/web/20160408031914/http://www.reuters.com/article/us-apple-encryption-legislation-idUSKCN0X32M4?feedType=RSS&feedName=technologyNews) yet, according to unnamed sources who spoke with **Reuters**.
 
 > Although the White House has reviewed the text and offered feedback, it is expected to provide minimal public input, if any, the sources said.
