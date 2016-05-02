@@ -579,6 +579,7 @@ The panel was more varied in a [hearing](https://web.archive.org/web/20160415010
 + [Statement by NY Dist Att C.R. Vance, Jr.: US House of Representatives Committee on the Judiciary (Mar 1st 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/vance-written-testimony.pdf)
 + [*Amici Curiae* Brief in Apple Case on Behalf of iPhone Security Experts and Applied Cryptographers (Mar 2nd 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/CIS.Technologists.Apple.Brief.Final.pdf)
 + [Brief of *Amici Curiae* EFF & 46 Technologists, Researchers, and Cryptographers (Mar 3rd 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/16cm10sp_eff_apple_v_fbi_amicus_court_stamped.pdf)
++ [Brief of *Amici Curiae* from 14 Internet Technology Companies (Mar 3rd 2016](https://github.com/Enegnei/AppleVsFBI/blob/master/smith_post.pdf)
 + [San Bernardino County District Attorney *Amici Curiae* in Support of the US Government (Mar 3rd 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Gov-Uscourts-Cacd-640468-79-0.pdf)
 + [Government's Reply In Support of Motion to Compel & Opposition to Apple Inc.'s Motion (Mar 10th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/DOJ-Apple-20160310.pdf)
 + [Declaration of Tracy L. Wilkison In Support of Government's Reply: Exhibits 1-16 (Mar 10th 2016](https://github.com/Enegnei/AppleVsFBI/blob/master/031123088014.pdf)
