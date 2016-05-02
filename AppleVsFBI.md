@@ -343,7 +343,7 @@ I saw over and over again the comment that the legal precedent(s) this case coul
 
 > Boutrous said courts have recognized that the writing of computer code is a form of expressive activity -- speech that is protected by the 1st Amendment.
 
-This was confirmed in Apple's first motion against the FBI's court order on February 25th, in addition to objections on Fifth Amendment due-process grounds ([see pgs 32 & 34 respectively](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)):
+This was confirmed in Apple's first motion against the FBI's court order on February 25th, in addition to objections on Fifth Amendment due-process grounds ([see pgs 32 & 34 respectively](https://web.archive.org/web/20160225205431/https://assets.documentcloud.org/documents/2722199/5-15-MJ-00451-SP-USA-v-Black-Lexus-IS300.pdf)). It is important to note with regards to passwords that [biometric methods](https://web.archive.org/web/20160331142301/https://www.eff.org/issues/biometrics) (ie. fingerprint scan), unlike character passwords, is a grey area currently treated as [not protected under the Fifth Amendment](https://archive.is/dilYn#selection-567.111-567.243) and can be legally compelled.
 
 ![Apple arguing on First Amendment grounds](https://pbs.twimg.com/media/CcFn9TwXIAQRy11.png:large)
 
