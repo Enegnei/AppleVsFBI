@@ -21,8 +21,8 @@ An overview of the important facts in the Apple vs. FBI case, including post-cas
  
 #### D: [How did the FBI access the iPhone & who helped them do it?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#how-did-the-fbi-access-the-iphone--who-helped-them-do-it)
 1. [The Post-Case Investigation](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#the-post-case-investigation)
-2. The Burr-Feinstein Encryption Bill
-3. Post-AppleVsFBI Encryption Panels & Committees
+2. [The Burr-Feinstein Encryption Bill](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#the-burr-feinstein-encryption-bill)
+3. [Post-AppleVsFBI Encryption Panels & Committees](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#post-applevsfbi-encryption-panels--committees)
 
 ***
 
