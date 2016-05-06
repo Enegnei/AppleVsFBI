@@ -22,7 +22,7 @@ An overview of the important facts in the Apple vs. FBI case, including post-cas
 #### D: [How did the FBI access the iPhone & who helped them do it?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#how-did-the-fbi-access-the-iphone--who-helped-them-do-it)
 1. [The Post-Case Investigation](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#the-post-case-investigation)
 2. The Burr-Feinstein Encryption Bill
-3. Encryption Panels & Committees
+3. Post-AppleVsFBI Encryption Panels & Committees
 
 ***
 
@@ -502,6 +502,8 @@ From [**C|Net**](https://web.archive.org/web/20160407033429/http://www.cnet.com/
 
 Feinstein, among a chorus of many politicians, called encryption "[the Achilles' heel in the internet](https://web.archive.org/web/20151126142114/http://www.cbsnews.com/news/face-the-nation-transcripts-november-22-feinstein-mccaul-mcgurk-paul/)" during a **Face The Nation** broadcast following the 2015 Brussels terror attack -- despite no evidence to suggest encryption played any role in the operation. ("...[Encryption is arguably closer to Achilles' shield than his heel](https://web.archive.org/web/20160407081821/http://www.cnet.com/news/trump-not-the-first-politician-to-say-dumb-things-about-the-net/)"). Burr, a Republican senator for North Carolina, recently [announced](https://archive.is/i7rmr) that he "look[ed] forward to working with Mr. [Donald] Trump." 
 
+#### The Burr-Feinstein Encryption Bill
+
 Through a staff leak it was revealed that both Feinstein and Burr are drafting a bill, titled the "[**Compliance with Court Orders Act of 2016**](https://www.scribd.com/doc/307378123/Burr-Encryption-Bill-Discussion-Draft)," which would require all companies to be able to give the government any communications data in an unencrypted format, effectively banning them from offering any encryption software to users for which that service does not possess a decryption key, particularly end-to-end. **The Intercept** said the senators "[told reporters they were still working on the draft and couldn’t comment on the language of an unfinished version](https://archive.is/fyT9e)." The draft was [officially released](https://web.archive.org/web/20160414221657/https://www.burr.senate.gov/imo/media/doc/BAG16460.pdf) on [April 13th](https://web.archive.org/web/20160414222731/https://www.burr.senate.gov/press/releases/intelligence-committee-leaders-release-discussion-draft-of-encryption-legislation-) and indirectly confirmed that the leaked draft from April 7th was authentic.
 
 Interestingly, the term "backdoor" is not used even once in the document, even though that is exactly what would need to be implemented while at the same time trying to maintain any semblance of cybersecurity. The extent of those backdoors is potentially broad, to even [involve deleted or destroyed data](https://archive.is/PSJTo).
@@ -548,6 +550,8 @@ The Obama Administration has [declined to publicly support or oppose the bill](h
 
 ![Senator Wyden responds to bill](https://pbs.twimg.com/media/CfifeBAWwAAq1Ho.jpg)
 ![Senator Wyden responds to bill 2](https://pbs.twimg.com/media/Cf8sycmVIAEtRh_.png:large)
+
+#### Post-AppleVsFBI Encryption Panels & Committees
 
 On the morning of April 13th, the senators held a staff briefing on "[barriers to law enforcement’s ability to lawfully access the electronic evidence they need to identify suspects, solve crimes, exonerate the innocent and protect communities from further crime.](https://web.archive.org/web/20160412103920/https://www.techdirt.com/articles/20160411/13460534154/burr-feinstein-plan-one-sided-briefing-law-enforcement-to-bitch-about-going-dark.shtml)" It was immediately noticed that not one person on the panel list is referred to as a technologist. The goal was most likely to gather support for their bill, and since it was officially released on that day, it seems the response from those present at the briefing was positive.
 
