@@ -20,6 +20,9 @@ An overview of the important facts in the Apple vs. FBI case, including post-cas
   * [What are important factors in legal precedent(s) for the future?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#----what-are-important-factors-in-legal-precedents-for-the-future----)
  
 #### D: [How did the FBI access the iPhone & who helped them do it?](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#how-did-the-fbi-access-the-iphone--who-helped-them-do-it)
+1. [The Post-Case Investigation](https://github.com/Enegnei/AppleVsFBI/blob/master/AppleVsFBI.md#the-post-case-investigation)
+2. The Burr-Feinstein Encryption Bill
+3. Encryption Panels & Committees
 
 ***
 
