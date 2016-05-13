@@ -168,6 +168,14 @@ The problem was that the 'encryption' *is already broken*. Quoting from what a "
 
 > Is it reasonable to describe these single points of failure as backdoors? I think many people might argue that industry-standard systems for ensuring software update authenticity do not qualify as backdoors, perhaps because their existence is not secret or hidden in any way. But in the present Apple case where they are themselves using the word "backdoor," abusing their cryptographic single point of failure is precisely what the FBI is demanding.
 
+Todd Weaver, founder & CEO of [**Purism**](https://puri.sm/about/), says the focus of the case avoided "[the larger issue of control](https://archive.is/rlJOX#selection-403.2-403.37)."
+
+> You don’t actually own your phone. If we truly owned our phones, court ordered warrants would be served directly to the owner of the phone. The warrants in the case of Apple v FBI were served to Apple, who actually has control of your phone.
+
+![Purism quote](https://pbs.twimg.com/media/CiVEcevWwAAciWh.jpg)
+
+> ... If Apple loses this legal battle, all phones, tablets, and computing devices that are under the control of a company are then legally bound to comply with a warrant to give up the key that controls your device. If Apple, or any organization, controls your device, you are giving your legal rights over to that organization.
+
 Apple is being pursued because contrary to their commendable implimentation of 'strong encryption,' they retain the ability to backdoor their products, not only through allowing the use of PINs but because they are a centralized point of failure in regards to building proprietary firmware & software.
 
 > "If Apple gets to call #FBiOS a 'backdoor,' I suggest we refer to 'Apple updates' as 'official backdoor only good guys are allowed to use.'" --*Pwn All The Things* [@pwnallthethings](https://twitter.com/pwnallthethings/status/702974661211119617)
