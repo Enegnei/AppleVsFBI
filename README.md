@@ -20,4 +20,4 @@ An overview of the important facts in the Apple vs. FBI case, including the main
 
 *I welcome & encourage you to contribute to this project by pull-requesting, copying, or forking this repository* [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-`If you would like to become a contributor to this repository, please contact`: [@J9Roem](https://keybase.io/j9roem).
+`If you would like to become a contributor to this project, please contact`: [@J9Roem](https://keybase.io/j9roem).
