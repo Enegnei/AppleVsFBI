@@ -586,6 +586,10 @@ The panel was more varied in a [hearing](https://web.archive.org/web/20160415010
   * [Chief Thomas Galati](https://web.archive.org/web/20160419193649/http://docs.house.gov/meetings/IF/IF02/20160419/104812/HHRG-114-IF02-TTF-GalatiC-20160419.pdf) - Chief, Intelligence Bureau, New York City Police Department ([witness statement](https://web.archive.org/web/20160419194243/http://docs.house.gov/meetings/IF/IF02/20160419/104812/HHRG-114-IF02-Wstate-GalatiC-20160419-U1.pdf))
   * [Ms. Amy Hess](https://web.archive.org/web/20160419193751/http://docs.house.gov/meetings/IF/IF02/20160419/104812/HHRG-114-IF02-TTF-HessA-20160419.pdf) - Executive Assistant Director for Science and Technology, FBI ([witness statement](https://web.archive.org/web/20160419194345/http://docs.house.gov/meetings/IF/IF02/20160419/104812/HHRG-114-IF02-Wstate-HessA-20160419.pdf))
   * [Mr. Ron Hickman](https://web.archive.org/web/20160419193851/http://docs.house.gov/meetings/IF/IF02/20160419/104812/HHRG-114-IF02-TTF-HickmanR-20160419.pdf) - Sheriff, Harris County Sheriff's Office, National Sheriff's Association ([witness statement](https://web.archive.org/web/20160419194436/http://docs.house.gov/meetings/IF/IF02/20160419/104812/HHRG-114-IF02-Wstate-HickmanR-20160419.pdf))
+ 
+On May 19th, the Media Law Resource Center and the Berkeley Center for Law & Technology are jointly holding an evening session as part of their two-day 2016 Digital Conference to discuss the Apple vs. FBI case, titled "[Crypto-Controversy: Beyond the San Bernardino iPhone Dispute](https://archive.is/soyYs)."
+
+![moderator and panelists](https://pbs.twimg.com/media/CixD-A2VAAEAKNF.jpg)
 
 ***
 ##### Mirror Links:
