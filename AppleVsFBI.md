@@ -565,9 +565,13 @@ The Obama Administration has [declined to publicly support or oppose the bill](h
 ![Senator Wyden responds to bill](https://pbs.twimg.com/media/CfifeBAWwAAq1Ho.jpg)
 ![Senator Wyden responds to bill 2](https://pbs.twimg.com/media/Cf8sycmVIAEtRh_.png:large)
 
+He is also [one of five senators who introduced](https://archive.is/qnAj7) the [Stopping Mass Hacking (SMH) Act](https://web.archive.org/web/20160524222953/https://www.wyden.senate.gov/download/?id=959B9967-F666-404F-B2D5-2520586107C2&download=1) in opposition to proposed changes by the Department of Justice to Rule 41 of the Federal Rules of Criminal Procedure which governs search and seizure. The bill gained popularity due to its acronym utilizing the internet meme & slang term "smh" or 'Shaking My Head.' The changes would expand the powers of magistrate judges, where they "will now have the the authority to issue a warrant to remotely search [a] device" if they don't know its location and be able to issue warrants authorizing searches for an unlimited number of deviceds (including outside the U.S.). 
+
+> The American public should understand that these changes won’t just affect criminals: computer security experts and civil liberties advocates say the amendments would also dramatically expand the government’s ability to hack the electronic devices of law-abiding Americans if their devices were affected by a computer attack. Devices will be subject to search if their owners were victims of a botnet attack — **so the government will be treating victims of hacking the same way they treat the perpetrators.**
+
 One this is for sure: this is not over.
 
-> [FBI Director James Comey said on Wednesday there will be more U.S. government litigation over accessing electronic devices and said encryption is "essential tradecraft" of terrorist groups, such as Islamic State.](https://archive.is/E74ne#selection-1477.1-1477.213)
+> [FBI Director James Comey said on Wednesday there will be more U.S. government litigation over accessing electronic devices and said encryption is "essential tradecraft" of terrorist groups, such as Islamic State.](https://archive.is/E74ne#selection-1477.1-1477.213) (Wednesday, May 11th)
 
 #### Post-AppleVsFBI Encryption Panels & Committees
 
