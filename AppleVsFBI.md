@@ -573,6 +573,12 @@ On May 27th, **Reuters** seemed to imply that work on the Burr-Feinstein bill [h
 
 ![no support from CIA or NSA](https://pbs.twimg.com/media/CjeWT6pW0AAFCNO.jpg)
 
+Associate editor [Scott Shackford](https://web.archive.org/web/20160422223427/http://reason.com/people/scott-shackford/all) from [**Reason**](https://archive.is/oDnRZ#selection-997.0-1005.483) thinks this news is no reason to celebrate yet, however.
+
+> I say to celebrate warily, because legislation that grants government more power doesn't just crawl away and die. There was a tremendous amount of activism and criticism about the Cybersecurity Information Sharing Act (CISA), which pushed private businesses to share private customer data with the government in the guise of helping fight cybercrime. Efforts to pass the law on its own failed, but then a version of it was quietly added to last December's "must pass" omnibus spending bill, and it [became law with almost no discussion or public awareness](https://web.archive.org/web/20160310100535/http://reason.com/archives/2016/03/09/what-is-congress-hiding).
+
+> That there's little open support for Burr and Feinstein's legislation doesn't mean that there aren't behind-the-scenes machinations to get some sort of authorities approved to help federal investigators attempt to draft companies to help them. My own pet theory is, as with CISA, the feds will attempt to get tech companies on board by giving them immunity to legal liability for any bad outcomes that result from them providing encryption bypasses or "back doors" to the government.
+
 One thing is for sure: this is not over.
 
 > [FBI Director James Comey said on Wednesday there will be more U.S. government litigation over accessing electronic devices and said encryption is "essential tradecraft" of terrorist groups, such as Islamic State.](https://archive.is/E74ne#selection-1477.1-1477.213) (Wednesday, May 11th)
