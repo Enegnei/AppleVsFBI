@@ -579,9 +579,21 @@ Associate editor [Scott Shackford](https://web.archive.org/web/20160422223427/ht
 
 > That there's little open support for Burr and Feinstein's legislation doesn't mean that there aren't behind-the-scenes machinations to get some sort of authorities approved to help federal investigators attempt to draft companies to help them. My own pet theory is, as with CISA, the feds will attempt to get tech companies on board by giving them immunity to legal liability for any bad outcomes that result from them providing encryption bypasses or "back doors" to the government.
 
-One thing is for sure: this is not over.
+And he would be correct.
 
 > [FBI Director James Comey said on Wednesday there will be more U.S. government litigation over accessing electronic devices and said encryption is "essential tradecraft" of terrorist groups, such as Islamic State.](https://archive.is/E74ne#selection-1477.1-1477.213) (Wednesday, May 11th)
+
+At least one of the litigations he referred to is probably [the FBI's efforts since 2008](https://archive.is/B7XPQ) to regain their power to rather indiscriminately obtain email records using National Security Letters.
+
+> In February, FBI Director James Comey testified during a Senate Intelligence Committee hearing on worldwide threats that the FBI’s inability to get email records with NSLs was a “typo” — and that fixing it was one of the FBI’s top legislative priorities.
+
+Never mind that the "typo" spoken of here by Comey was [First and Fourth Amendment objections](https://web.archive.org/web/20160527190529/https://www.justice.gov/sites/default/files/olc/opinions/attachments/2015/06/23/op-olc-v032-p0145.pdf). The FBI is now [pushing for a provision in the 2017 Intelligence Authorization Act](https://web.archive.org/web/20160526223227/https://www.wyden.senate.gov/news/press-releases/wyden-opposes-2017-intelligence-authorization-act-that-expands-government-surveillance-and-undermines-independent-oversight-board) that will "give the FBI the ability to demand individuals' email data and possibly web-surfing history from their service providers without a warrant and in complete secrecy." On Tuesday, May 24th, the bill passed after a vote by the Senate Select Committee on Intelligence in which the only no-vote came from Wyden, whose spokesperson suggested that "it might go beyond email records to things like web-surfing histories and other information about online behavior."
+
+> If passed, the change would expand the reach of the FBI’s already highly controversial national security letters. The FBI is currently allowed to get certain types of information with NSLs — most commonly, information about the name, address, and call data associated with a phone number or details about a bank account.
+
+The second provision in the bill aims for "narrowing the jurisdiction of the Privacy and Civil Liberties Oversight Board (PCLOB), for the second consecutive year."
+
+One thing is for sure: this is not over.
 
 #### Post-AppleVsFBI Encryption Panels & Committees
 
