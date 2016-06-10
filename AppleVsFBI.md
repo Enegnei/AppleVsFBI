@@ -573,6 +573,10 @@ On May 27th, **Reuters** seemed to imply that work on the Burr-Feinstein bill [h
 
 ![no support from CIA or NSA](https://pbs.twimg.com/media/CjeWT6pW0AAFCNO.jpg)
 
+Relatedly, NSA Deputy Director [Richard Ledgett](https://archive.is/iXEnv) says the NSA didn't help the FBI with the iPhone because [the agency hadn’t invested in exploiting that particular model of phone](https://archive.is/RiwSX#selection-389.0-397.282).
+
+> “We don’t do every phone, every variation of phone. If we don’t have a bad guy who’s using it, we don’t do that.”
+
 Associate editor [Scott Shackford](https://web.archive.org/web/20160422223427/http://reason.com/people/scott-shackford/all) from [**Reason**](https://archive.is/oDnRZ#selection-997.0-1005.483) thinks this news is no reason to celebrate yet, however.
 
 > I say to celebrate warily, because legislation that grants government more power doesn't just crawl away and die. There was a tremendous amount of activism and criticism about the Cybersecurity Information Sharing Act (CISA), which pushed private businesses to share private customer data with the government in the guise of helping fight cybercrime. Efforts to pass the law on its own failed, but then a version of it was quietly added to last December's "must pass" omnibus spending bill, and it [became law with almost no discussion or public awareness](https://web.archive.org/web/20160310100535/http://reason.com/archives/2016/03/09/what-is-congress-hiding).
