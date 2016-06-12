@@ -573,7 +573,7 @@ On May 27th, **Reuters** seemed to imply that work on the Burr-Feinstein bill [h
 
 ![no support from CIA or NSA](https://pbs.twimg.com/media/CjeWT6pW0AAFCNO.jpg)
 
-Relatedly, NSA Deputy Director [Richard Ledgett](https://archive.is/iXEnv) says the NSA didn't help the FBI with the iPhone because [the agency hadn’t invested in exploiting that particular model of phone](https://archive.is/RiwSX#selection-389.0-397.282).
+Relatedly, NSA Deputy Director [Richard Ledgett](https://archive.is/iXEnv) says the NSA didn't help the FBI with the iPhone because [the agency hadn’t invested in exploiting that particular model of phone](https://archive.is/RiwSX#selection-389.0-397.282). Green [agreed](https://archive.is/urDEG) that this was a likely reality, because the 5C was "obsolete" and "not every piece of junk is worthy of a pre-positioned exploit."
 
 > “We don’t do every phone, every variation of phone. If we don’t have a bad guy who’s using it, we don’t do that.”
 
