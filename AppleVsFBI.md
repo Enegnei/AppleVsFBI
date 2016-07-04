@@ -111,6 +111,10 @@ However [San Bernardino County argued](https://web.archive.org/web/2016022018083
 ![government request to vacate accepted](https://pbs.twimg.com/media/CewQbuXWwAAE1We.jpg:large)
 ![contracting with Cellebrite 2](https://pbs.twimg.com/media/CeufMi1XEAAfC4F.jpg:large)
 
++ In June 2016, the House Homeland Security Committee published a staff report on encryption issues titled "[Going Dark, Going Forward: A Primer on the Encryption Debate](https://web.archive.org/web/20160704134433/https://assets.documentcloud.org/documents/2938929/Going-Dark-Going-Forward.pdf)." The report includes the importance of encryption to various sectors of the economy, device and internet security, as well as the "danger" it poses to public safety and the legal responses of various countries. With regards to the United States (pg 16), the Apple vs. FBI case is mentioned:
+
+> As discussed above, the U.S. government has relied on the AWA to compel the assistance of private entities like Apple and Google to help the government enforce other lawful orders or decisions. Recently, Apple challenged the government’s power under the AWA in two high-profile cases in New York and California, resulting in dueling orders that could set the stage for conflicting precedent in the future. The federal government ultimately withdrew its request when it discovered another way to access the devices in question.  
+
 ***
 ## Is the FBI demanding Apple “break encryption”?
 #### 1) What 'encryption' are we dealing with here?
