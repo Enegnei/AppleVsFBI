@@ -681,6 +681,7 @@ However there is a glaring mistake in the Executive Summary at the beginning of 
 + [Burr-Feinstein Encryption Bill Discussion Draft: "Compliance with Court Orders Act of 2016" (Apr 13th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/BAG16460.pdf)
 + [**NY Case:** Apple Inc.'s Memorandum of Law In Response to the Government's Brief (Apr 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/FBI-Apple-EDNY-Apple-Response-04152016.pdf)
 + [**NY Case:** In re Order Requiring Apple Inc. to Assist in the Execution of a Search Warrant (Apr 22nd 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/123111836100.pdf)
++ [Going Dark, Going Foward: A Primer on the Encryption Debate - Homeland Security Committee (June 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Staff-Report-Going-Dark-Going-Forward.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 Donations appreciated: `1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
