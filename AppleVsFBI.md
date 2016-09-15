@@ -688,7 +688,7 @@ However there is a glaring mistake in the Executive Summary at the beginning of 
 + [**NY Case:** Apple Inc.'s Memorandum of Law In Response to the Government's Brief (Apr 15th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/FBI-Apple-EDNY-Apple-Response-04152016.pdf)
 + [**NY Case:** In re Order Requiring Apple Inc. to Assist in the Execution of a Search Warrant (Apr 22nd 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/123111836100.pdf)
 + [Going Dark, Going Foward: A Primer on the Encryption Debate - Homeland Security Committee (June 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Staff-Report-Going-Dark-Going-Forward.pdf)
-+ [The Bumpy Road Towards iPhone 5c NAND Mirroring - Sergei Skorobogatov (Sept 14th 2016)](https://web.archive.org/web/20160915200855/https://arxiv.org/pdf/1609.04327v1.pdf)
++ [The Bumpy Road Towards iPhone 5c NAND Mirroring - Sergei Skorobogatov (Sept 14th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/1609.04327v1.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 Donations appreciated: `1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
