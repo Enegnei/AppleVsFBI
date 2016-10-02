@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1>#AppleVsFBI</h1>
+
+<p>An overview of the important facts in the Apple vs. FBI case, including the main technical &amp; legal concerns</p>
+
+<h2>What important events led to this case?</h2>
+
+<ol>
+<li><p>Farook&#8217;s employer at the San Bernardino Department of Health provided him with a work phone, an iPhone 5C. </p>
+
+<p>Farook&#8217;s employer still retained official ownership of the phone.</p></li>
+<li><p>The FBI has not said this phone was used to communicate with any other terrorists </p>
+
+<p>(Farook is believed to have used another private phone(s) for that, which was destroyed), but rather with his future victims. </p>
+
+<p>Communications from October 9th 2015 is the last date available in the iCloud data the FBI</p>
+
+<p>was able to obtain through Farook&#8217;s account. Farook likely disabled the iCloud backup feature at this day.</p></li>
+<li><p>On December 2nd, 2015, Farook and his wife Malik killed 14 people and injured 22 at the Inland Regional Center </p>
+
+<p>during a San Bernardino County Department of Public Health training session/ party. </p>
+
+<p>The iPhone now in question (a 5C with iOS9) was found in one of the cars law enforcement searched.</p></li>
+<li><p>Within 24 hours of the phone being confiscated, someone reset the passcode on the phone. </p>
+
+<p>The FBI&#8217;s recent motion to compel Apple confirms the passcode was reset while in government custody </p>
+
+<p>and blames it on Farook&#8217;s employer in the San Bernardino Department of Health, </p>
+
+<p>but it is possible it was the fault of law enforcement or FBI forensics. </p>
+
+<p>It is unknown whether anyone in any of these agencies still knows the passcode. </p>
+
+<p>If that someone had not reset the passcode &amp; (apparently) forgotten it, the FBI would have been able to access the phone, </p>
+
+<p>and this case against Apple would not be necessary.</p></li>
+<li><p>Farook&#8217;s employer (the official owner of the iPhone) has consented to a law enforcement search of the device.</p></li>
+</ol>
+
+<h2>Is the FBI demanding Apple “break encryption”?</h2>
+
+<h4>1) What &#8216;encryption&#8217; are we dealing with here?</h4>
+
+<p>Based on public court orders, the FBI is demanding Apple build a custom mobile iOS (nicknamed “FBiOS”) </p>
+
+<p>with two standard passcode security features disabled: the 10-try limit &amp; delayed attempts. </p>
+
+<p>The 10-try limit wipes an iPhone&#8217;s data after 10 attempts. This will allow the FBI to perform a brute-force attack, </p>
+
+<p>where they can guess the passcode as many times &amp; as fast as a computer will allow, without destroying the data.</p>
+
+<p>However, the FBI could technically build this custom iOS on their own (though it will most likely take more time).</p>
+
+<p>The one thing they actually need is for Apple to sign FBiOS using their developer software key, </p>
+
+<p>because only software signed with this key is able to work in Apple products.</p>
+
+<p>So the &#8216;encryption&#8217; we are dealing with here is a matter of authentication.</p>
+
+<h4>2) Why does this distinction matter?</h4>
+
+<p>Authentication falls under one of the three principles of cybersecurity (CIA), accessibility. </p>
+
+<p>Authentication deals with anything to prove you hold authorization to carry out specific operations. </p>
+
+<p>This is something you know (eg. a password), something you have (eg. a card), or something you are (eg. Biometrics).</p>
+
+<p>Authentication is also an element of cryptography, but distinct from privacy/ confidentiality </p>
+
+<p>(see the Purpose section of Gary C. Kessler&#8217;s An Overview of Cryptography).</p>
+
+<p>The San Bernardino phone is said to be locked with a PIN. </p>
+
+<p>PINs, unlike passwords (which are alphanumeric &amp; can be longer), are numeric and usually very short (4&#8211;6 numbers). </p>
+
+<p>Even if you had a PIN and a password of the same length, it would take you much longer to break the password with brute-force.</p>
+
+<p>Therefore, if the FBI uses this FBiOS, authenticated by Apple&#8217;s software key, </p>
+
+<p>it will be able to run on the phone and will most certainly break the PIN.</p>
+
+<p>What should be highlighted here is that Apple claims not to be able to, or at least not want to, access their customer&#8217;s data. </p>
+
+<p>Apple customers have an expectation of confidentiality (the first cybersecurity principle), even from Apple itself. </p>
+
+<p>Apple claims it does not position itself as a party with access to encrypted communications on customer phones. </p>
+
+<p>If this is true, why is there a threat to encryption?</p>
+
+<p>If the FBI was compelling someone who was a party or key-holder to encrypted communications, </p>
+
+<p>then it would be more accurate to say that they are “breaking encryption” </p>
+
+<p>by taking advantage of a social engineering weakness which, at the present time, exists with the majority of encryption use.</p>
+
+<p>The problem here is that the encryption is already broken. </p>
+
+<p>It has been undermined by Apple&#8217;s deficient security features, not only due to allowing the use of PINs </p>
+
+<p>but because they are a centralized point of failure with the ability to backdoor their products.</p>
+
+<p>Taking all of this into consideration, it would be rather more accurate to say </p>
+
+<p>the FBI is demanding that Apple take advantage of a security flaw which already exists.</p>
+
+<h2>What are the technical &amp; legal concerns involved?</h2>
+
+<h4>Technical Concerns</h4>
+
+<p>It is now known that Apple has the ability to backdoor their own products &amp; therefore could be compelled to use that backdoor.</p>
+
+<p>Initially some security experts argued that this backdoor wouldn&#8217;t work on iPhones newer than 5C </p>
+
+<p>due to the Secure Enclave firmware, a co-processor of many independently-functioning kernels within the A7 64-bit system chip</p>
+
+<p>which also uses secure boot to ensure that all software installed on the OS is signed by Apple </p>
+
+<p>(remember authentication from earlier). Last night, a “senior Apple executive” told journalists at Motherboard &amp; The Guardian</p>
+
+<p>that this is not true – the FBiOS would work with any iPhone currently on the market.</p>
+
+<p>This detail is very important, if true, because many tech journalists (including from Ars Technica) also speculated </p>
+
+<p>that FBiOS wouldn&#8217;t even work on other 5C iPhones because, since the FBI is allowing that the custom software </p>
+
+<p>be tied specifically to the phone&#8217;s unique identifier, it should be limited to one device. </p>
+
+<p>They did offer that it might be possible to swap identifiers to apply to any phone. </p>
+
+<p>Therefore, Apple may not only be admitting that Secure Enclave is not secure enough </p>
+
+<p>but that it is possible to swap identifiers in this custom OS. This probably has something to do with the fact </p>
+
+<p>that Apple can force an update to Secure Enclave without wiping the data.</p>
+
+<p>This means that, if leaked, FBiOS could be used on any iPhone.</p>
+
+<p>What has also not yet been confirmed is whether a strong password (not a PIN) remains a safeguard against this attack. </p>
+
+<p>Since it is only a brute-force attack, a long &amp; complex password should work under normal circumstances </p>
+
+<p>(taking months to many years to break).</p>
+
+<h4>Legal Concerns</h4>
+
+<p>I&#8217;m seeing over and over again the comment that the legal precedent(s) this case could set carries more risk </p>
+
+<p>than the technical risk posed by FBiOS. Since I am not a lawyer, I do not known the specific statutes being considered, </p>
+
+<p>but here are some of the main points summarized:</p>
+
+<ul>
+<li><p>This court order would force Apple to code a custom iOS </p>
+
+<p>which deliberately takes advantage of security vulnerabilities in their authentication systems. </p>
+
+<p>If “code is speech” (and there are cases which affirm this), then speech (here in the form of code) can be compelled. </p>
+
+<p>It is still an open question of who exactly at Apple can be compelled to do this.</p></li>
+<li><p>If a telecommunications provider can be compelled to take advantage of a security flaw </p>
+
+<p>undermining encryption for its customers, then they will be compelled. This will put pressure on other businesses </p>
+
+<p>to either comply or build their products so that they are not a centralized authority of proprietary software.</p></li>
+<li><p>Other countries pay attention to the US on surveillance policy. Though Apple has not said they hold this fear, </p>
+
+<p>lawyers and security experts say this presents a threat to foreign customers &amp; tech businesses as well.</p>
+
+<p>If the U.S. government can compel Apple to take advantage of a security vulnerability, why not others?</p>
+
+<p>A recent example they cite is where FBI Director James Comey called for encryption backdoors </p>
+
+<p>&amp; the Chinese government introduced new counter-terrorism laws a few weeks later.</p></li>
+</ul>
+
+<p>From Reuters:</p>
+
+<blockquote>
+<p>“In an interview with Reuters, Obama said he was concerned about Beijing&#8217;s plans for a far-reaching counterterrorism law </p>
+
+<p>that would require technology firms to hand over encryption keys, the passcodes that help protect data, </p>
+
+<p>and install security &#8216;backdoors&#8217; in their systems to give Chinese authorities surveillance access.”</p>
+</blockquote>
+
+<p>Sounds oddly familiar, doesn&#8217;t it?</p>
+
+</body>
+</html>
