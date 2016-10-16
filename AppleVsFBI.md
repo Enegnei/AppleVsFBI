@@ -533,6 +533,8 @@ In October, the FBI claimed they had obtained the iPhone of Dahir Adan, who stab
 
 > ... FBI Agent Thornton told Thursday’s press conference that the bureau had “analyzed more than 780 gigabytes of data from multiple computers and other electronic devices” in its investigation of Adan. “We are conducting an extensive review of his social media and other online activity,” he said. “We continue to review his electronic media and digital footprint.”
 
+The Department of Justice may also take advantage of fingerprint databases in order to bypass iPhones locked using biometric data. In a recently released court filing from May, they sought "[authorization to depress the fingerprints and thumbprints of every person who is located at the SUBJECT PREMISES during the execution of the search](https://archive.is/9zmCL#selection-2445.196-2445.343)," as well as "access devices" such as passwords or encryption keys, for a Lancaster, California property, [without specifying](https://archive.is/9zmCL#selection-2451.170-2451.524) in the warrant who or what they were looking for.
+
 #### The Burr-Feinstein Encryption Bill
 
 Through a staff leak it was revealed that both Feinstein and Burr were drafting a bill, titled the "[**Compliance with Court Orders Act of 2016**](https://www.scribd.com/doc/307378123/Burr-Encryption-Bill-Discussion-Draft)," which would require all companies to be able to give the government any communications data in an unencrypted format, effectively banning them from offering any encryption software to users for which that service does not possess a decryption key, particularly end-to-end. **The Intercept** said the senators "[told reporters they were still working on the draft and couldn’t comment on the language of an unfinished version](https://archive.is/fyT9e)." The draft was [officially released](https://web.archive.org/web/20160414221657/https://www.burr.senate.gov/imo/media/doc/BAG16460.pdf) on [April 13th](https://web.archive.org/web/20160414222731/https://www.burr.senate.gov/press/releases/intelligence-committee-leaders-release-discussion-draft-of-encryption-legislation-) and indirectly confirmed that the leaked draft from April 7th was authentic.
@@ -704,6 +706,7 @@ However there is a glaring mistake in the Executive Summary at the beginning of 
 + [Going Dark, Going Foward: A Primer on the Encryption Debate - Homeland Security Committee (June 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Staff-Report-Going-Dark-Going-Forward.pdf)
 + [The Bumpy Road Towards iPhone 5c NAND Mirroring - Sergei Skorobogatov (Sept 14th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/1609.04327v1.pdf)
 + [FOIA Request Jointly Filed by The Associated Press, USA TODAY, and VICE Media (Sept 16th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/16-Cv-1850-Dkt-No-1-Complaint.pdf)
++ [Notice of Filing Memorandum of Points and Authorities in Support of Search Warrant Application (Oct 16th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Mass-Fingerprint-Case-Redacted-Copy-1.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 Donations appreciated: `1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
