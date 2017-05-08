@@ -638,7 +638,7 @@ On September 9th, **Cato Institute** senior fellow [Julian Sanchez](https://web.
 
 > Short version: Incorporating these changes—above all the first one—would yield something a good deal narrower than the original version of the bill, and therefore not subject to all the same objections that one met with. It would still be a pretty bad idea. This debate clearly isn’t going anywhere, however, and we’re likely to see a good deal more evolution before anything is formally introduced.
 
-One thing is for sure: this is not over.
+On May 3rd 2017, during a Senate Judiciary Committee meeting titled "[Oversight of the Federal Bureau of Investigation](https://web.archive.org/web/20170508135938/https://www.judiciary.senate.gov/meetings/05/03/2017/oversight-of-the-federal-bureau-of-investigation)," Feinstein said that [the FBI spent $900,000 on the exploit tool for the San Bernardino phone](https://archive.is/nCIsm#selection-3271.1-3271.297). In addition to the name of the vendor who provided the exploit, this information [is considered classified by the FBI](https://archive.is/nCIsm#selection-3259.1-3259.297).
 
 #### Post-AppleVsFBI Encryption Panels & Committees
 
