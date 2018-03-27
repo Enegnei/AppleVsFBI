@@ -713,6 +713,8 @@ However there is a glaring mistake in the Executive Summary at the beginning of 
 + [The Bumpy Road Towards iPhone 5c NAND Mirroring - Sergei Skorobogatov (Sept 14th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/1609.04327v1.pdf)
 + [FOIA Request Jointly Filed by The Associated Press, USA TODAY, and VICE Media (Sept 16th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/16-Cv-1850-Dkt-No-1-Complaint.pdf)
 + [Notice of Filing Memorandum of Points and Authorities in Support of Search Warrant Application (Oct 16th 2016)](https://github.com/Enegnei/AppleVsFBI/blob/master/Mass-Fingerprint-Case-Redacted-Copy-1.pdf)
++ [A Special Inquiry Regarding the Accuracy of FBI Statements Concerning its Capabilities to Exploit an iPhone Seized During
+the San Bernardino Terror Attack Investigation (March 9th 2018)](https://github.com/Enegnei/AppleVsFBI/blob/master/o1803.pdf)
 
 by: **@J9Roem**, keybase.io/j9roem --
 Donations appreciated: `1PytMk24QZB147N9oW1jA6AhAoSsyqLhkB`
